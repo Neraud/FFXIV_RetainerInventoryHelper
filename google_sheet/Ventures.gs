@@ -1,5 +1,6 @@
 var ventureResultSheet = ss.getSheetByName('Ventures');
 var ventureByXivdbId = new Object();
+var ventureBlacklist = new Object();
 var ventureSettings = extractSettingsVentures();
 
 function isAnalyseVentureEnabled() {
@@ -27,6 +28,16 @@ function initVentures() {
 		var qty = ventureData[i][4];
 		
 		ventureByXivdbId[xivdbId] = { "retainerJob": retainerJob, "retainerLevel": retainerLevel, "qty": qty};
+	}
+}
+
+function initBlacklist() {
+	var ventureBlacklistSheet = ss.getSheetByName('Ventures Blacklist');
+	var ventureBlacklistData = ventureBlacklistSheet.getDataRange().getValues();
+	
+	for (var i = 0; i < ventureBlacklistData.length; i++) {
+		var name = ventureBlacklistData[i];
+		ventureBlacklist[name] = true;
 	}
 }
 
@@ -60,6 +71,7 @@ function analyseVenture() {
 		resetVentureResults();
 		initItemInfo();
 		initVentures();
+		initBlacklist();
 		
 		var ventureItems = new Object();
 		
@@ -82,8 +94,17 @@ function analyseVenture() {
 		
 		for(lodestoneId in ventureItems) {
 			var ventureItem = ventureItems[lodestoneId];
-			if(ventureItem["qty"] < ventureMin) {
-				writeMissingVenture(ventureItem);
+			var ventureInfo = ventureItem["ventureInfo"];
+			var itemInfo = ventureItem["itemInfo"];
+			if(!ventureBlacklist[itemInfo["name"]]) {
+				var ventureMin = ventureSettings[ventureInfo["retainerJob"]]["minQuantity"];
+				var levelMax = ventureSettings[ventureInfo["retainerJob"]]["maxLevel"];
+				if(ventureItem["qty"] < ventureMin && ventureInfo["retainerLevel"] <= levelMax) {
+					writeMissingVenture(ventureItem);
+				}
+			}
+			else {
+				Logger.log("Blacklisted : " + ventureInfo["name"]);
 			}
 		}
 		
