@@ -66,7 +66,13 @@ As you want to add your own data in there, you need to use your own copy of the 
 Please open the [original one](https://drive.google.com/open?id=1jxjx9Cea4a9G-Vb9l4BhonjbWX-rGVKzOwS04e1da_U), and use File > Make a copy.
 
 When the copy is done, you can use it.
-You can look at the Settings tab and tweak them if you want. 
+
+Go to the Settings tab.
+You can tweak them if you want.
+
+Click on the large "Analyze All" button.
+As you haven't imported your retainers' inventories yet, it shouldn't do anything.
+However, if you've just copied the Spreadsheet, it should prompt you to allo the script to read your data. Accept it. 
 
 ### Scanning your retainers
 
@@ -75,7 +81,7 @@ In the browser where you have installed the scanner
  - Navigate to your profile
  - Select the Retainers tab 
 
-The scanner should inject a new button on this page.
+The scanner should inject a new "Scan all retainers" button on this page.
 TODO
 
 ### Analysing your inventory
