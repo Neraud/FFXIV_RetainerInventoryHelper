@@ -3290,12 +3290,12 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 3355	37970f5fe8b	0	1	Velveteen Tights	Samtstrumpfhose	Collants en veloutine	ベルベティーンタイツ
 3356	a6872b749ab	0	1	Aetherial Velveteen Chausses	Ätherische Samt-Chausses	Collants en veloutine éthéréens	エーテリアル・ベルベティーンタイツ
 3357	31d4c202538	1	1	Serpent Private's Slops	Novizen-Beinlinge	Trousses de soldat des Deux Vipères	グリダニアンプライベート・スロップ
-3358	0a7bd11575f	1	1	Serpent Private's Bottom	Novizen-Miederhose	Bas-de-corps de soldat des Deux Vipères	グリダニアンプライベート・ボトム
+3358	0a7bd11575f	1	1	Serpent Private's Bottoms	Novizen-Miederhose	Bas-de-corps de soldat des Deux Vipères	グリダニアンプライベート・ボトム
 3359	35d1cc27d21	1	1	Storm Private's Slops	Mariner-Beinlinge	Trousses de soldat du Maelstrom	ロミンサンプライベート・スロップ
 3360	76fce0cf855	1	1	Storm Private's Chausses	Mariner-Chausses	Chausses de soldat du Maelstrom	ロミンサンプライベート・ショース
 3361	1def3cf1c86	1	1	Flame Private's Chausses	Legionärs-Chausses	Chausses de soldat des Immortels	ウルダハンプライベート・ショース
 3362	fc7b0fde5a0	1	1	Flame Private's Culottes	Legionärs-Kniebundhose	Culotte de soldat des Immortels	ウルダハンプライベート・キュロット
-3363	39bc387b8b8	0	1	Velveteen Bottom	Samt-Miederhose	Bas-de-corps en veloutine	ベルベティーンボトム
+3363	39bc387b8b8	0	1	Velveteen Bottoms	Samt-Miederhose	Bas-de-corps en veloutine	ベルベティーンボトム
 3364	c4236487561	1	1	Ascetic's Tights	Asketen-Strumpfhose	Collants d'ascète	アセティックタイツ
 3365	0baf5f06eb0	0	1	Velveteen Trousers	Samthose	Pantalon en veloutine	ベルベティーントラウザー
 3366	c6e1bb09905	0	1	Aetherial Velveteen Trousers	Äther-Samthose	Pantalon en veloutine éthéréen	エーテリアル・ベルベティーントラウザー
@@ -3336,7 +3336,7 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 3401	9962f417198	1	1	Paladin's Trousers	Paladin-Hose	Pantalon de paladin	パラディントラウザー
 3402	96c42a7849a	0	1	Boarskin Subligar	Keilerleder-Lendenschurz	Subligar en cuir de sanglier	ボアサブリガ
 3403	514f4162229	0	1	Aetherial Boarskin Subligar	Ätherischer Keilerleder-Lendenschurz	Subligar en cuir de sanglier éthéréen	エーテリアル・ボアサブリガ
-3404	8d8f4dfb550	0	1	Linen Bottom	Leinen-Miederhose	Bas-de-corps en lin	リネンボトム
+3404	8d8f4dfb550	0	1	Linen Bottoms	Leinen-Miederhose	Bas-de-corps en lin	リネンボトム
 3405	053694f2eea	0	1	Boarskin Breeches	Keilerleder-Reiterhose	Braies en cuir de sanglier	ボアブリーチ
 3406	6cde46c3b9c	0	1	Vintage Hose	Restauriertes Beinkleid	Fuseau de collection	ヴィンテージホーズ
 3407	04cf9257b08	0	1	Linen Gaskins	Leinen-Gaskin	Grègues en lin	リネンガスキン
@@ -6464,6 +6464,7 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 6538	289c684c0a0	0	1	Storm Desk	Mahlstrom-Tisch	Bureau limséen	ロミンサン・デスク
 6539	fcc1cf5edad	0	1	Serpent Desk	Bruderschafts-Tisch	Bureau gridanien	グリダニアン・デスク
 6540	4e404a7b187	0	1	Flame Desk	Legions-Tisch	Bureau uldien	ウルダハン・デスク
+6541		0	1	Message Book Stand	Diarium-Pult	Support à livre de correspondance	メッセージブックスタンド
 6542	9984b856372	0	1	Riviera Bed	Riviera-Bett	Lit noscéen	ラノシアン・ベッド
 6543	2ae733d2825	0	1	Glade Bed	Wald-Bett	Lit sombrelinçois	シュラウド・ベッド
 6544	211fb441bad	0	1	Oasis Bed	Oasen-Bett	Lit thanalanais	ザナラーン・ベッド
@@ -6481,7 +6482,7 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 6556	1a861b94b51	0	1	Storm Strongbox	Mahlstrom-Feldkiste	Coffre limséen	ロミンサン・ストロングボックス
 6557	c9f1336f834	0	1	Serpent Strongbox	Bruderschafts-Feldkiste	Coffre gridanien	グリダニアン・ストロングボックス
 6558	f97204f1134	0	1	Flame Strongbox	Legions-Feldkiste	Coffre uldien	ウルダハン・ストロングボックス
-6559	c8f4f1c1e32	0	1	Company Chest	Truhe der Gesellschaft	Coffre de compagnie libre	カンパニーチェスト
+6559	c8f4f1c1e32	0	1	Company Chest	Gesellschaftstruhe	Coffre de compagnie libre	カンパニーチェスト
 6560	2fa51c4e129	0	1	Riviera Cupboard	Riviera-Geschirrschrank	Buffet noscéen	ラノシアン・カップボード
 6561	8601bdbac71	0	1	Glade Cupboard	Wald-Geschirrschrank	Buffet sombrelinçois	シュラウド・カップボード
 6562	716d09ee535	0	1	Oasis Cupboard	Oasen-Geschirrschrank	Buffet thanalanais	ザナラーン・カップボード
@@ -7538,7 +7539,7 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 7618	6e1bb57dd52	0	999	Spirits of Salt	Salzsäure	Esprit de sel	塩酸
 7619	f7722724e46	0	999	Spicy Tomato Relish	Tomatenwürze	Condiment épicé à la tomate	トマトケチャップ
 7620	e7abf3fdc2f	0	999	Diluted Vitriol	Verdünnte Schwefelsäure	Vitriol dilué	希硫酸
-7621	6d5e25c2fb9	0	999	Glamour Dispeller	Entprojizierungs-Kristall	Dissipateur de mirage	ミラージュディスペラー
+7621	6d5e25c2fb9	0	999	Glamour Dispeller	Entprojizierungskristall	Dissipateur de mirage	ミラージュディスペラー
 7622	8c652c52a6d	0	999	Glamour Prism (Woodworking)	Zimmerer-Projektionsprisma	Prisme mirage (menuiserie)	ミラージュプリズム:ウッドワーク
 7623	0f03b7eeeef	0	999	Grade 2 Glamour Prism (Woodworking)	Zimmerer-Projektionsprisma II	Prisme mirage II (menuiserie)	ミラージュプリズムG2:ウッドワーク
 7624	8195903300b	0	999	Grade 3 Glamour Prism (Woodworking)	Zimmerer-Projektionsprisma III	Prisme mirage III (menuiserie)	ミラージュプリズムG3:ウッドワーク
@@ -9567,8 +9568,8 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 9745	f48ad8e1307	0	1	Personal Astroscope	Persönliches Astroskop	Astroscope personnel	パーソナル・アストロスコープ
 9746	111e2674c7e	0	1	Riviera Garden Table Set	Riviera-Gartentisch-Set	Ensemble de jardin noscéen	ラノシアン・ガーデンテーブルセット
 9747	af2686f98eb	0	1	Dodo's Nest	Dodo-Nest	Nid de dodo	ドードーネスト
-9748	c40dd75d233	0	1	Retainer Cartonnier	Gehilfen-Kommode	Cartonnier de servant	リテイナーカルトニエ
-9749	008b2c2ce65	0	1	Retainer Counter	Gehilfen-Schalter	Comptoir de servant	リテイナーカウンター
+9748	c40dd75d233	0	1	Retainer Cartonnier	Gehilfenkommode	Cartonnier de servant	リテイナーカルトニエ
+9749	008b2c2ce65	0	1	Retainer Counter	Gehilfenschalter	Comptoir de servant	リテイナーカウンター
 9766	014e5ab7fc6	0	1	Spotted Interior Wall	Gefleckte Tapete	Papier peint pastel à motifs ronds	ポルカドット・インナーウォール
 9767	428717fca5a	0	1	Wavy Interior Wall	Wellen-Tapete	Revêtement mural à vagues	ウェーブパターン・インナーウォール
 9768	5557d4da0a8	0	1	Tatami Flooring	Tatami-Fußboden	Sol en tatami	タタミフローリング
@@ -9811,11 +9812,11 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 10006	b6f5f824586	1	1	Gambler's Gloves	Handschuhe des Glücksspielers	Gants de flambeur	ギャンブラーグローブ
 10007	b4e0f1f8eb4	1	1	Gambler's Trousers	Hose des Glücksspielers	Pantalon de flambeur	ギャンブラートラウザー
 10008	5a63ab6634a	1	1	Gambler's Boots	Stiefel des Glücksspielers	Bottes de flambeur	ギャンブラーブーツ
-10009	4174cc0aaf8	1	1	Bunny Crown	Häschen-Krone	Couronne de lapine	バニークラウン
-10010	1bbd36035a7	1	1	Bunny Bustier	Häschen-Bustier	Bustier de lapine	バニービスチェ
-10011	8d9edaba5f6	1	1	Bunny Loops	Häschen-Schleifen	Manchettes de lapine	バニーリストドレス
-10012	64b4c37d293	1	1	Bunny Tights	Häschen-Strumpfhose	Collants de lapine	バニータイツ
-10013	aeada808ece	1	1	Bunny Pumps	Häschen-Pumps	Escarpins de lapine	バニーパンプス
+10009	4174cc0aaf8	1	1	Bunny Crown	Häschen-Krone	Couronne de lapin	バニークラウン
+10010	1bbd36035a7	1	1	Bunny Bustier	Häschen-Bustier	Bustier de lapin	バニービスチェ
+10011	8d9edaba5f6	1	1	Bunny Loops	Häschen-Schleifen	Manchettes de lapin	バニーリストドレス
+10012	64b4c37d293	1	1	Bunny Tights	Häschen-Strumpfhose	Collants de lapin	バニータイツ
+10013	aeada808ece	1	1	Bunny Pumps	Häschen-Pumps	Escarpins de lapin	バニーパンプス
 10014	bd6ed266b82	1	1	Riviera Doublet	Riviera-Weste	Doublet noscéen	リビエラダブレット
 10015	b7a0cd91459	1	1	Riviera Slops	Riviera-Beinlinge	Trousses noscéennes	リビエラスロップ
 10016	cc57f9342c0	1	1	Riviera Dress	Riviera-Kleid	Robe noscéenne	リビエラドレス
@@ -10305,8 +10306,8 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 10516	0e879fd6ad7	1	1	Allagan Pistol	Allagische Pistole	Pistolet allagois	アラガンハンドガン
 10517	0a4e716b2d2	1	1	High Allagan Pistol	Hochallagische Pistole	Pistolet haut-allagois	ハイアラガンハンドガン
 10518	0200ee9590b	1	1	Dreadwyrm Handgonne	Drachengott-Donnerbüchse	Haquebute du Dragon-dieu	バハムートハンドゴンネ
-10520	27db4d15dbe	1	1	Weathered Quicksilver	Verschlissenes Quecksilber	Vif-argent vieilli	ウェザード・クイックシルバー
-10521	9156be339d3	1	1	Quicksilver	Quecksilber	Vif-argent	クイックシルバー
+10520	27db4d15dbe	1	1	Weathered Quick Silver	Verschlissenes Quecksilber	Vif-argent vieilli	ウェザード・クイックシルバー
+10521	9156be339d3	1	1	Quick Silver	Quecksilber	Vif-argent	クイックシルバー
 10522	41a2881958b	1	1	Ironworks Magitek Repeater	Garlond-Magitek-Repetiergewehr	Rafaleur magitek des Forges	ガーロンド・マジテックリピーター
 10523	3d2ec420b00	1	1	Augmented Ironworks Magitek Repeater	Modifiziertes Garlond-Magitek-Repetiergewehr	Rafaleur magitek des Forges amélioré	ガーロンド・マジテックリピーターRE
 10524	d479eee64fc	0	1	Star Globe	Sternenglobus	Globe céleste	スターグローブ
@@ -13005,11 +13006,11 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 13248	8cbb7ba5c93	1	1	Codex of the Heavens	Kodex des Himmels	Codex des cieux	ヘヴンスコーデックス
 13249	dc43fdad725	1	1	Heavensmeter	Planisphäre des Himmels	Globe des cieux	ヘヴンスメーター
 13250	8c78d5bfec9	1	1	Shield of the Heavens	Schild des Himmels	Bouclier des cieux	ヘヴンスシールド
-13251	19e284dc8aa	1	1	Bunny Chief Crown	Hasen-Krone	Couronne de maîtresse lapine	バニーチーフクラウン
-13252	0fae8fee33a	1	1	Bunny Chief Bustier	Hasen-Bustier	Bustier de maîtresse lapine	バニーチーフビスチェ
-13253	125c0852852	1	1	Bunny Chief Loops	Hasen-Schleifen	Manchettes de maîtresse lapine	バニーチーフ・リストドレス
-13254	4d776ecad7e	1	1	Bunny Chief Tights	Hasen-Strumpfhose	Collants de maîtresse lapine	バニーチーフタイツ
-13255	7b595c7725f	1	1	Bunny Chief Pumps	Hasen-Pumps	Escarpins de maîtresse lapine	バニーチーフパンプス
+13251	19e284dc8aa	1	1	Bunny Chief Crown	Hasen-Krone	Couronne de maître lapin	バニーチーフクラウン
+13252	0fae8fee33a	1	1	Bunny Chief Bustier	Hasen-Bustier	Bustier de maître lapin	バニーチーフビスチェ
+13253	125c0852852	1	1	Bunny Chief Loops	Hasen-Schleifen	Manchettes de maître lapin	バニーチーフ・リストドレス
+13254	4d776ecad7e	1	1	Bunny Chief Tights	Hasen-Strumpfhose	Collants de maître lapin	バニーチーフタイツ
+13255	7b595c7725f	1	1	Bunny Chief Pumps	Hasen-Pumps	Escarpins de maître lapin	バニーチーフパンプス
 13256	e3b70063ddd	0	1	Flat Cap	Ledermütze	Casquette classique	フラットキャップ
 13257	e31c1ad9d8b	0	1	Red Beret	Rotes Barett	Béret rouge	レッドベレー
 13258	7b101c7e945	0	1	Green Beret	Grünes Barett	Béret vert	グリーンベレー
@@ -14571,7 +14572,7 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 14958	8f786325cae	0	999	Golden Sparkler	Goldfontänenstab	Bâton d'artifice doré	ゴールデンスパークラー
 14959	b9d0cbc0eca	0	999	Deluxe Heavenscracker	Spezial-Himmelsknaller	Pétard céleste extra	ヘヴンスクラッカーEX
 14970	0b296ac5953	0	1	Modern Aesthetics - Pulse	Magazin „Moderne Ästhetik - Pulse“	Méthode de coiffure “Lightning et Snow”	ヘアカタログ:ライトニング&スノウ
-14971	acd4f271a62	0	999	MGP Gold Card	MGP-Goldkarte	Coupon doré du Gold Saucer	MGPゴールドカード
+14971	acd4f271a62	0	999	MGP Gold Card	MGP-Goldkarte	Coupon d'or du Gold Saucer	MGPゴールドカード
 14972	41087dffdd5	1	1	Housemaid's Brim	Hausmädchen-Krempe	Coiffe de soubrette	メイドホワイトブリム
 14973	5adc343a638	1	1	Housemaid's Apron Dress	Hausmädchen-Schürze	Robe de soubrette	メイドエプロンドレス
 14974	f664c24a9a2	1	1	Housemaid's Wristdresses	Hausmädchen-Schleifen	Manchettes de soubrette	メイドリストドレス
@@ -16130,7 +16131,7 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 16580		0	1	Angelic Chaplets	Engelhafte Ringbänder	Chapelets angéliques	エンジェルチャプレット
 16581		0	1	Angelic Slops	Engelhafte Beinlinge	Trousses angéliques	エンジェルスロップ
 16582		0	1	Angelic Thighboots	Engelhafte Kniestiefel	Cuissardes angéliques	エンジェルサイブーツ
-16583		0	1	Demonic Horns	Dämonisches Horn	Cornes démoniaques	デモンホーン
+16583		0	1	Demonic Horns	Dämonische Hörner	Cornes démoniaques	デモンホーン
 16584		0	1	Demonic Wings	Dämonische Robe	Manteau ailé démoniaque	デモンウィングコート
 16585		0	1	Demonic Gloves	Dämonische Handschuhe	Gants démoniaques	デモングローブ
 16586		0	1	Demonic Slops	Dämonische Beinlinge	Trousses démoniaques	デモンスロップ
@@ -16145,10 +16146,10 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 16595	3a1e5090d4e	0	1	Far Eastern Beauty's Boots	Stiefel der fernöstlichen Schönheit	Bottes de beauté orientale	東方麗人靴
 16596	a45e4b8db32	0	1	Ramie Hood	Ramien-Haube	Capuche en ramie	ラミーフード
 16597	ffe527ffb78	0	1	Ramie Poncho	Ramien-Poncho	Poncho en ramie	ラミーポンチョ
-16598	d655a69b179	0	1	Ramie Boots	Dhalmelleder-Stiefel	Bottes en fourrure de dhalmel	ダルメルファーブーツ
+16598	d655a69b179	0	1	Fur-lined Dhalmelskin boots	Dhalmelleder-Stiefel	Bottes en fourrure de dhalmel	ダルメルファーブーツ
 16599	d9a81424ec5	0	1	Cashmere Hood	Kaschmir-Haube	Capuche en cachemire	カシミヤフード
 16600	7d89571f76f	0	1	Cashmere Poncho	Kaschmir-Poncho	Poncho en cachemire	カシミヤポンチョ
-16601	812c96e1e17	0	1	Cashmere Boots	Echsen-Stiefel	Bottes en fourrure de saurien	ソーリアンファーブーツ
+16601	812c96e1e17	0	1	Fur-lined Saurian Boots	Echsen-Stiefel	Bottes en fourrure de saurien	ソーリアンファーブーツ
 16602	61302bc4bea	1	1	Eaglewing Crown	Adlerschwingen-Krone	Couronne aile-de-huard	イーグルウィング・フィーストクラウン
 16603	5ffd5adf8d2	1	1	Eaglewing Coat	Adlerschwingen-Mantel	Manteau aile-de-huard	イーグルウィング・フィーストコート
 16604	4536011c51b	1	1	Eaglewing Gauntlets	Adlerschwingen-Panzerhandschuhe	Gantelets aile-de-huard	イーグルウィング・フィーストガントレット
@@ -16330,7 +16331,7 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 16781	ba45bb4915d	0	1	Troupe Stage	Luxusbühne	Estrade de luxe	デラックスステージ
 16782	429ca0d172a	0	1	Round Stage	Rundbühne	Estrade circulaire	ラウンドステージ
 16783	2f36f8b0822	0	999	Mhachi Demimatter	Mhach-Demimaterie	Demi-matière mhachoise	デミマハマター
-16784	0fcae87494f	0	999	MGP Platinum Card	MGP-Platinkarte	Coupon platine du Gold Saucer	MGPプラチナカード
+16784	0fcae87494f	0	999	MGP Platinum Card	MGP-Platinkarte	Coupon de platine du Gold Saucer	MGPプラチナカード
 16785	3d1eff1c418	0	1	Ornate Ironworks Cap of Gathering	Kunstvolle Garlond-Kappe des Eifers	Casquette des ressources des Forges supra	ガーロンド・ギャザラーキャップSP
 16786	e7db3f7baa6	0	1	Ornate Ironworks Vest of Gathering	Kunstvolle Garlond-Weste des Eifers	Tunique des ressources des Forges supra	ガーロンド・ギャザラーベストSP
 16787	78e5761100d	0	1	Ornate Ironworks Gloves of Gathering	Kunstvolle Garlond-Handschuhe des Eifers	Gants des ressources des Forges supra	ガーロンド・ギャザラーグローブSP
@@ -17014,20 +17015,21 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 17467	b8df2c6ad21	0	1	Flannel Suspenders	Flanellrock mit Hosenträgern	Chemise à bretelles en flanelle	フランネルサスペンダーシャツ
 17468	d04d3b76ea0	0	1	Cropped Flannel Slops	Gekürzte Flanell-Beinlinge	Pantalon court en flanelle	フランネルクロップドパンツ
 17469	0d8166193f3	0	1	Pteroskin Shoes	Pterodaktylus-Lederschuhe	Chaussures en cuir de ptérodactyle	プテロダクティルスシューズ
+17470		0	1	Inferno Jacket	Inferno-Jacke	Blouson d'Ifrit	イフリートジャンパー
 17471	d9671fa092d	1	1	Modern Aesthetics - Rainmaker	Magazin „Moderne Ästhetik - Glücksspieler“	Méthode de coiffure “Flambeur”	ヘアカタログ:ゴールドソーサーフェスティバル
 17472	8e9ca0a739d	1	1	Modern Aesthetics - Master & Commander	Magazin „Großmeister“	Méthode de coiffure “Capitaine général”	ヘアカタログ:ロードコマンダー
 17473	04533e97da1	0	1	Lord Commander's Coat	Großmeister-Mantel	Surcot de capitaine général	ロードコマンダー・サーコート
 17474	ec855ee0101	0	1	Lord Commander's Gloves	Großmeister-Handschuhe	Gants de capitaine général	ロードコマンダー・グローブ
-17476	83f7379dcb9	1	1	Songbird Hat	Singdrossel-Hut	Chapeau des Églantines d'Ul'dah	ソングバード・ハット
-17477	093994c78e2	1	1	Songbird Jacket	Singdrossel-Jacke	Corsage des Églantines d'Ul'dah	ソングバード・ジャケット
-17478	133854a8959	1	1	Songbird Gloves	Singdrossel-Handschuhe	Gants des Églantines d'Ul'dah	ソングバード・グローブ
-17479	0849d734b2c	1	1	Songbird Skirt	Singdrossel-Rock	Jupe des Églantines d'Ul'dah	ソングバード・スカート
-17480	fcb3f2fdc24	1	1	Songbird Boots	Singdrossel-Stiefel	Bottes des Églantines d'Ul'dah	ソングバード・ブーツ
-17481	dc2e9fd0ffa	1	1	Royal Seneschal's Chapeau	Chapeau des königlichen Dieners	Chapeau du sénéchal royal	セネシャル・ハット
-17482	e2546311e22	1	1	Royal Seneschal's Coat	Mantel des königlichen Dieners	Veste du sénéchal royal	セネシャル・コート
-17483	7d31e44f138	1	1	Royal Seneschal's Fingerless Gloves	Handschuhe des königlichen Dieners	Gants sans doigts du sénéchal royal	セネシャル・フィンガレスグローブ
-17484	4a62a5ec42c	1	1	Royal Seneschal's Breeches	Reiterhose des königlichen Dieners	Braies du sénéchal royal	セネシャル・ブリーチ
-17485	47cacae7b23	1	1	Royal Seneschal's Boots	Stiefel des königlichen Dieners	Bottes du sénéchal royal	セネシャル・ブーツ
+17476	83f7379dcb9	0	1	Songbird Hat	Singdrossel-Hut	Chapeau des Églantines d'Ul'dah	ソングバード・ハット
+17477	093994c78e2	0	1	Songbird Jacket	Singdrossel-Jacke	Corsage des Églantines d'Ul'dah	ソングバード・ジャケット
+17478	133854a8959	0	1	Songbird Gloves	Singdrossel-Handschuhe	Gants des Églantines d'Ul'dah	ソングバード・グローブ
+17479	0849d734b2c	0	1	Songbird Skirt	Singdrossel-Rock	Jupe des Églantines d'Ul'dah	ソングバード・スカート
+17480	fcb3f2fdc24	0	1	Songbird Boots	Singdrossel-Stiefel	Bottes des Églantines d'Ul'dah	ソングバード・ブーツ
+17481	dc2e9fd0ffa	0	1	Royal Seneschal's Chapeau	Chapeau des königlichen Dieners	Chapeau du sénéchal royal	セネシャル・ハット
+17482	e2546311e22	0	1	Royal Seneschal's Coat	Mantel des königlichen Dieners	Veste du sénéchal royal	セネシャル・コート
+17483	7d31e44f138	0	1	Royal Seneschal's Fingerless Gloves	Handschuhe des königlichen Dieners	Gants sans doigts du sénéchal royal	セネシャル・フィンガレスグローブ
+17484	4a62a5ec42c	0	1	Royal Seneschal's Breeches	Reiterhose des königlichen Dieners	Braies du sénéchal royal	セネシャル・ブリーチ
+17485	47cacae7b23	0	1	Royal Seneschal's Boots	Stiefel des königlichen Dieners	Bottes du sénéchal royal	セネシャル・ブーツ
 17486	3c309ed74ec	0	1	Zundu Head	Zundo-Kopf	Tête de Zundu	バヌバヌ・ズンドヘッド
 17487	f717ddb069e	0	1	Zundu Body	Zundo-Rumpf	Corps de Zundu	バヌバヌ・ズンドボディ
 17488	688d486be18	0	1	Zundu Arms	Zundo-Arme	Mains de Zundu	バヌバヌ・ズンドアーム
@@ -17314,7 +17316,7 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 17776	7ed24274593	1	1	Antiquated Seventh Hell Thighboots	Antiquierte Kniestiefel der Siebten Hölle	Cuissardes du septième cercle vieillies	ウェザード・セブンスヘルサイブーツ
 17777	5622699221f	1	1	Antiquated Channeler's Horn	Antiquiertes Horn des Mediums	Corne de vaticinateur vieillie	ウェザード・チャンネリングホーン
 17778	74db02f8531	1	1	Antiquated Channeler's Vest	Antiquierte Weste des Mediums	Gilet de vaticinateur vieilli	ウェザード・チャンネリングベスト
-17779	7f162b980c1	1	1	Antiquated Channeler's Armlets	Antiquierte Armreife des Mediums	Brassards de vaticinateur vieillis	ウェザード・チャンネリングアームレット
+17779	7f162b980c1	1	1	Antiquated Channeler's Armlets	Antiquierte Armstulpen des Mediums	Brassards de vaticinateur vieillis	ウェザード・チャンネリングアームレット
 17780	0620fa9c3fb	1	1	Antiquated Channeler's Halfslops	Antiquierte Hose des Mediums	Demi-trousses de vaticinateur vieillies	ウェザード・チャンネリングハーフパンツ
 17781	a9fc560e41c	1	1	Antiquated Channeler's Boots	Antiquierte Kniestiefel des Mediums	Bottes de vaticinateur vieillies	ウェザード・チャンネリングブーツ
 17782	d56e00e2bf2	1	1	Antiquated Orator's Mortarboard	Antiquierter Hut des Orators	Mortier d'orateur vieilli	ウェザード・オラターボード
@@ -17339,7 +17341,7 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 17801	87e99e3852f	1	1	Antiquated Gunner's Thighboots	Antiquierte Kniestiefel des Kanoniers	Cuissardes de fusilier vieillies	ウェザード・ガンナーサイブーツ
 17802	c3c8513bbfa	1	1	Antiquated Constellation Turban	Antiquierter Turban des Sternbilds	Turban d'horoscopiste vieilli	ウェザード・コンステレーションターバン
 17803	0219d7187f5	1	1	Antiquated Constellation Top	Antiquiertes Oberteil des Sternbilds	Haut-de-corps d'horoscopiste vieilli	ウェザード・コンステレーショントップス
-17804	83064991047	1	1	Antiquated Constellation Armlets	Antiquierte Armreife des Sternbilds	Brassards d'horoscopiste vieillis	ウェザード・コンステレーションアームレット
+17804	83064991047	1	1	Antiquated Constellation Armlets	Antiquierte Armstulpen des Sternbilds	Brassards d'horoscopiste vieillis	ウェザード・コンステレーションアームレット
 17805	2fda5c6e651	1	1	Antiquated Constellation Gaskins	Antiquierte Gaskin des Sternbilds	Grègues d'horoscopiste vieillies	ウェザード・コンステレーションガスキン
 17806	6da6d217fa8	1	1	Antiquated Constellation Sandals	Antiquierte Sandalen des Sternbilds	Sandales d'horoscopiste vieillies	ウェザード・コンステレーションサンダル
 17807	ab67a3c9345	1	1	Antiquated Myochin Jingasa	Antiquierter Jingasa der Myochin	Jingasa Myôchin vieilli	明珍陣笠【劣】
@@ -17353,7 +17355,7 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 17815	2f0fa481e80	1	1	Antiquated Duelist's Breeches	Antiquierte Reiterhose des Duellanten	Braies de duelliste vieillies	ウェザード・デュエルブリーチ
 17816	9342a7d2fd0	1	1	Antiquated Duelist's Thighboots	Antiquierte Kniestiefel des Duellanten	Cuissardes de duelliste vieillies	ウェザード・デュエルサイブーツ
 17817	3c882e55adc	1	1	Antiquated Galatyn	Antiquiertes Galatyn	Galatyn vieillie	ウェザード・ガラティン
-17818	cb93bf6b158	1	1	Antiquated Sudarshana Chakras	Antiquierte Sudarshana Chakras	Chakras Sudarshana vieillis	ウェザード・スダルシャナ
+17818	cb93bf6b158	1	1	Antiquated Sudarshana Chakra	Antiquierte Sudarshana Chakras	Chakras Sudarshana vieillis	ウェザード・スダルシャナ
 17819	6c584244708	1	1	Antiquated Farsha	Antiquierte Farsha	Farsha vieillie	ウェザード・ファルシャ
 17820	e2798d88fa1	1	1	Antiquated Ryunohige	Antiquierter Ryunohige	Ryûnohige vieilli	竜の髭【劣】
 17821	4796abc6cdd	1	1	Antiquated Failnaught	Antiquierter Failnaught	Arc Qui-ne-faut vieilli	ウェザード・フェイルノート
@@ -19232,11 +19234,11 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 19754	99a5b280b4f	0	1	Gazelleskin Choker	Gazellenleder-Halsberge	Ras de cou en cuir de gazelle	ガゼルチョーカー
 19755	9c77fd80749	0	1	Gazelleskin Wristband	Gazellenleder-Armband	Poignet en cuir de gazelle	ガゼルリストバンド
 19756	1608ea636f8	0	1	Gazelleskin Ring	Gazellenleder-Ring	Bague croisée en cuir de gazelle	ガゼルクロスリング
-19757	2c6526ac715	0	1	Augmented Ala Mhigan Turban of Crafting	Kunstvoller mhigischer Turban des Handwerks	Turban des créations supra	アラミガンクラフターターバンSP
-19758	7f0218d9b07	0	1	Augmented Ala Mhigan Doublet of Crafting	Kunstvolle mhigische Weste des Handwerks	Doublet des créations supra	アラミガンクラフターダブレットSP
-19759	05d4ed13000	0	1	Augmented Ala Mhigan Gloves of Crafting	Kunstvolle mhigische Handschuhe des Handwerks	Gants des créations supra	アラミガンクラフターグローブSP
-19760	7e9a78093df	0	1	Augmented Ala Mhigan Bottoms of Crafting	Kunstvolle mhigische Hose des Handwerks	Bas-de-corps des créations supra	アラミガンクラフターボトムSP
-19761	38e6985567d	0	1	Augmented Ala Mhigan Shoes of Crafting	Kunstvolle mhigische Schuhe des Handwerks	Chaussures des créations supra	アラミガンクラフターシューズSP
+19757	2c6526ac715	0	1	Augmented Ala Mhigan Turban of Crafting	Kunstvoller mhigischer Turban des Handwerks	Turban des créations mhigois supra	アラミガンクラフターターバンSP
+19758	7f0218d9b07	0	1	Augmented Ala Mhigan Doublet of Crafting	Kunstvolle mhigische Weste des Handwerks	Doublet des créations mhigois supra	アラミガンクラフターダブレットSP
+19759	05d4ed13000	0	1	Augmented Ala Mhigan Gloves of Crafting	Kunstvolle mhigische Handschuhe des Handwerks	Gants des créations mhigois supra	アラミガンクラフターグローブSP
+19760	7e9a78093df	0	1	Augmented Ala Mhigan Bottoms of Crafting	Kunstvolle mhigische Hose des Handwerks	Bas-de-corps des créations mhigois supra	アラミガンクラフターボトムSP
+19761	38e6985567d	0	1	Augmented Ala Mhigan Shoes of Crafting	Kunstvolle mhigische Schuhe des Handwerks	Chaussures des créations mhigoises supra	アラミガンクラフターシューズSP
 19762	dde05397c1f	0	1	Augmented Ala Mhigan Turban of Gathering	Kunstvoller mhigischer Turban des Eifers	Turban des ressources mhigois supra	アラミガンギャザラーターバンSP
 19763	2ca465ecf43	0	1	Augmented Ala Mhigan Coat of Gathering	Kunstvoller mhigischer Mantel des Eifers	Manteau des ressources mhigois supra	アラミガンギャザラーコートSP
 19764	fb8e5a44acd	0	1	Augmented Ala Mhigan Gloves of Gathering	Kunstvolle mhigische Handschuhe des Eifers	Gants des ressources mhigois supra	アラミガンギャザラーグローブSP
@@ -19547,7 +19549,7 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 20069	b2af1815fe4	0	999	Invisible Crayfish	Unsichtbarer Krebs	Écrevisse invisible	アラワレザリガニ
 20070	f59c54739b7	0	999	Rapids Jumper	Stromschnellen-Springer	Carpe des rapides	ナガレノボリ
 20071	2fb21f2a8e7	0	999	Abalathian Salamander	Abalathischer Salamander	Salamandre d'Abalathia	アバラシアサラマンダー
-20072	eafa0bdd7d4	0	999	Adamantium Bichir	Adamantium-Flösselhecht	Polyptère adamantium	アダマンポリプテルス
+20072	eafa0bdd7d4	0	999	Adamantite Bichir	Adamantium-Flösselhecht	Polyptère adamantium	アダマンポリプテルス
 20073	13b34c97d3f	0	999	Meditator	Meditierer	Contemplateur	瞑想魚
 20074	72b3a733751	0	999	Deemster	Richterfisch	Magistrat	裁定魚
 20075	3bafc1e690e	0	999	Stonytongue	Gebirgs-Knochenzüngler	Arowana pierreux	マウンテンアロワナ
@@ -19923,10 +19925,10 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 20447	f0d8ece31d9	1	1	Zurvanite Rapier	Zurvan-Rapier	Rapière de Zurvan	レイピア・オブ・ズルワーン
 20448	c696613148b	1	1	Gordian Katana	Gordisches Katana	Katana gordien	機工刀【起】
 20449	08e1df5f692	1	1	Gordian Rapier	Gordisches Rapier	Rapière gordienne	ゴルディオンレイピア
-20450	313af9f3512	1	1	Midan Katana	Midisches Katana	Katana métallique midin	機工刀【律】
-20451	d748fe8407d	1	1	Midan Rapier	Midisches Rapier	Rapière métallique midine	ミダース・メタルレイピア
-20452	9ff2aa52e0e	1	1	Alexandrian Katana	Alexandrisches Katana	Katana métallique alexandrin	機工刀【天】
-20453	fffc4e40644	1	1	Alexandrian Rapier	Alexandrisches Rapier	Rapière métallique alexandrine	アレキサンダー・メタルレイピア
+20450	313af9f3512	1	1	Midan Metal Katana	Midisches Katana	Katana métallique midin	機工刀【律】
+20451	d748fe8407d	1	1	Midan Metal Rapier	Midisches Rapier	Rapière métallique midine	ミダース・メタルレイピア
+20452	9ff2aa52e0e	1	1	Alexandrian Metal Katana	Alexandrisches Katana	Katana métallique alexandrin	機工刀【天】
+20453	fffc4e40644	1	1	Alexandrian Metal Rapier	Alexandrisches Rapier	Rapière métallique alexandrine	アレキサンダー・メタルレイピア
 20454	dd653bd463d	0	1	Coven Katana	Coven-Katana	Katana du Coven	魔道之剣
 20455	5051b8fee8f	0	1	Coven Rapier	Coven-Rapier	Rapière du Coven	コヴンレイピア
 20456	c7acd92b375	1	1	Padjali Katana	Padjal-Katana	Katana padjal	角尊之剣
@@ -20037,11 +20039,11 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 20561	29e54586fba	1	1	Hingan Barding	Hingashi-Harnisch „Chocobo“	Barde chocobo hingashienne	イースタン・バード
 20562	ea0fac9de20	1	1	Oriental Barding	Hingashi-Harnisch „Mogry“	Barde mog hingashienne	オリエンタル・バード
 20563		1	1	Nezha Barding	Nezha-Rossharnisch	Barde de Nezha	ナタ・バード
-20564	05b54d0747d	1	1	Faire Joi	Feuermondreigen-Joi	Jôi des Feux de la Mort	紅蓮祭上衣
-20565	2ba1e61030f	1	1	Faire Kohakama	Feuermondreigen-Kohakama	Kohakama des Feux de la Mort	紅蓮祭小袴
-20566	80472b66666	1	1	Faire Zori	Feuermondreigen-Zori	Zôri des Feux de la Mort	紅蓮祭草履
+20564	05b54d0747d	0	1	Faire Joi	Feuermondreigen-Joi	Jôi des Feux de la Mort	紅蓮祭上衣
+20565	2ba1e61030f	0	1	Faire Kohakama	Feuermondreigen-Kohakama	Kohakama des Feux de la Mort	紅蓮祭小袴
+20566	80472b66666	0	1	Faire Zori	Feuermondreigen-Zori	Zôri des Feux de la Mort	紅蓮祭草履
 20567		1	1	Ballroom Etiquette - Display of Power	Ballsaal-Etikette: Kraft	L'Étiquette éorzéenne: Concentrer ses forces	演技教本:力を高める
-20568	c57dae70956	1	1	Scion Rogue Bandana	Morgenröte-Bandana des Schurken	Bandana de surineur des Héritiers	サイオンズローグ・バンダナ
+20568	c57dae70956	1	1	Scion Rogue's Bandana	Morgenröte-Bandana des Schurken	Bandana de surineur des Héritiers	サイオンズローグ・バンダナ
 20569	c9f0fd068b2	1	1	Central Shroud Riding Map	Reitwege im Tiefen Wald	Carte détaillée de la Forêt centrale	詳細地図:黒衣森中央森林
 20570	31464600c57	1	1	East Shroud Riding Map	Reitwege im Ostwald	Carte détaillée de la Forêt de l'est	詳細地図:黒衣森東部森林
 20571	4addbc91c08	1	1	South Shroud Riding Map	Reitwege im Südwald	Carte détaillée de la Forêt du sud	詳細地図:黒衣森南部森林
@@ -20108,6 +20110,7 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 20637	8a2a4d4f2d8	1	1	Ixion Clarion	Ixion-Horn	Cor d'Ixion	イクシオンホルン
 20638	a3456a3fc49	0	999	Ixion Horn	Ixion-Hornfragment	Corne d'Ixion	イクシオンの角片
 20639	921c0398e70	0	1	Mol Banner	Mol-Banner	Bannière mol	モルバナー
+20640		1	1	Ballroom Etiquette - Intellectual Diversions	Ballsaal-Etikette: Intellektuelle Erkenntnis	L'Étiquette éorzéenne: Éclair de génie	演技教本:閃く
 20641		1	1	Ballroom Etiquette - Modern Dance	Ballsaal-Etikette: Moderner Tanz	L'Étiquette éorzéenne: Danse des Églantines	演技教本:歌姫を真似る
 20642	e3591ed0810	1	1	Valor Armor Coffer	Tapfer-Ausrüstungsset	Coffre d'équipement de bravoure	ヴァラーチェスト
 20643	077132f2417	1	1	Melee Attire Coffer	Ausrüstungsset der Kampfkunst	Coffre d'équipement de mêlée	メレーチェスト
@@ -20188,9 +20191,9 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 20720	793752d7da6	0	1	Hingan Hanging Bonbori Lamp	Hinganische Bonbori-Hängelampe	Lampe hingashienne suspendue (bonbori)	白銀吊りぼんぼり
 20721	2d076cf3868	0	1	Hingan Hanging Andon Lamp	Hinganische Andon-Hängelampe	Lampe hingashienne suspendue (andon)	白銀吊り行燈
 20722	f1a52d9c216	0	1	Hingan Hanging Toro Lamp	Hinganische Toro-Hängelampe	Lampe hingashienne suspendue (toro)	白銀吊り灯篭
-20723	1286185c2ef	0	1	Small Shirogane Castle Walls	Kleine Shirogane-Burgwand	Fortification pour maisonnette hingashienne	白銀城造平屋壁
-20724	dd669279db0	0	1	Medium Shirogane Castle Walls	Mittelgroße Shirogane-Burgwand	Fortification pour pavillon hingashien	白銀城造屋敷壁
-20725	1a0733ea4ea	0	1	Large Shirogane Castle Walls	Große Shirogane-Burgwand	Fortification pour villa hingashienne	白銀城造御殿壁
+20723	1286185c2ef	0	1	Small Shirogane Castle Walls	Kleine Shirogane-Burgwand	Fortification de maisonnette hingashienne	白銀城造平屋壁
+20724	dd669279db0	0	1	Medium Shirogane Castle Walls	Mittelgroße Shirogane-Burgwand	Fortification de pavillon hingashien	白銀城造屋敷壁
+20725	1a0733ea4ea	0	1	Large Shirogane Castle Walls	Große Shirogane-Burgwand	Fortification de villa hingashienne	白銀城造御殿壁
 20726	7ad1c3ff302	0	1	Hingan Desk	Hingashi-Schreibtisch	Bureau hingashien	文机
 20727	442119d77d5	0	1	Hingan Sitting Table	Hingashi-Esstisch	Table hingashienne	座卓
 20728	83cd01915da	0	1	Hingan Bench	Hingashi-Sitzbank	Banc hingashien	縁台
@@ -20223,7 +20226,7 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 20755	c98d5a3ae52	0	1	Stuffed Kojin	Ausgestopfter Kojin	Kojin en peluche	コウジン族のぬいぐるみ
 20756	697a1165655	0	1	Eggplant Knight Flower Vase	Ritter-Aubergine-Blumenvase	Vase Chevalier aubergine	エッグナイト・フラワーベース
 20757	ba29c0a7135	0	1	Garlic Jester Flower Vase	Sir-Knoblauch-Blumenvase	Vase Baron ail	ガーリックスター・フラワーベース
-20758	c1becffaad0	0	1	Mandragora Queen Flower Vase	Mandragora-Königin-Blumenvase	Vase Reine mandragore	マンドラクィーン・フラワーベース
+20758	c1becffaad0	0	1	Mandragora Queen Flower Vase	Mandragora-Königin-Blumenvase	Vase Reine mandragore	マンドラクイーン・フラワーベース
 20759	d89f2b23f4e	0	1	Onion Prince Flower Vase	Prinz-Zwiebel-Blumenvase	Vase Prince oignon	オニオンプリンス・フラワーベース
 20760	037f0cd3107	0	1	Tomato King Flower Vase	König-Tomate-Blumenvase	Vase Roi tomate	キングトマト・フラワーベース
 20761	c34dc6a6219	0	1	Pumpkin Pie Set	Kürbiskuchen-Set	Tarte à la citrouille	パンプキンパイセット
@@ -20476,6 +20479,7 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 21032		0	1	Topaz Carbuncle Boots	Topas-Karfunkel-Stiefel	Bottes Carbuncle topaze	カーバンクル・トパーズブーツ
 21033	5443e7ec00a	0	1	Emerald Carbuncle Earring	Smaragd-Karfunkel-Ohrring	Boucle d'oreille Carbuncle émeraude	カーバンクル・エメラルドイヤリング
 21034	c9ff175b4fe	0	1	Topaz Carbuncle Earring	Topas-Karfunkel-Ohrring	Boucle d'oreille Carbuncle topaze	カーバンクル・トパーズイヤリング
+21035		0	1	Emerald Carbuncle Slippers	Smaragd-Karfunkel-Pantoffeln	Chaussons Carbuncle émeraude	カーバンクル・エメラルドスリッパ
 21042	ebb0b9a7614	0	1	Shinryu Barding	Shinryu-Rossharnisch	Barde de Shinryu	シンリュウ・バード
 21043	d6dfea3159f	1	1	Ixion Barding	Ixion-Rossharnisch	Barde d'Ixion	イクシオン・バード
 21044	12369618643	1	1	Season Five Pack Wolf Voucher A	Preiscoupon A des Rudelwolfes (5. Saison)	Certificat de champion du festin S5	覇者の証S5
@@ -20483,11 +20487,11 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 21046	7354a71bf05	1	1	Season Five Pack Wolf Voucher C	Preiscoupon C des Rudelwolfes (5. Saison)	Certificat de finaliste du festin S5	強者の証S5
 21047	975d7762bc1	1	1	Legendary Kamuy Fife	Legendärer-Kamuy-Pfeife	Sifflet kamuy de la divinité	カムイの魔笛【龍】
 21048	9c9b5dbdf0d	1	1	Striped Ray Conch	Streifenrochen-Muschelhorn	Conque raie rayée	シマエイ法螺貝
-21049		1	1	風火二輪笛	風火二輪笛	風火二輪笛	風火二輪笛
+21049		1	1	Nezha Chariot Dizi	Feuerwind-Pfeife	Cor roues Feu-et-Vent	風火二輪笛
 21050	6315bc4d282	1	1	Starlight Bear Horn	Sternenlicht-Bär-Horn	Cor ours de la fête des étoiles	スターライト・ベアーホルン
 21051		1	1	Aquamarine Carbuncle Whistle	Aquamarin-Karfunkel-Pfeife	Sifflet Carbuncle aigue-marine	カーバンクル・アクアマリンホイッスル
 21052	944add56337	0	1	Flying Chair	Fliegender Sessel	Fauteuil volant	フライング・チェアー
-21053	dd633bb5cf6	1	1	Magitek Avenger Identification Key	Magitek-Rächer-Kennschlüssel	Clé d'activation de vengeur magitek	魔導アヴェンジャー騎乗型認証鍵
+21053	dd633bb5cf6	1	1	Magitek Avenger Identification Key	Magitek-Rächer-Kennschlüssel	Clef d'activation de vengeur magitek	魔導アヴェンジャー騎乗型認証鍵
 21054	8ff2d322a42	1	1	Korpokkur Kolossus Horn	Koloss-Korpokkur-Horn	Cor poro-korpokkur	ハコボックルホルン
 21055	16e5e2fb96d	0	1	Wind-up Hien	Hien-Puppe	Hien miniature	マメット・ヒエン
 21056	69b6140fc29	1	1	Wind-up Kojin	Kojin-Puppe	Kojin mécanique	マメット・コウジン
@@ -20622,6 +20626,7 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 21188	43913500513	0	999	Raubahn & Pipin Card	Raubahn & Pipin-Karte	Carte Raubahn et Pipin	カード:ラウバーン＆ピピン
 21189		0	999	Koja Card	Koja-Karte	Carte koja	カード:コジャ
 21190		0	999	Ango Card	Ango-Karte	Carte ango	カード:アンゴ
+21191		0	1	Red Mage Barding	Rotmagier-Rossharnisch	Barde de mage rouge	レッド・バード
 21192		1	1	Citrine Carbuncle Whistle	Citrin-Karfunkel-Pfeife	Sifflet Carbuncle citrine	カーバンクル・シトリンホイッスル
 21193	a6ab25bd838	0	1	Salt & Pepper Seal	Gomashio-Seehund	Bébé phoque	ゴマ塩アザラシ
 21196	4a615824062	0	999	Shinryu Totem	Shinryu-Totem	Totem draconique divin	神龍のトーテム像
@@ -21104,11 +21109,11 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 21682		1	1	Farlander Choker of Aiming	Fernländer-Halsberge des Zielens	Ras de cou de pisteur des terres lointaines	フォーレンレンジャー・チョーカー
 21683		1	1	Farlander Choker of Healing	Fernländer-Halsberge der Heilung	Ras de cou de soigneur des terres lointaines	フォーレンヒーラー・チョーカー
 21684		1	1	Farlander Choker of Casting	Fernländer-Halsberge der Magie	Ras de cou d'incantateur des terres lointaines	フォーレンキャスター・チョーカー
-21685		1	1	Farlander Bangles of Fending	Fernländer-Armring der Verteidigung	Bracelet de protecteur des terres lointaines	フォーレンディフェンダー・ブレスレット
-21686		1	1	Farlander Bangles of Slaying	Fernländer-Armring des Schlachtens	Bracelet d'attaquant des terres lointaines	フォーレンアタッカー・ブレスレット
-21687		1	1	Farlander Bangles of Aiming	Fernländer-Armring des Zielens	Bracelet de pisteur des terres lointaines	フォーレンレンジャー・ブレスレット
-21688		1	1	Farlander Bangles of Healing	Fernländer-Armring der Heilung	Bracelet de soigneur des terres lointaines	フォーレンヒーラー・ブレスレット
-21689		1	1	Farlander Bangles of Casting	Fernländer-Armring der Magie	Bracelet d'incantateur des terres lointaines	フォーレンキャスター・ブレスレット
+21685		1	1	Farlander Bangle of Fending	Fernländer-Armring der Verteidigung	Bracelet de protecteur des terres lointaines	フォーレンディフェンダー・ブレスレット
+21686		1	1	Farlander Bangle of Slaying	Fernländer-Armring des Schlachtens	Bracelet d'attaquant des terres lointaines	フォーレンアタッカー・ブレスレット
+21687		1	1	Farlander Bangle of Aiming	Fernländer-Armring des Zielens	Bracelet de pisteur des terres lointaines	フォーレンレンジャー・ブレスレット
+21688		1	1	Farlander Bangle of Healing	Fernländer-Armring der Heilung	Bracelet de soigneur des terres lointaines	フォーレンヒーラー・ブレスレット
+21689		1	1	Farlander Bangle of Casting	Fernländer-Armring der Magie	Bracelet d'incantateur des terres lointaines	フォーレンキャスター・ブレスレット
 21690		1	1	Farlander Ring of Fending	Fernländer-Ring der Verteidigung	Bague de protecteur des terres lointaines	フォーレンディフェンダー・リング
 21691		1	1	Farlander Ring of Slaying	Fernländer-Ring des Schlachtens	Bague d'attaquant des terres lointaines	フォーレンアタッカー・リング
 21692		1	1	Farlander Ring of Aiming	Fernländer-Ring des Zielens	Bague de pisteur des terres lointaines	フォーレンレンジャー・リング
@@ -21123,7 +21128,7 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 21701		0	1	Nightsteel Greatsword	Nachtstahl-Großschwert	Grande épée en noctacier	ナイトスチール・グレートソード
 21702		0	1	Nightsteel Blunderbuss	Nachtstahl-Espingole	Tromblon en noctacier	ナイトスチール・ブランダーバス
 21703		0	1	Black Willow Cane	Schwarzweiden-Stock	Canne en saule noir	ブラックウィローケーン
-21704		0	1	Silvergrace Rod	Silbergunst-Stab	Sceptre en grâçargent	グレースロッド
+21704		0	1	Silvergrace Rod	Silbergunst-Stab	Sceptre en graçargent	グレースロッド
 21705		0	1	Silvergrace Grimoire	Silbergunst-Grimoire	Grimoire en graçargent	グレースグリモア
 21706		0	1	Silvergrace Codex	Silbergunst-Kodex	Codex en graçargent	グレースコーデックス
 21707		0	1	Silvergrace Planisphere	Silbergunst-Planisphäre	Planisphère en graçargent	グレースプラニスフィア
@@ -21208,8 +21213,8 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 21786		0	999	Ryumyaku Solvent	Ryumyaku-Lösungsmittel	Agent renforçant Ryûmyaku	龍脈の強化薬
 21787		0	999	Ryumyaku Weave	Ryumyaku-Gewebe	Fibre renforcée Ryûmyaku	龍脈の強化繊維
 21788		0	999	Ryumyaku Polish	Ryumyaku-Poliermittel	Agent solidifiant Ryûmyaku	龍脈の硬化薬
-21789		0	999	Rowena's Token (Mendacity)	Rowena-Marke „Verlogenheit“	Avoir de Rowena (allégorique)	ロウェナの手形:虚構
-21790		0	999	Prototype Tomestone	Experimenteller Allagischer Stein	néomémoquartz allagois	試作型トームストーン
+21789		0	999	Rowena's Token (Mendacity)	Rowena-Marke „Verlogenheit“	Avoir de Rowena (mensonger)	ロウェナの手形:虚構
+21790		0	999	Prototype Tomestone	Experimenteller Allagischer Stein	Néomémoquartz allagois	試作型トームストーン
 21791		1	1	Diamond Weapon Coffer	Diamant-Waffe	Coffre d'arme en diamant	ダイヤウェポンチェスト
 21792		0	1	Shark-class Bow	Bug der Klasse „Shark“	Proue de classe Requin	シャーク級艦首
 21793		0	1	Shark-class Bridge	Brücke der Klasse „Shark“	Pont de classe Requin	シャーク級艦橋
@@ -21220,6 +21225,9 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 21798		0	1	Unkiu-class Pressure Hull	Rumpf der Klasse „Unkiu“	Coque de classe Unkiu	ウンキウ級艦体
 21799		0	1	Unkiu-class Stern	Heck der Klasse „Unkiu“	Poupe de classe Unkiu	ウンキウ級艦尾
 21800		0	999	Glamour Prism	Projektionsprisma	Prisme mirage	ミラージュプリズム
+21801		0	999	Protean Crystal	Instabiler Kristall	Cristal instable	乱属性クリスタル
+21802		0	999	Pazuzu's Feather	Pazuzu-Feder	Plume de Pazuzu	パズズの羽根
+21803		0	999	Anemos Crystal	Anemos-Kristall	Cristal Anemos	アネモスクリスタル
 21804		0	1	Ornate Nightsteel Armor of Fending	Kunstvolle Nachtstahl-Rüstung der Verteidigung	Armure de protecteur en noctacier supra	ナイトスチール・ディフェンダーアーマーSP
 21805		0	1	Ornate Nightsteel Mail of Maiming	Kunstvolle Nachtstahl-Rüstung des Verstümmelns	Cotte de maille d'abatteur en noctacier supra	ナイトスチール・スレイヤーメイルSP
 21806		0	1	Ornate True Linen Coat of Striking	Kunstvoller Reinleinen-Mantel des Schlagens	Manteau d'agresseur en lin hingashien supra	トゥルーリネン・ストライカーコートSP
@@ -21246,10 +21254,13 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 21828		0	1	Vegetable Basket	Gemüsekorb	Panier de légumes	ベジタブルバスケット
 21829		0	1	Open Partition	Offener Raumteiler	Cloison ouverte	ホールパーティション
 21830		0	1	Counter Cart	Servierwagen	Comptoir sur roues	カートカウンター
+21831		0	1	Sharlayan Cabinet	Sharlayan-Schränkchen	Armoire sharlayanaise	シャーレアン・キャビネット
+21832		0	1	Sharlayan Wardrobe	Sharlayan-Kleiderschrank	Garde-robe sharlayanaise	シャーレアン・ワードローブ
 21833		0	1	Carbuncle Bathtub	Karfunkel-Badewanne	Baignoire Carbuncle	カーバンクル・バスタブ
 21834		0	1	Chirurgeon's Essentials	Chirurgen-Werkzeugset	Ustensiles de barbier	バーバーツールズ
 21835		0	1	Kitchen Hanger	Küchenhaken-Set	Patère de cuisine	キッチンハンガー
-21836		0	1	Hanya Mask	Hannya-Maske	Masque de hannya	般若の面
+21836		0	1	Hannya Mask	Hannya-Maske	Masque de hannya	般若の面
+21838		0	1	Sake Set	Sake-Set	Service de dégustation de saké	晩酌一式
 21839		0	1	Stage Panel	Bühnenkulisse	Panneau de décor	ステージパネル
 21840		0	1	Stuffed Ananta	Stoff-Ananta	Ananta en peluche	アナンタ族のぬいぐるみ
 21841		0	1	Tier 1 Metal Aquarium	Metall-Aquarium S	Aquarium en métal de petite taille	メタルアクアリウムG1
@@ -21263,6 +21274,7 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 21849		0	1	Mummer's Wardrobe	Kostümregal	Étagère à costumes	劇団の衣装棚
 21850		0	1	Far Eastern Doll Display	Fernöstliches Puppenregal	Dressoir oriental en escalier	雛箪笥
 21851		0	1	Coat Hanger	Mantelständer	Porte-manteau de couturier	コートハンガー
+21852		0	1	Altar to Pazuzu	Pazuzu-Fetisch	Autel de Pazuzu	パズズの祭壇
 21854		0	1	Hokonin Permit	Hokonin-Vertrag	Licence de recrutement: hôkônin	雇用証書:奉公人
 21855		0	1	Allagan Resupply Node Permit	Vertrag für ein allagisches Lieferungssystem	Licence de recrutement: sphère de vente	雇用証書:素材システム
 21856		0	1	Allagan Commerce Node Permit	Vertrag für ein allagisches Handelssystem	Licence de recrutement: système de quincaillerie	雇用証書:よろずシステム
@@ -21279,9 +21291,11 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 21867		0	1	House Borel Interior Wall	Innenwand „Haus Borel“	Papier peint de la maison Borel	ボーレルインナーウォール
 21868		0	1	White Marble Flooring	Weißer Marmorboden	Carrelage en marbre blanc	ホワイトマーブルフローリング
 21869		0	1	Classic Chandelier	Klassischer Kronleuchter	Lustre classique	クラシックシャンデリア
+21870		0	1	Melodious Mogchestrion	Mogry-Orchestrion	Orchestrion mog	モーグリオーケストリオン
 21871		0	1	Authentic Paramour Vase	Exklusive Buhlen-Vase	Vase de soupirant spécial	パラムールフラワーベースEX
 21872		0	1	Authentic Little Ladies' Day Advertisement	Exklusives Prinzessinnenfest-Plakat	Affiche décorative de la fête des demoiselles spéciale	プリンセスデー・ポスターEX
 21873		0	1	Authentic Eastern Cherry Petal Pile	Exklusiver fernöstlicher Kirschblütenteppich	Parterre de pétales de fleurs de cerisier spécial	イースタン・チェリーペタルドリフトEX
+21874		0	1	Authentic Eggstravagant Interior Wall	Exklusive Wundereier-Innenwand	Papier peint de la chasse aux Prœufs spécial	アルコンエッグ・インナーウォールEX
 21875		0	999	Tulip Bulbs	Tulpenzwiebeln	Bulbes de tulipe	チューリップの球根
 21876		0	999	Red Tulips	Rote Tulpen	Bouquet de tulipes rouges	チューリップ:レッド
 21877		0	999	Blue Tulips	Blaue Tulpen	Bouquet de tulipes bleues	チューリップ:ブルー
@@ -21309,17 +21323,23 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 21899		0	999	Imperial Hypersonic Assault Craft L-XXIII Oil Painting	Ölgemälde „Überschall-Angriffsvehikel L-XXIII“	Le contre-torpilleur hypersonique impérial L-XXIII (huile)	油彩画:高速魔導駆逐艦L－XXIII
 21900		0	999	Mol Iloh Oil Painting	Ölgemälde „Mol Iloh“	Mol Iloh (huile)	油彩画:モル・イロー
 21901		0	999	Moai Statue Oil Painting	Ölgemälde „Moai-Statue“	La statue de moai (huile)	油彩画:モアイ像
+21902		1	1	Red Hare Horn	Feuerross-Horn	Cor du Lièvre Rouge	赤兎馬角笛
 21903		1	1	Auspicious Kamuy Fife	Glücklicher-Kamuy-Pfeife	Sifflet kamuy de l'ouest	カムイの魔笛【白】
 21904		1	1	Marid Horn	Mariden-Horn	Cor marid	マーリドホルン
-21905		1	1	Air Force Identification Key	Luftwaffen-Kennschlüssel	Clé d'activation de force aérienne	エアフォース認証鍵
-21906		1	1	Magitek Death Claw Identification Key	Magitek-Todesklauen-Kennschlüssel	Clé d'activation de griffe d'arrestation magitek	魔導デスクロー拘束型認証鍵
+21905		1	1	Air Force Identification Key	Luftwaffen-Kennschlüssel	Clef d'activation de force aérienne	エアフォース認証鍵
+21906		1	1	Magitek Death Claw Identification Key	Magitek-Todesklauen-Kennschlüssel	Clef d'activation de griffe d'arrestation magitek	魔導デスクロー拘束型認証鍵
+21907		0	1	Tyrannosaur Horn	Tyrannosaurus-Horn	Cor tyrannosaure	ティラノサウルスホルン
 21908		1	1	Broken Heart Pendant (Right)	Anhänger „Gebrochenes Herz (rechts)“	Fauteuil demi-cœur droit volant	フライング・ライトハート
 21909		1	1	Broken Heart Pendant (Left)	Anhänger „Gebrochenes Herz (links)“	Fauteuil demi-cœur gauche volant	フライング・レフトハート
 21911		0	1	White Whittret	Schneewiesel	Fouine blanche	シロイタチ
 21912		1	1	Wind-up Kefka	Kefka-Puppe	Kefka miniature	マメット・ケフカ
 21913		1	1	Wind-up Ananta	Aufzieh-Ananta	Poupée ananta	マメット・アナンタ
 21914		1	1	Motley Egg	Joker-Ei	Œuf bouffon	ジョーカーエッグ
+21915		0	1	Wind-up Magnai	Magnai-Puppe	Magnai miniature	マメット・マグナイ
 21916		0	1	Private Moai	Moai-Statuette	Mini moai	ミニモアイ
+21917		0	1	Wind-up Mithra	Mithra-Puppe	Poupée mithra	マメット・ミスラ
+21918		0	1	Wind-up Fafnir	Mini-Fafnir	Fafnir mécanique	マメット・ファヴニル
+21919		0	1	The Prince of Anemos	Prinz von Anemos	Prince d'Anemos	プリンス・オブ・アネモス
 21920		0	1	Byakko Cub	Byakko-Jungtier	Bébé Byakko	白小虎
 21921		0	1	Aurelia Polyp	Aurelia-Polyp	Aurélie polype	舞海月
 21922		0	1	The Gold Whisker	Goldbartel	Namazu nain doré	ナマキン
@@ -21338,11 +21358,376 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 21935		0	65000	Ananta Dreamstaff	Ananta-Traumstab	Barrette béatifique ananta	アナンタ魔金錫貨
 21936		0	1	Winter Sweater	Winterpullover	Pull-over d'hiver	ウィンターセーター
 21937		0	1	Adventuring Sweater	Abenteurerpullover	Pull-over d'aventurier	アドベンチャラーセーター
-21938		0	1	Spriggan Shirt	Spriggan-Hemd	Chemise de printemps	スプリングシャツ
-21939		0	1	Spriggan Bottoms	Spriggan-Hose	Culotte de printemps	スプリングボトム
-21940		0	1	Spriggan Shoes	Spriggan-Schuhe	Chaussures de printemps	スプリングシューズ
+21938		0	1	Spring Shirt	Frühlings-Hemd	Chemise de printemps	スプリングシャツ
+21939		0	1	Spring Bottoms	Frühlings-Hose	Culotte de printemps	スプリングボトム
+21940		0	1	Spring Shoes	Frühlings-Schuhe	Chaussures de printemps	スプリングシューズ
 21941		0	1	Ala Mhigan Gown	Mhigische Robe	Peignoir mhigois	アラミガンガウン
-22307		0	999	Byakko's Mane	Byakko-Mäne	Crinière du Tigre blanc	白虎のタテガミ
+21942		1	1	Galatyn	Galatyn	Galatyn	ガラティン
+21943		1	1	Sudarshana Chakra	Sudarshana Chakras	Chakras Sudarshana	スダルシャナ
+21944		1	1	Farsha	Farsha	Farsha	ファルシャ
+21945		1	1	Ryunohige	Ryunohige	Ryûnohige	竜の髭
+21946		1	1	Failnaught	Failnaught	Arc Qui-ne-faut	フェイルノート
+21947		1	1	Nagi	Nagi	Nagi	凪
+21948		1	1	Caladbolg	Caladbolg	Caladbolg	カラドボルグ
+21949		1	1	Outsider	Outsider	Outsider	アウトサイダー
+21950		1	1	Aymur	Aymur	Aymur	アイムール
+21951		1	1	Vanargand	Vanargand	Vanargand	ヴァナルガンド
+21952		1	1	Lemegeton	Lemegeton	Lemegeton	レメゲトン
+21953		1	1	Organum	Organum	Organum	オルガノン
+21954		1	1	Pleiades	Pleiades	Pléiade	プレアデス
+21955		1	1	Kiku-ichimonji	Kiku-ichimonji	Kiku-Ichimonji	菊一文字
+21956		1	1	Murgleis	Murgleis	Murgleis	ミュルグレス
+21957		1	1	Evalach	Evalach	Evalach	エヴァラック
+21958		1	1	Galatyn +1	Galatyn +1	Galatyn +1	ガラティン+1
+21959		1	1	Sudarshana Chakra +1	Sudarshana Chakras +1	Chakras Sudarshana +1	スダルシャナ+1
+21960		1	1	Farsha +1	Farsha +1	Farsha +1	ファルシャ+1
+21961		1	1	Ryunohige +1	Ryunohige +1	Ryûnohige +1	竜の髭+1
+21962		1	1	Failnaught +1	Failnaught +1	Arc Qui-ne-faut +1	フェイルノート+1
+21963		1	1	Nagi +1	Nagi +1	Nagi +1	凪+1
+21964		1	1	Caladbolg +1	Caladbolg +1	Caladbolg +1	カラドボルグ+1
+21965		1	1	Outsider +1	Outsider +1	Outsider +1	アウトサイダー+1
+21966		1	1	Aymur +1	Aymur +1	Aymur +1	アイムール+1
+21967		1	1	Vanargand +1	Vanargand +1	Vanargand +1	ヴァナルガンド+1
+21968		1	1	Lemegeton +1	Lemegeton +1	Lemegeton +1	レメゲトン+1
+21969		1	1	Organum +1	Organum +1	Organum +1	オルガノン+1
+21970		1	1	Pleiades +1	Pleiades +1	Pléiade +1	プレアデス+1
+21971		1	1	Kiku-ichimonji +1	Kiku-ichimonji +1	Kiku-Ichimonji +1	菊一文字+1
+21972		1	1	Murgleis +1	Murgleis +1	Murgleis +1	ミュルグレス+1
+21973		1	1	Evalach +1	Evalach +1	Evalach +1	エヴァラック+1
+21974		1	1	Galatyn +2	Galatyn +2	Galatyn +2	ガラティン+2
+21975		1	1	Sudarshana Chakra +2	Sudarshana Chakras +2	Chakras Sudarshana +2	スダルシャナ+2
+21976		1	1	Farsha +2	Farsha +2	Farsha +2	ファルシャ+2
+21977		1	1	Ryunohige +2	Ryunohige +2	Ryûnohige +2	竜の髭+2
+21978		1	1	Failnaught +2	Failnaught +2	Arc Qui-ne-faut +2	フェイルノート+2
+21979		1	1	Nagi +2	Nagi +2	Nagi +2	凪+2
+21980		1	1	Caladbolg +2	Caladbolg +2	Caladbolg +2	カラドボルグ+2
+21981		1	1	Outsider +2	Outsider +2	Outsider +2	アウトサイダー+2
+21982		1	1	Aymur +2	Aymur +2	Aymur +2	アイムール+2
+21983		1	1	Vanargand +2	Vanargand +2	Vanargand +2	ヴァナルガンド+2
+21984		1	1	Lemegeton +2	Lemegeton +2	Lemegeton +2	レメゲトン+2
+21985		1	1	Organum +2	Organum +2	Organum +2	オルガノン+2
+21986		1	1	Pleiades +2	Pleiades +2	Pléiade +2	プレアデス+2
+21987		1	1	Kiku-ichimonji +2	Kiku-ichimonji +2	Kiku-Ichimonji +2	菊一文字+2
+21988		1	1	Murgleis +2	Murgleis +2	Murgleis +2	ミュルグレス+2
+21989		1	1	Evalach +2	Evalach +2	Evalach +2	エヴァラック+2
+21990		1	1	Galatyn Anemos	Galatyn Anemos	Galatyn Anemos	ガラティン・アネモス
+21991		1	1	Sudarshana Chakra Anemos	Sudarshana Chakras Anemos	Chakras Sudarshana Anemos	スダルシャナ・アネモス
+21992		1	1	Farsha Anemos	Farsha Anemos	Farsha Anemos	ファルシャ・アネモス
+21993		1	1	Ryunohige Anemos	Ryunohige Anemos	Ryûnohige Anemos	竜の髭【風】
+21994		1	1	Failnaught Anemos	Failnaught Anemos	Arc Qui-ne-faut Anemos	フェイルノート・アネモス
+21995		1	1	Nagi Anemos	Nagi Anemos	Nagi Anemos	凪【風】
+21996		1	1	Caladbolg Anemos	Caladbolg Anemos	Caladbolg Anemos	カラドボルグ・アネモス
+21997		1	1	Outsider Anemos	Outsider Anemos	Outsider Anemos	アウトサイダー・アネモス
+21998		1	1	Aymur Anemos	Aymur Anemos	Aymur Anemos	アイムール・アネモス
+21999		1	1	Vanargand Anemos	Vanargand Anemos	Vanargand Anemos	ヴァナルガンド・アネモス
+22000		1	1	Lemegeton Anemos	Lemegeton Anemos	Lemegeton Anemos	レメゲトン・アネモス
+22001		1	1	Organum Anemos	Organum Anemos	Organum Anemos	オルガノン・アネモス
+22002		1	1	Pleiades Anemos	Pleiades Anemos	Pléiade Anemos	プレアデス・アネモス
+22003		1	1	Kiku-ichimonji Anemos	Kiku-ichimonji Anemos	Kiku-Ichimonji Anemos	菊一文字【風】
+22004		1	1	Murgleis Anemos	Murgleis Anemos	Murgleis Anemos	ミュルグレス・アネモス
+22005		1	1	Evalach Anemos	Evalach Anemos	Evalach Anemos	エヴァラック・アネモス
+22006		1	1	Chivalrous Circlet	Stirnreif des Ritters	Diadème de spadassin	シヴァルラスサークレット
+22007		1	1	Chivalrous Surcoat	Waffenrock des Ritters	Surcot de spadassin	シヴァルラスサーコート
+22008		1	1	Chivalrous Gauntlets	Panzerhandschuhe des Ritters	Gantelets de spadassin	シヴァルラスガントレット
+22009		1	1	Chivalrous Cuisses	Schenkelschützer des Ritters	Cuissots de spadassin	シヴァルラスクウィス
+22010		1	1	Chivalrous Sollerets	Sollerets des Ritters	Solerets de spadassin	シヴァルラスソルレット
+22011		1	1	Pacifist's Circlet	Stirnreif des Pazifisten	Diadème de pacifiste	パシフィストサークレット
+22012		1	1	Pacifist's Vest	Weste des Pazifisten	Gilet de pacifiste	パシフィストベスト
+22013		1	1	Pacifist's Armguards	Armschützer des Pazifisten	Garde-bras de pacifiste	パシフィストアームガード
+22014		1	1	Pacifist's Gaskins	Gaskin des Pazifisten	Grègues de pacifiste	パシフィストガスキン
+22015		1	1	Pacifist's Boots	Stiefel des Pazifisten	Bottes de pacifiste	パシフィストブーツ
+22016		1	1	Brutal Visor	Visier des Grobians	Visière de belligérant	ブルータルバイザー
+22017		1	1	Brutal Lorica	Lorica des Grobians	Lorica de belligérant	ブルータルロリカ
+22018		1	1	Brutal Gauntlets	Panzerhandschuhe des Grobians	Gantelets de belligérant	ブルータルガントレット
+22019		1	1	Brutal Breeches	Reiterhose des Grobians	Braies de belligérant	ブルータルブリーチ
+22020		1	1	Brutal Sollerets	Sollerets des Grobians	Solerets de belligérant	ブルータルソルレット
+22021		1	1	Trueblood Armet	Armet des Drachenbluts	Armet de sang-de-dragon	トゥルーブラッドアーメット
+22022		1	1	Trueblood Mail	Rüstung des Drachenbluts	Cotte de mailles de sang-de-dragon	トゥルーブラッドメイル
+22023		1	1	Trueblood Gauntlets	Panzerhandschuhe des Drachenbluts	Gantelets de sang-de-dragon	トゥルーブラッドガントレット
+22024		1	1	Trueblood Brais	Braies des Drachenbluts	Brailles de sang-de-dragon	トゥルーブラッドブレー
+22025		1	1	Trueblood Greaves	Beinschienen des Drachenbluts	Jambards de sang-de-dragon	トゥルーブラッドグリーヴ
+22026		1	1	Storyteller's Chapeau	Chapeau des Geschichtenerzählers	Chapeau à plume de conteur	ストーリーテラーシャポー
+22027		1	1	Storyteller's Coat	Mantel des Geschichtenerzählers	Manteau de conteur	ストーリーテラーコート
+22028		1	1	Storyteller's Gloves	Handschuhe des Geschichtenerzählers	Gants de conteur	ストーリーテラーグローブ
+22029		1	1	Storyteller's Bottoms	Hose des Geschichtenerzählers	Bas-de-corps de conteur	ストーリーテラーボトム
+22030		1	1	Storyteller's Boots	Stiefel des Geschichtenerzählers	Bottes de conteur	ストーリーテラーブーツ
+22031		1	1	Seventh Heaven Circlet	Stirnreif des Siebten Himmels	Diadème du septième ciel	セブンスヘブンサークレット
+22032		1	1	Seventh Heaven Top	Oberteil des Siebten Himmels	Haut-de-corps du septième ciel	セブンスヘブントップス
+22033		1	1	Seventh Heaven Fingerless Gloves	Fingerlinge des Siebten Himmels	Gants sans doigts du septième ciel	セブンスヘブン・フィンガレスグローブ
+22034		1	1	Seventh Heaven Bottoms	Hose des Siebten Himmels	Bas-de-corps du septième ciel	セブンスヘブンボトム
+22035		1	1	Seventh Heaven Thighboots	Kniestiefel des Siebten Himmels	Cuissardes du septième ciel	セブンスヘブンサイブーツ
+22036		1	1	Seventh Hell Petasos	Petasos der Siebten Hölle	Pétase du septième cercle	セブンスヘルペタソス
+22037		1	1	Seventh Hell Coat	Mantel der Siebten Hölle	Manteau du septième cercle	セブンスヘルコート
+22038		1	1	Seventh Hell Gloves	Handschuhe der Siebten Hölle	Gants du septième cercle	セブンスヘルグローブ
+22039		1	1	Seventh Hell Breeches	Reiterhose der Siebten Hölle	Braies du septième cercle	セブンスヘルブリーチ
+22040		1	1	Seventh Hell Thighboots	Kniestiefel der Siebten Hölle	Cuissardes du septième cercle	セブンスヘルサイブーツ
+22041		1	1	Channeler's Horn	Horn des Mediums	Corne de vaticinateur	チャンネリングホーン
+22042		1	1	Channeler's Vest	Weste des Mediums	Gilet de vaticinateur	チャンネリングベスト
+22043		1	1	Channeler's Armlets	Armstulpen des Mediums	Brassards de vaticinateur	チャンネリングアームレット
+22044		1	1	Channeler's Halfslops	Hose des Mediums	Demi-trousses de vaticinateur	チャンネリングハーフパンツ
+22045		1	1	Channeler's Boots	Kniestiefel des Mediums	Bottes de vaticinateur	チャンネリングブーツ
+22046		1	1	Orator's Mortarboard	Hut des Orators	Mortier d'orateur	オラターボード
+22047		1	1	Orator's Coat	Mantel des Orators	Manteau d'orateur	オラターコート
+22048		1	1	Orator's Cuffs	Armstulpen des Orators	Manchettes d'orateur	オラターカフス
+22049		1	1	Orator's Bottoms	Beinkleid des Orators	Bas-de-corps d'orateur	オラターボトム
+22050		1	1	Orator's Shoes	Schuhe des Orators	Chaussures d'orateur	オラターシューズ
+22051		1	1	Kage-kakushi Somen	Somen der Kagekakushi	Sômen kagegakure	影隠総面
+22052		1	1	Kage-kakushi Chainmail	Kettenhemd der Kagekakushi	Kusari-katabira kagegakure	影隠鎖帷子
+22053		1	1	Kage-kakushi Tekko	Tekko der Kagekakushi	Tekkô kagegakure	影隠手甲
+22054		1	1	Kage-kakushi Hakama	Hakama der Kagekakushi	Hakama kagegakure	影隠袴
+22055		1	1	Kage-kakushi Kyahan	Kyahan der Kagekakushi	Kyahan kagegakure	影隠脚絆
+22056		1	1	Abyss Burgeonet	Helm der Abyss	Bourguignotte abyssale	アビスバーゴネット
+22057		1	1	Abyss Cuirass	Kürass der Abyss	Cuirasse abyssale	アビスキュイラス
+22058		1	1	Abyss Gauntlets	Panzerhandschuhe der Abyss	Gantelets abyssaux	アビスガントレット
+22059		1	1	Abyss Flanchard	Flankenschützer der Abyss	Cuissières abyssales	アビスフランチャード
+22060		1	1	Abyss Sollerets	Sollerets der Abyss	Solerets abyssaux	アビスソルレット
+22061		1	1	Gunner's Goggles	Brille des Kanoniers	Lunettes de fusilier	ガンナーゴーグル
+22062		1	1	Gunner's Coat	Mantel des Kanoniers	Manteau de fusilier	ガンナーコート
+22063		1	1	Gunner's Gloves	Handschuhe des Kanoniers	Gants de fusilier	ガンナーグローブ
+22064		1	1	Gunner's Trousers	Hose des Kanoniers	Pantalon de fusilier	ガンナートラウザー
+22065		1	1	Gunner's Thighboots	Kniestiefel des Kanoniers	Cuissardes de fusilier	ガンナーサイブーツ
+22066		1	1	Constellation Turban	Turban des Sternbilds	Turban d'horoscopiste	コンステレーションターバン
+22067		1	1	Constellation Top	Oberteil des Sternbilds	Haut-de-corps d'horoscopiste	コンステレーショントップス
+22068		1	1	Constellation Armlets	Armstulpen des Sternbilds	Brassards d'horoscopiste	コンステレーションアームレット
+22069		1	1	Constellation Gaskins	Gaskin des Sternbilds	Grègues d'horoscopiste	コンステレーションガスキン
+22070		1	1	Constellation Sandals	Sandalen des Sternbilds	Sandales d'horoscopiste	コンステレーションサンダル
+22071		1	1	Myochin Jingasa	Jingasa der Myochin	Jingasa Myôchin	明珍陣笠
+22072		1	1	Myochin Haori	Haori der Myochin	Haori Myôchin	明珍羽織
+22073		1	1	Myochin Tekko	Tekko der Myochin	Tekkô Myôchin	明珍手甲
+22074		1	1	Myochin Hakama	Hakama der Myochin	Hakama Myôchin	明珍袴
+22075		1	1	Myochin Geta	Geta der Myochin	Geta Myôchin	明珍下駄
+22076		1	1	Duelist's Chapeau	Chapeau des Duellanten	Chapeau à plume de duelliste	デュエルシャポー
+22077		1	1	Duelist's Tabard	Wappenrock des Duellanten	Tabard de duelliste	デュエルタバード
+22078		1	1	Duelist's Gloves	Handschuhe des Duellanten	Gants de duelliste	デュエルグローブ
+22079		1	1	Duelist's Breeches	Reiterhose des Duellanten	Braies de duelliste	デュエルブリーチ
+22080		1	1	Duelist's Thighboots	Kniestiefel des Duellanten	Cuissardes de duelliste	デュエルサイブーツ
+22081		1	1	Chivalrous Circlet +1	Stirnreif des Ritters +1	Diadème de spadassin +1	シヴァルラスサークレット+1
+22082		1	1	Chivalrous Surcoat +1	Waffenrock des Ritters +1	Surcot de spadassin +1	シヴァルラスサーコート+1
+22083		1	1	Chivalrous Gauntlets +1	Panzerhandschuhe des Ritters +1	Gantelets de spadassin +1	シヴァルラスガントレット+1
+22084		1	1	Chivalrous Cuisses +1	Schenkelschützer des Ritters +1	Cuissots de spadassin +1	シヴァルラスクウィス+1
+22085		1	1	Chivalrous Sollerets +1	Sollerets des Ritters +1	Solerets de spadassin +1	シヴァルラスソルレット+1
+22086		1	1	Pacifist's Circlet +1	Stirnreif des Pazifisten +1	Diadème de pacifiste +1	パシフィストサークレット+1
+22087		1	1	Pacifist's Vest +1	Weste des Pazifisten +1	Gilet de pacifiste +1	パシフィストベスト+1
+22088		1	1	Pacifist's Armguards +1	Armschützer des Pazifisten +1	Garde-bras de pacifiste +1	パシフィストアームガード+1
+22089		1	1	Pacifist's Gaskins +1	Gaskin des Pazifisten +1	Grègues de pacifiste +1	パシフィストガスキン+1
+22090		1	1	Pacifist's Boots +1	Stiefel des Pazifisten +1	Bottes de pacifiste +1	パシフィストブーツ+1
+22091		1	1	Brutal Visor +1	Visier des Grobians +1	Visière de belligérant +1	ブルータルバイザー+1
+22092		1	1	Brutal Lorica +1	Lorica des Grobians +1	Lorica de belligérant +1	ブルータルロリカ+1
+22093		1	1	Brutal Gauntlets +1	Panzerhandschuhe des Grobians +1	Gantelets de belligérant +1	ブルータルガントレット+1
+22094		1	1	Brutal Breeches +1	Reiterhose des Grobians +1	Braies de belligérant +1	ブルータルブリーチ+1
+22095		1	1	Brutal Sollerets +1	Sollerets des Grobians +1	Solerets de belligérant +1	ブルータルソルレット+1
+22096		1	1	Trueblood Armet +1	Armet des Drachenbluts +1	Armet de sang-de-dragon +1	トゥルーブラッドアーメット+1
+22097		1	1	Trueblood Mail +1	Rüstung des Drachenbluts +1	Cotte de mailles de sang-de-dragon +1	トゥルーブラッドメイル+1
+22098		1	1	Trueblood Gauntlets +1	Panzerhandschuhe des Drachenbluts +1	Gantelets de sang-de-dragon +1	トゥルーブラッドガントレット+1
+22099		1	1	Trueblood Brais +1	Braies des Drachenbluts +1	Brailles de sang-de-dragon +1	トゥルーブラッドブレー+1
+22100		1	1	Trueblood Greaves +1	Beinschienen des Drachenbluts +1	Jambards de sang-de-dragon +1	トゥルーブラッドグリーヴ+1
+22101		1	1	Storyteller's Chapeau +1	Chapeau des Geschichtenerzählers +1	Chapeau à plume de conteur +1	ストーリーテラーシャポー+1
+22102		1	1	Storyteller's Coat +1	Mantel des Geschichtenerzählers +1	Manteau de conteur +1	ストーリーテラーコート+1
+22103		1	1	Storyteller's Gloves +1	Handschuhe des Geschichtenerzählers +1	Gants de conteur +1	ストーリーテラーグローブ+1
+22104		1	1	Storyteller's Bottoms +1	Hose des Geschichtenerzählers +1	Bas-de-corps de conteur +1	ストーリーテラーボトム+1
+22105		1	1	Storyteller's Boots +1	Stiefel des Geschichtenerzählers +1	Bottes de conteur +1	ストーリーテラーブーツ+1
+22106		1	1	Seventh Heaven Circlet +1	Stirnreif des Siebten Himmels +1	Diadème du septième ciel +1	セブンスヘブンサークレット+1
+22107		1	1	Seventh Heaven Top +1	Oberteil des Siebten Himmels +1	Haut-de-corps du septième ciel +1	セブンスヘブントップス+1
+22108		1	1	Seventh Heaven Fingerless Gloves +1	Fingerlinge des Siebten Himmels +1	Gants sans doigts du septième ciel +1	セブンスヘブン・フィンガレスグローブ+1
+22109		1	1	Seventh Heaven Bottoms +1	Hose des Siebten Himmels +1	Bas-de-corps du septième ciel +1	セブンスヘブンボトム+1
+22110		1	1	Seventh Heaven Thighboots +1	Kniestiefel des Siebten Himmels +1	Cuissardes du septième ciel +1	セブンスヘブンサイブーツ+1
+22111		1	1	Seventh Hell Petasos +1	Petasos der Siebten Hölle +1	Pétase du septième cercle +1	セブンスヘルペタソス+1
+22112		1	1	Seventh Hell Coat +1	Mantel der Siebten Hölle +1	Manteau du septième cercle +1	セブンスヘルコート+1
+22113		1	1	Seventh Hell Gloves +1	Handschuhe der Siebten Hölle +1	Gants du septième cercle +1	セブンスヘルグローブ+1
+22114		1	1	Seventh Hell Breeches +1	Reiterhose der Siebten Hölle +1	Braies du septième cercle +1	セブンスヘルブリーチ+1
+22115		1	1	Seventh Hell Thighboots +1	Kniestiefel der Siebten Hölle +1	Cuissardes du septième cercle +1	セブンスヘルサイブーツ+1
+22116		1	1	Channeler's Horn +1	Horn des Mediums +1	Corne de vaticinateur +1	チャンネリングホーン+1
+22117		1	1	Channeler's Vest +1	Weste des Mediums +1	Gilet de vaticinateur +1	チャンネリングベスト+1
+22118		1	1	Channeler's Armlets +1	Armstulpen des Mediums +1	Brassards de vaticinateur +1	チャンネリングアームレット+1
+22119		1	1	Channeler's Halfslops +1	Hose des Mediums +1	Demi-trousses de vaticinateur +1	チャンネリングハーフパンツ+1
+22120		1	1	Channeler's Boots +1	Kniestiefel des Mediums +1	Bottes de vaticinateur +1	チャンネリングブーツ+1
+22121		1	1	Orator's Mortarboard +1	Hut des Orators +1	Mortier d'orateur +1	オラターボード+1
+22122		1	1	Orator's Coat +1	Mantel des Orators +1	Manteau d'orateur +1	オラターコート+1
+22123		1	1	Orator's Cuffs +1	Armstulpen des Orators +1	Manchettes d'orateur +1	オラターカフス+1
+22124		1	1	Orator's Bottoms +1	Beinkleid des Orators +1	Bas-de-corps d'orateur +1	オラターボトム+1
+22125		1	1	Orator's Shoes +1	Schuhe des Orators +1	Chaussures d'orateur +1	オラターシューズ+1
+22126		1	1	Kage-kakushi Somen +1	Somen der Kagekakushi +1	Sômen kagegakure +1	影隠総面+1
+22127		1	1	Kage-kakushi Chainmail +1	Kettenhemd der Kagekakushi +1	Kusari-katabira kagegakure +1	影隠鎖帷子+1
+22128		1	1	Kage-kakushi Tekko +1	Tekko der Kagekakushi +1	Tekkô kagegakure +1	影隠手甲+1
+22129		1	1	Kage-kakushi Hakama +1	Hakama der Kagekakushi +1	Hakama kagegakure +1	影隠袴+1
+22130		1	1	Kage-kakushi Kyahan +1	Kyahan der Kagekakushi +1	Kyahan kagegakure +1	影隠脚絆+1
+22131		1	1	Abyss Burgeonet +1	Helm der Abyss +1	Bourguignotte abyssale +1	アビスバーゴネット+1
+22132		1	1	Abyss Cuirass +1	Kürass der Abyss +1	Cuirasse abyssale +1	アビスキュイラス+1
+22133		1	1	Abyss Gauntlets +1	Panzerhandschuhe der Abyss +1	Gantelets abyssaux +1	アビスガントレット+1
+22134		1	1	Abyss Flanchard +1	Flankenschützer der Abyss +1	Cuissières abyssales +1	アビスフランチャード+1
+22135		1	1	Abyss Sollerets +1	Sollerets der Abyss +1	Solerets abyssaux +1	アビスソルレット+1
+22136		1	1	Gunner's Goggles +1	Brille des Kanoniers +1	Lunettes de fusilier +1	ガンナーゴーグル+1
+22137		1	1	Gunner's Coat +1	Mantel des Kanoniers +1	Manteau de fusilier +1	ガンナーコート+1
+22138		1	1	Gunner's Gloves +1	Handschuhe des Kanoniers +1	Gants de fusilier +1	ガンナーグローブ+1
+22139		1	1	Gunner's Trousers +1	Hose des Kanoniers +1	Pantalon de fusilier +1	ガンナートラウザー+1
+22140		1	1	Gunner's Thighboots +1	Kniestiefel des Kanoniers +1	Cuissardes de fusilier +1	ガンナーサイブーツ+1
+22141		1	1	Constellation Turban +1	Turban des Sternbilds +1	Turban d'horoscopiste +1	コンステレーションターバン+1
+22142		1	1	Constellation Top +1	Oberteil des Sternbilds +1	Haut-de-corps d'horoscopiste +1	コンステレーショントップス+1
+22143		1	1	Constellation Armlets +1	Armstulpen des Sternbilds +1	Brassards d'horoscopiste +1	コンステレーションアームレット+1
+22144		1	1	Constellation Gaskins +1	Gaskin des Sternbilds +1	Grègues d'horoscopiste +1	コンステレーションガスキン+1
+22145		1	1	Constellation Sandals +1	Sandalen des Sternbilds +1	Sandales d'horoscopiste +1	コンステレーションサンダル+1
+22146		1	1	Myochin Jingasa +1	Jingasa der Myochin +1	Jingasa Myôchin +1	明珍陣笠+1
+22147		1	1	Myochin Haori +1	Haori der Myochin +1	Haori Myôchin +1	明珍羽織+1
+22148		1	1	Myochin Tekko +1	Tekko der Myochin +1	Tekkô Myôchin +1	明珍手甲+1
+22149		1	1	Myochin Hakama +1	Hakama der Myochin +1	Hakama Myôchin +1	明珍袴+1
+22150		1	1	Myochin Geta +1	Geta der Myochin +1	Geta Myôchin +1	明珍下駄+1
+22151		1	1	Duelist's Chapeau +1	Chapeau des Duellanten +1	Chapeau à plume de duelliste +1	デュエルシャポー+1
+22152		1	1	Duelist's Tabard +1	Wappenrock des Duellanten +1	Tabard de duelliste +1	デュエルタバード+1
+22153		1	1	Duelist's Gloves +1	Handschuhe des Duellanten +1	Gants de duelliste +1	デュエルグローブ+1
+22154		1	1	Duelist's Breeches +1	Reiterhose des Duellanten +1	Braies de duelliste +1	デュエルブリーチ+1
+22155		1	1	Duelist's Thighboots +1	Kniestiefel des Duellanten +1	Cuissardes de duelliste +1	デュエルサイブーツ+1
+22156		1	1	Chivalrous Circlet +2	Stirnreif des Ritters +2	Diadème de spadassin +2	シヴァルラスサークレット+2
+22157		1	1	Chivalrous Surcoat +2	Waffenrock des Ritters +2	Surcot de spadassin +2	シヴァルラスサーコート+2
+22158		1	1	Chivalrous Gauntlets +2	Panzerhandschuhe des Ritters +2	Gantelets de spadassin +2	シヴァルラスガントレット+2
+22159		1	1	Chivalrous Cuisses +2	Schenkelschützer des Ritters +2	Cuissots de spadassin +2	シヴァルラスクウィス+2
+22160		1	1	Chivalrous Sollerets +2	Sollerets des Ritters +2	Solerets de spadassin +2	シヴァルラスソルレット+2
+22161		1	1	Pacifist's Circlet +2	Stirnreif des Pazifisten +2	Diadème de pacifiste +2	パシフィストサークレット+2
+22162		1	1	Pacifist's Vest +2	Weste des Pazifisten +2	Gilet de pacifiste +2	パシフィストベスト+2
+22163		1	1	Pacifist's Armguards +2	Armschützer des Pazifisten +2	Garde-bras de pacifiste +2	パシフィストアームガード+2
+22164		1	1	Pacifist's Gaskins +2	Gaskin des Pazifisten +2	Grègues de pacifiste +2	パシフィストガスキン+2
+22165		1	1	Pacifist's Boots +2	Stiefel des Pazifisten +2	Bottes de pacifiste +2	パシフィストブーツ+2
+22166		1	1	Brutal Visor +2	Visier des Grobians +2	Visière de belligérant +2	ブルータルバイザー+2
+22167		1	1	Brutal Lorica +2	Lorica des Grobians +2	Lorica de belligérant +2	ブルータルロリカ+2
+22168		1	1	Brutal Gauntlets +2	Panzerhandschuhe des Grobians +2	Gantelets de belligérant +2	ブルータルガントレット+2
+22169		1	1	Brutal Breeches +2	Reiterhose des Grobians +2	Braies de belligérant +2	ブルータルブリーチ+2
+22170		1	1	Brutal Sollerets +2	Sollerets des Grobians +2	Solerets de belligérant +2	ブルータルソルレット+2
+22171		1	1	Trueblood Armet +2	Armet des Drachenbluts +2	Armet de sang-de-dragon +2	トゥルーブラッドアーメット+2
+22172		1	1	Trueblood Mail +2	Rüstung des Drachenbluts +2	Cotte de mailles de sang-de-dragon +2	トゥルーブラッドメイル+2
+22173		1	1	Trueblood Gauntlets +2	Panzerhandschuhe des Drachenbluts +2	Gantelets de sang-de-dragon +2	トゥルーブラッドガントレット+2
+22174		1	1	Trueblood Brais +2	Braies des Drachenbluts +2	Brailles de sang-de-dragon +2	トゥルーブラッドブレー+2
+22175		1	1	Trueblood Greaves +2	Beinschienen des Drachenbluts +2	Jambards de sang-de-dragon +2	トゥルーブラッドグリーヴ+2
+22176		1	1	Storyteller's Chapeau +2	Chapeau des Geschichtenerzählers +2	Chapeau à plume de conteur +2	ストーリーテラーシャポー+2
+22177		1	1	Storyteller's Coat +2	Mantel des Geschichtenerzählers +2	Manteau de conteur +2	ストーリーテラーコート+2
+22178		1	1	Storyteller's Gloves +2	Handschuhe des Geschichtenerzählers +2	Gants de conteur +2	ストーリーテラーグローブ+2
+22179		1	1	Storyteller's Bottoms +2	Hose des Geschichtenerzählers +2	Bas-de-corps de conteur +2	ストーリーテラーボトム+2
+22180		1	1	Storyteller's Boots +2	Stiefel des Geschichtenerzählers +2	Bottes de conteur +2	ストーリーテラーブーツ+2
+22181		1	1	Seventh Heaven Circlet +2	Stirnreif des Siebten Himmels +2	Diadème du septième ciel +2	セブンスヘブンサークレット+2
+22182		1	1	Seventh Heaven Top +2	Oberteil des Siebten Himmels +2	Haut-de-corps du septième ciel +2	セブンスヘブントップス+2
+22183		1	1	Seventh Heaven Fingerless Gloves +2	Fingerlinge des Siebten Himmels +2	Gants sans doigts du septième ciel +2	セブンスヘブン・フィンガレスグローブ+2
+22184		1	1	Seventh Heaven Bottoms +2	Hose des Siebten Himmels +2	Bas-de-corps du septième ciel +2	セブンスヘブンボトム+2
+22185		1	1	Seventh Heaven Thighboots +2	Kniestiefel des Siebten Himmels +2	Cuissardes du septième ciel +2	セブンスヘブンサイブーツ+2
+22186		1	1	Seventh Hell Petasos +2	Petasos der Siebten Hölle +2	Pétase du septième cercle +2	セブンスヘルペタソス+2
+22187		1	1	Seventh Hell Coat +2	Mantel der Siebten Hölle +2	Manteau du septième cercle +2	セブンスヘルコート+2
+22188		1	1	Seventh Hell Gloves +2	Handschuhe der Siebten Hölle +2	Gants du septième cercle +2	セブンスヘルグローブ+2
+22189		1	1	Seventh Hell Breeches +2	Reiterhose der Siebten Hölle +2	Braies du septième cercle +2	セブンスヘルブリーチ+2
+22190		1	1	Seventh Hell Thighboots +2	Kniestiefel der Siebten Hölle +2	Cuissardes du septième cercle +2	セブンスヘルサイブーツ+2
+22191		1	1	Channeler's Horn +2	Horn des Mediums +2	Corne de vaticinateur +2	チャンネリングホーン+2
+22192		1	1	Channeler's Vest +2	Weste des Mediums +2	Gilet de vaticinateur +2	チャンネリングベスト+2
+22193		1	1	Channeler's Armlets +2	Armstulpen des Mediums +2	Brassards de vaticinateur +2	チャンネリングアームレット+2
+22194		1	1	Channeler's Halfslops +2	Hose des Mediums +2	Demi-trousses de vaticinateur +2	チャンネリングハーフパンツ+2
+22195		1	1	Channeler's Boots +2	Kniestiefel des Mediums +2	Bottes de vaticinateur +2	チャンネリングブーツ+2
+22196		1	1	Orator's Mortarboard +2	Hut des Orators +2	Mortier d'orateur +2	オラターボード+2
+22197		1	1	Orator's Coat +2	Mantel des Orators +2	Manteau d'orateur +2	オラターコート+2
+22198		1	1	Orator's Cuffs +2	Armstulpen des Orators +2	Manchettes d'orateur +2	オラターカフス+2
+22199		1	1	Orator's Bottoms +2	Beinkleid des Orators +2	Bas-de-corps d'orateur +2	オラターボトム+2
+22200		1	1	Orator's Shoes +2	Schuhe des Orators +2	Chaussures d'orateur +2	オラターシューズ+2
+22201		1	1	Kage-kakushi Somen +2	Somen der Kagekakushi +2	Sômen kagegakure +2	影隠総面+2
+22202		1	1	Kage-kakushi Chainmail +2	Kettenhemd der Kagekakushi +2	Kusari-katabira kagegakure +2	影隠鎖帷子+2
+22203		1	1	Kage-kakushi Tekko +2	Tekko der Kagekakushi +2	Tekkô kagegakure +2	影隠手甲+2
+22204		1	1	Kage-kakushi Hakama +2	Hakama der Kagekakushi +2	Hakama kagegakure +2	影隠袴+2
+22205		1	1	Kage-kakushi Kyahan +2	Kyahan der Kagekakushi +2	Kyahan kagegakure +2	影隠脚絆+2
+22206		1	1	Abyss Burgeonet +2	Helm der Abyss +2	Bourguignotte abyssale +2	アビスバーゴネット+2
+22207		1	1	Abyss Cuirass +2	Kürass der Abyss +2	Cuirasse abyssale +2	アビスキュイラス+2
+22208		1	1	Abyss Gauntlets +2	Panzerhandschuhe der Abyss +2	Gantelets abyssaux +2	アビスガントレット+2
+22209		1	1	Abyss Flanchard +2	Flankenschützer der Abyss +2	Cuissières abyssales +2	アビスフランチャード+2
+22210		1	1	Abyss Sollerets +2	Sollerets der Abyss +2	Solerets abyssaux +2	アビスソルレット+2
+22211		1	1	Gunner's Goggles +2	Brille des Kanoniers +2	Lunettes de fusilier +2	ガンナーゴーグル+2
+22212		1	1	Gunner's Coat +2	Mantel des Kanoniers +2	Manteau de fusilier +2	ガンナーコート+2
+22213		1	1	Gunner's Gloves +2	Handschuhe des Kanoniers +2	Gants de fusilier +2	ガンナーグローブ+2
+22214		1	1	Gunner's Trousers +2	Hose des Kanoniers +2	Pantalon de fusilier +2	ガンナートラウザー+2
+22215		1	1	Gunner's Thighboots +2	Kniestiefel des Kanoniers +2	Cuissardes de fusilier +2	ガンナーサイブーツ+2
+22216		1	1	Constellation Turban +2	Turban des Sternbilds +2	Turban d'horoscopiste +2	コンステレーションターバン+2
+22217		1	1	Constellation Top +2	Oberteil des Sternbilds +2	Haut-de-corps d'horoscopiste +2	コンステレーショントップス+2
+22218		1	1	Constellation Armlets +2	Armstulpen des Sternbilds +2	Brassards d'horoscopiste +2	コンステレーションアームレット+2
+22219		1	1	Constellation Gaskins +2	Gaskin des Sternbilds +2	Grègues d'horoscopiste +2	コンステレーションガスキン+2
+22220		1	1	Constellation Sandals +2	Sandalen des Sternbilds +2	Sandales d'horoscopiste +2	コンステレーションサンダル+2
+22221		1	1	Myochin Jingasa +2	Jingasa der Myochin +2	Jingasa Myôchin +2	明珍陣笠+2
+22222		1	1	Myochin Haori +2	Haori der Myochin +2	Haori Myôchin +2	明珍羽織+2
+22223		1	1	Myochin Tekko +2	Tekko der Myochin +2	Tekkô Myôchin +2	明珍手甲+2
+22224		1	1	Myochin Hakama +2	Hakama der Myochin +2	Hakama Myôchin +2	明珍袴+2
+22225		1	1	Myochin Geta +2	Geta der Myochin +2	Geta Myôchin +2	明珍下駄+2
+22226		1	1	Duelist's Chapeau +2	Chapeau des Duellanten +2	Chapeau à plume de duelliste +2	デュエルシャポー+2
+22227		1	1	Duelist's Tabard +2	Wappenrock des Duellanten +2	Tabard de duelliste +2	デュエルタバード+2
+22228		1	1	Duelist's Gloves +2	Handschuhe des Duellanten +2	Gants de duelliste +2	デュエルグローブ+2
+22229		1	1	Duelist's Breeches +2	Reiterhose des Duellanten +2	Braies de duelliste +2	デュエルブリーチ+2
+22230		1	1	Duelist's Thighboots +2	Kniestiefel des Duellanten +2	Cuissardes de duelliste +2	デュエルサイブーツ+2
+22231		1	1	Anemos Chivalrous Circlet	Anemos-Stirnreif des Ritters	Diadème de spadassin Anemos	シヴァルラスサークレット・アネモス
+22232		1	1	Anemos Chivalrous Surcoat	Anemos-Waffenrock des Ritters	Surcot de spadassin Anemos	シヴァルラスサーコート・アネモス
+22233		1	1	Anemos Chivalrous Gauntlets	Anemos-Panzerhandschuhe des Ritters	Gantelets de spadassin Anemos	シヴァルラスガントレット・アネモス
+22234		1	1	Anemos Chivalrous Cuisses	Anemos-Schenkelschützer des Ritters	Cuissots de spadassin Anemos	シヴァルラスクウィス・アネモス
+22235		1	1	Anemos Chivalrous Sollerets	Anemos-Sollerets des Ritters	Solerets de spadassin Anemos	シヴァルラスソルレット・アネモス
+22236		1	1	Anemos Pacifist's Circlet	Anemos-Stirnreif des Pazifisten	Diadème de pacifiste Anemos	パシフィストサークレット・アネモス
+22237		1	1	Anemos Pacifist's Vest	Anemos-Weste des Pazifisten	Gilet de pacifiste Anemos	パシフィストベスト・アネモス
+22238		1	1	Anemos Pacifist's Armguards	Anemos-Armschützer des Pazifisten	Garde-bras de pacifiste Anemos	パシフィストアームガード・アネモス
+22239		1	1	Anemos Pacifist's Gaskins	Anemos-Gaskin des Pazifisten	Grègues de pacifiste Anemos	パシフィストガスキン・アネモス
+22240		1	1	Anemos Pacifist's Boots	Anemos-Stiefel des Pazifisten	Bottes de pacifiste Anemos	パシフィストブーツ・アネモス
+22241		1	1	Anemos Brutal Visor	Anemos-Visier des Grobians	Visière de belligérant Anemos	ブルータルバイザー・アネモス
+22242		1	1	Anemos Brutal Lorica	Anemos-Lorica des Grobians	Lorica de belligérant Anemos	ブルータルロリカ・アネモス
+22243		1	1	Anemos Brutal Gauntlets	Anemos-Panzerhandschuhe des Grobians	Gantelets de belligérant Anemos	ブルータルガントレット・アネモス
+22244		1	1	Anemos Brutal Breeches	Anemos-Reiterhose des Grobians	Braies de belligérant Anemos	ブルータルブリーチ・アネモス
+22245		1	1	Anemos Brutal Sollerets	Anemos-Sollerets des Grobians	Solerets de belligérant Anemos	ブルータルソルレット・アネモス
+22246		1	1	Anemos Trueblood Armet	Anemos-Armet des Drachenbluts	Armet de sang-de-dragon Anemos	トゥルーブラッドアーメット・アネモス
+22247		1	1	Anemos Trueblood Mail	Anemos-Rüstung des Drachenbluts	Cotte de mailles de sang-de-dragon Anemos	トゥルーブラッドメイル・アネモス
+22248		1	1	Anemos Trueblood Gauntlets	Anemos-Panzerhandschuhe des Drachenbluts	Gantelets de sang-de-dragon Anemos	トゥルーブラッドガントレット・アネモス
+22249		1	1	Anemos Trueblood Brais	Anemos-Braies des Drachenbluts	Brailles de sang-de-dragon Anemos	トゥルーブラッドブレー・アネモス
+22250		1	1	Anemos Trueblood Greaves	Anemos-Beinschienen des Drachenbluts	Jambards de sang-de-dragon Anemos	トゥルーブラッドグリーヴ・アネモス
+22251		1	1	Anemos Storyteller's Chapeau	Anemos-Chapeau des Geschichtenerzählers	Chapeau à plume de conteur Anemos	ストーリーテラーシャポー・アネモス
+22252		1	1	Anemos Storyteller's Coat	Anemos-Mantel des Geschichtenerzählers	Manteau de conteur Anemos	ストーリーテラーコート・アネモス
+22253		1	1	Anemos Storyteller's Gloves	Anemos-Handschuhe des Geschichtenerzählers	Gants de conteur Anemos	ストーリーテラーグローブ・アネモス
+22254		1	1	Anemos Storyteller's Bottoms	Anemos-Hose des Geschichtenerzählers	Bas-de-corps de conteur Anemos	ストーリーテラーボトム・アネモス
+22255		1	1	Anemos Storyteller's Boots	Anemos-Stiefel des Geschichtenerzählers	Bottes de conteur Anemos	ストーリーテラーブーツ・アネモス
+22256		1	1	Anemos Seventh Heaven Circlet	Anemos-Stirnreif des Siebten Himmels	Diadème du septième ciel Anemos	セブンスヘブンサークレット・アネモス
+22257		1	1	Anemos Seventh Heaven Top	Anemos-Oberteil des Siebten Himmels	Haut-de-corps du septième ciel Anemos	セブンスヘブントップス・アネモス
+22258		1	1	Anemos Seventh Heaven Fingerless Gloves	Anemos-Fingerlinge des Siebten Himmels	Gants sans doigts du septième ciel Anemos	セブンスヘブン・フィンガレスグローブ・アネモス
+22259		1	1	Anemos Seventh Heaven Bottoms	Anemos-Hose des Siebten Himmels	Bas-de-corps du septième ciel Anemos	セブンスヘブンボトム・アネモス
+22260		1	1	Anemos Seventh Heaven Thighboots	Anemos-Kniestiefel des Siebten Himmels	Cuissardes du septième ciel Anemos	セブンスヘブンサイブーツ・アネモス
+22261		1	1	Anemos Seventh Hell Petasos	Anemos-Petasos der Siebten Hölle	Pétase du septième cercle Anemos	セブンスヘルペタソス・アネモス
+22262		1	1	Anemos Seventh Hell Coat	Anemos-Mantel der Siebten Hölle	Manteau du septième cercle Anemos	セブンスヘルコート・アネモス
+22263		1	1	Anemos Seventh Hell Gloves	Anemos-Handschuhe der Siebten Hölle	Gants du septième cercle Anemos	セブンスヘルグローブ・アネモス
+22264		1	1	Anemos Seventh Hell Breeches	Anemos-Reiterhose der Siebten Hölle	Braies du septième cercle Anemos	セブンスヘルブリーチ・アネモス
+22265		1	1	Anemos Seventh Hell Thighboots	Anemos-Kniestiefel der Siebten Hölle	Cuissardes du septième cercle Anemos	セブンスヘルサイブーツ・アネモス
+22266		1	1	Anemos Channeler's Horn	Anemos-Horn des Mediums	Corne de vaticinateur Anemos	チャンネリングホーン・アネモス
+22267		1	1	Anemos Channeler's Vest	Anemos-Weste des Mediums	Gilet de vaticinateur Anemos	チャンネリングベスト・アネモス
+22268		1	1	Anemos Channeler's Armlets	Anemos-Armstulpen des Mediums	Brassards de vaticinateur Anemos	チャンネリングアームレット・アネモス
+22269		1	1	Anemos Channeler's Halfslops	Anemos-Hose des Mediums	Demi-trousses de vaticinateur Anemos	チャンネリングハーフパンツ・アネモス
+22270		1	1	Anemos Channeler's Boots	Anemos-Kniestiefel des Mediums	Bottes de vaticinateur Anemos	チャンネリングブーツ・アネモス
+22271		1	1	Anemos Orator's Mortarboard	Anemos-Hut des Orators	Mortier d'orateur Anemos	オラターボード・アネモス
+22272		1	1	Anemos Orator's Coat	Anemos-Mantel des Orators	Manteau d'orateur Anemos	オラターコート・アネモス
+22273		1	1	Anemos Orator's Cuffs	Anemos-Armstulpen des Orators	Manchettes d'orateur Anemos	オラターカフス・アネモス
+22274		1	1	Anemos Orator's Bottoms	Anemos-Beinkleid des Orators	Bas-de-corps d'orateur Anemos	オラターボトム・アネモス
+22275		1	1	Anemos Orator's Shoes	Anemos-Schuhe des Orators	Chaussures d'orateur Anemos	オラターシューズ・アネモス
+22276		1	1	Anemos Kage-kakushi Somen	Anemos-Somen der Kagekakushi	Sômen kagegakure Anemos	影隠総面【風】
+22277		1	1	Anemos Kage-kakushi Chainmail	Anemos-Kettenhemd der Kagekakushi	Kusari-katabira kagegakure Anemos	影隠鎖帷子【風】
+22278		1	1	Anemos Kage-kakushi Tekko	Anemos-Tekko der Kagekakushi	Tekkô kagegakure Anemos	影隠手甲【風】
+22279		1	1	Anemos Kage-kakushi Hakama	Anemos-Hakama der Kagekakushi	Hakama kagegakure Anemos	影隠袴【風】
+22280		1	1	Anemos Kage-kakushi Kyahan	Anemos-Kyahan der Kagekakushi	Kyahan kagegakure Anemos	影隠脚絆【風】
+22281		1	1	Anemos Abyss Burgeonet	Anemos-Helm der Abyss	Bourguignotte abyssale Anemos	アビスバーゴネット・アネモス
+22282		1	1	Anemos Abyss Cuirass	Anemos-Kürass der Abyss	Cuirasse abyssale Anemos	アビスキュイラス・アネモス
+22283		1	1	Anemos Abyss Gauntlets	Anemos-Panzerhandschuhe der Abyss	Gantelets abyssaux Anemos	アビスガントレット・アネモス
+22284		1	1	Anemos Abyss Flanchard	Anemos-Flankenschützer der Abyss	Cuissières abyssales Anemos	アビスフランチャード・アネモス
+22285		1	1	Anemos Abyss Sollerets	Anemos-Sollerets der Abyss	Solerets abyssaux Anemos	アビスソルレット・アネモス
+22286		1	1	Anemos Gunner's Goggles	Anemos-Brille des Kanoniers	Lunettes de fusilier Anemos	ガンナーゴーグル・アネモス
+22287		1	1	Anemos Gunner's Coat	Anemos-Mantel des Kanoniers	Manteau de fusilier Anemos	ガンナーコート・アネモス
+22288		1	1	Anemos Gunner's Gloves	Anemos-Handschuhe des Kanoniers	Gants de fusilier Anemos	ガンナーグローブ・アネモス
+22289		1	1	Anemos Gunner's Trousers	Anemos-Hose des Kanoniers	Pantalon de fusilier Anemos	ガンナートラウザー・アネモス
+22290		1	1	Anemos Gunner's Thighboots	Anemos-Kniestiefel des Kanoniers	Cuissardes de fusilier Anemos	ガンナーサイブーツ・アネモス
+22291		1	1	Anemos Constellation Turban	Anemos-Turban des Sternbilds	Turban d'horoscopiste Anemos	コンステレーションターバン・アネモス
+22292		1	1	Anemos Constellation Top	Anemos-Oberteil des Sternbilds	Haut-de-corps d'horoscopiste Anemos	コンステレーショントップス・アネモス
+22293		1	1	Anemos Constellation Armlets	Anemos-Armstulpen des Sternbilds	Brassards d'horoscopiste Anemos	コンステレーションアームレット・アネモス
+22294		1	1	Anemos Constellation Gaskins	Anemos-Gaskin des Sternbilds	Grègues d'horoscopiste Anemos	コンステレーションガスキン・アネモス
+22295		1	1	Anemos Constellation Sandals	Anemos-Sandalen des Sternbilds	Sandales d'horoscopiste Anemos	コンステレーションサンダル・アネモス
+22296		1	1	Anemos Myochin Jingasa	Anemos-Jingasa der Myochin	Jingasa Myôchin Anemos	明珍陣笠【風】
+22297		1	1	Anemos Myochin Haori	Anemos-Haori der Myochin	Haori Myôchin Anemos	明珍羽織【風】
+22298		1	1	Anemos Myochin Tekko	Anemos-Tekko der Myochin	Tekkô Myôchin Anemos	明珍手甲【風】
+22299		1	1	Anemos Myochin Hakama	Anemos-Hakama der Myochin	Hakama Myôchin Anemos	明珍袴【風】
+22300		1	1	Anemos Myochin Geta	Anemos-Geta der Myochin	Geta Myôchin Anemos	明珍下駄【風】
+22301		1	1	Anemos Duelist's Chapeau	Anemos-Chapeau des Duellanten	Chapeau à plume de duelliste Anemos	デュエルシャポー・アネモス
+22302		1	1	Anemos Duelist's Tabard	Anemos-Wappenrock des Duellanten	Tabard de duelliste Anemos	デュエルタバード・アネモス
+22303		1	1	Anemos Duelist's Gloves	Anemos-Handschuhe des Duellanten	Gants de duelliste Anemos	デュエルグローブ・アネモス
+22304		1	1	Anemos Duelist's Breeches	Anemos-Reiterhose des Duellanten	Braies de duelliste Anemos	デュエルブリーチ・アネモス
+22305		1	1	Anemos Duelist's Thighboots	Anemos-Kniestiefel des Duellanten	Cuissardes de duelliste Anemos	デュエルサイブーツ・アネモス
+22306		0	999	Eurekan Potion	Eureka-Heiltrank	Potion d'Eurêka	エウレカポーション
+22307		0	999	Byakko's Mane	Byakko-Mähne	Crinière du Tigre blanc	白虎のタテガミ
 22308		0	999	Alpha's Feather	Alpha-Feder	Plume d'Alpha	アルファの羽根
 22309		1	1	Master Carpenter VI	Der Meister-Zimmerer VI	Menuiserie experte VI	木工秘伝書:第6巻
 22310		1	1	Master Blacksmith VI	Der Meister-Grobschmied VI	Métallurgie experte VI	鍛冶秘伝書:第6巻
@@ -21392,13 +21777,25 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 22354		1	1	Eversharp Choker	Halsberge der Wachsamkeit	Ras de cou de qui-vive	エバーシャープ・チョーカー
 22355		1	1	Eversharp Wristbands	Armbänder der Wachsamkeit	Poignets de qui-vive	エバーシャープ・リストバンド
 22356		1	1	Eversharp Ring	Ring der Wachsamkeit	Bague de qui-vive	エバーシャープ・リング
-22357		0	1	Wrapped Present	Eingepacktes Geschenk	Cadeau emballé	プレゼントボックス
+22358		0	1	Scorpion Harness	Skorpion-Harnisch	Harnais scorpion	スコピオハーネス
+22359		0	1	Strider Boots	Läuferstiefel	Bottes de grand marcheur	ストライダーブーツ
+22360		0	1	Emperor Hairpin	Kaiser-Haarnadel	Épingle à cheveux de l'Empereur	皇帝羽虫の髪飾り
 22361		0	1	False Nails	Künstliche Fingernägel	Faux ongles	ネイルチップ
 22362		1	1	Grey Hound Helm	Greyhound-Helm	Heaume de lévrier	グレイハウンドヘルム
 22363		1	1	Grey Hound Armor	Greyhound-Rüstung	Armure de lévrier	グレイハウンドアーマー
 22364		1	1	Grey Hound Gauntlets	Greyhound-Panzerhandschuhe	Gantelets de lévrier	グレイハウンドガントレット
 22365		1	1	Grey Hound Cuisses	Greyhound-Schenkelschützer	Cuissots de lévrier	グレイハウンドクウィス
 22366		1	1	Grey Hound Sabatons	Greyhound-Bärlatschen	Sabatons de lévrier	グレイハウンドサバトン
+22367		0	1	Faerie Tale Prince's Circlet	Stirnreif des fernöstlichen Prinzen	Diadème de prince de conte de fées	プリンスサークレット
+22368		0	1	Faerie Tale Prince's Vest	Weste des fernöstlichen Prinzen	Gilet de prince de conte de fées	プリンスベスト
+22369		0	1	Faerie Tale Prince's Gloves	Handschuhe des fernöstlichen Prinzen	Gants de prince de conte de fées	プリンスグローブ
+22370		0	1	Faerie Tale Prince's Slops	Beinlinge des fernöstlichen Prinzen	Trousses de prince de conte de fées	プリンススロップ
+22371		0	1	Faerie Tale Prince's Boots	Stiefel des fernöstlichen Prinzen	Bottes de prince de conte de fées	プリンスサイブーツ
+22372		0	1	Faerie Tale Princess's Tiara	Diadem der fernöstlichen Prinzessin	Tiare de princesse de conte de fées	プリンセスティアラ
+22373		0	1	Faerie Tale Princess's Dress	Kleid der fernöstlichen Prinzessin	Robe de princesse de conte de fées	プリンセスドレス
+22374		0	1	Faerie Tale Princess's Gloves	Handschuhe der fernöstlichen Prinzessin	Gants de princesse de conte de fées	プリンセスドレスグローブ
+22375		0	1	Faerie Tale Princess's Long Skirt	Rock der fernöstlichen Prinzessin	Jupe de princesse de conte de fées	プリンセスロングスカート
+22376		0	1	Faerie Tale Princess's Heels	Stöckelschuhe der fernöstlichen Prinzessin	Talons hauts de princesse de conte de fées	プリンセスハイヒール
 22377		1	1	Ballroom Etiquette - Salacious Sentiments	Ballsaal-Etikette: Lockende Umarmung	L'Étiquette éorzéenne: Tomber sous le charme	演技教本:魅惑の抱擁
 22378		1	1	Ballroom Etiquette - Improper Praise #1	Ballsaal-Etikette: Anfeuern (blau)	L'Étiquette éorzéenne: Encourager (bleu)	演技教本:声援:青
 22379		1	1	Ballroom Etiquette - Improper Praise #2	Ballsaal-Etikette: Anfeuern (gelb)	L'Étiquette éorzéenne: Encourager (jaune)	演技教本:声援:黄
@@ -21407,7 +21804,7 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 22382		0	999	Tansui Card	Tansui-Karte	Carte Tansui	カード:タンスイ
 22383		0	999	Genbu Card	Genbu-Karte	Carte Genbu	カード:玄武
 22384		0	999	Byakko Card	Byakko-Karte	Carte Byakko	カード:白虎
-22385		0	999	Arenvald Card	Arenvald-Karte	Carte Arenvald Lentius	カード:アレンヴァルド
+22385		0	999	Arenvald Lentinus Card	Arenvald-Karte	Carte Arenvald Lentinus	カード:アレンヴァルド
 22386		0	999	Lupin Card	Lupin-Karte	Carte Lupin	カード:人狼族
 22387		0	999	Hancock Card	Hancock-Karte	Carte Hancock	カード:ハンコック
 22388		0	999	Hisui & Kurenai Card	Hisui & Kurenai-Karte	Carte Hisui & Kurenai	カード:ヒスイ＆クレナイ
@@ -21434,7 +21831,7 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 22415		0	999	Thavnairian Alumen	Thavnair-Alaune	Alun thavnairois	サベネアンアルメン
 22416		0	999	Thavnairian Adhesive	Thavnair-Klebstoff	Pâte thavnairoise	サベネアンペースト
 22417		0	999	Nightsteel Ore	Nachtstahlerz	Minerai de noctacier	夜鉄鉱
-22418		0	999	Silvergrace Ore	Silbergunsterz	Minerai de grâçargent	清銀鉱
+22418		0	999	Silvergrace Ore	Silbergunsterz	Minerai de graçargent	清銀鉱
 22419		0	999	Black Willow Log	Schwarzweiden-Holzscheit	Rondin de saule noir	ブラックウィロー原木
 22420		0	999	Hingan Flax	Hingashi-Flachs	Fibres de lin hingashien	真麻
 22421		0	999	Ground Sloth Pelt	Riesenfaultier-Pelz	Peau de paresseux terrestre	メガテリウムの粗皮
@@ -21444,7 +21841,7 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 22425		0	999	Grade 3 Reisui of Intelligence	Wunderwasser der Intelligenz III	Émulsion d'intelligence III	知力の霊水G3
 22426		0	999	Grade 3 Reisui of Mind	Wunderwasser der Willenskraft III	Émulsion d'esprit III	心力の霊水G3
 22427		0	999	Nightsteel Ingot	Nachtstahl-Barren	Lingot de noctacier	ナイトスチールインゴット
-22428		0	999	Silvergrace Ingot	Silbergunst-Barren	Lingot de grâçargent	グレースインゴット
+22428		0	999	Silvergrace Ingot	Silbergunst-Barren	Lingot de graçargent	グレースインゴット
 22429		0	999	Black Willow Lumber	Schwarzweiden-Bauholz	Madrier de saule noir	ブラックウィロー材
 22430		0	999	Ground Sloth Leather	Riesenfaultier-Leder	Cuir de paresseux terrestre	メガテリウムレザー
 22431		0	999	Spriggan Chocolate	Spriggan-Schokolade	Spriggan en chocolat	スプリガンチョコ
@@ -21453,7 +21850,7 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 22434		0	999	Oden	Oden	Oden	おでん
 22435		0	999	Dzo Steak	Dzo-Steak	Steak de hainag	ケナガウシステーキ
 22436		0	999	Crimson Cider	Purpur-Apfelsaft	Cidre carmin	クリムゾンサイダー
-22437		0	999	Sauteed Green Leeks	Gebratener grüner Lauch	Sauté de poireaux gyrabaniens	グリーンリーキソテー
+22437		0	999	Sauteed Green Leeks	Gebratener Lauch	Sauté de poireaux gyrabaniens	グリーンリーキソテー
 22438		0	999	Dzo Sirloin	Dzo-Lendenstück	Filet de hainag	ケナガウシのサーロイン
 22439		0	999	Doman Rice	Doma-Reis	Riz domien	ドマノヨアケ
 22440		0	1	Hedge Partition	Hecken-Raumteiler	Haie haute droite	ヘッジパーティション
@@ -21468,14 +21865,21 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 22449		0	999	Grade 2 Infusion of Vitality	Aufguss der Konstitution II	Concoction de vitalité II	活力の薬湯G2
 22450		0	999	Grade 2 Infusion of Intelligence	Aufguss der Intelligenz II	Concoction d'intelligence II	知力の薬湯G2
 22451		0	999	Grade 2 Infusion of Mind	Aufguss der Willenskraft II	Concoction d'esprit II	心力の薬湯G2
+22452		0	1	Cracked Manderville Monocle	Gesprungenes Manderville-Monokel	Monocle des Manderville brisé	ダメージド・マンダヴィルモノクル
+22453		0	1	Torn Manderville Coatee	Zerfetzte Manderville-Uniformjacke	Boléro des Manderville déchiré	ダメージド・マンダヴィルコーティー
+22454		0	1	Singed Manderville Gloves	Angesengte Manderville-Handschuhe	Gants des Manderville roussis	ダメージド・マンダヴィルグローブ
+22455		0	1	Stained Manderville Bottoms	Befleckte Manderville-Hose	Bas-de-corps des Manderville tâché	ダメージド・マンダヴィルボトム
+22456		0	1	Scuffed Manderville Gaiters	Abgewetzte Manderville-Spangenschuhe	Guêtres des Manderville éraflées	ダメージド・マンダヴィルゲイター
 22459		1	1	True Griffin Horn	Urgreifen-Horn	Cor vrai griffon	トゥルーグリフィンホルン
+22460		1	1	Ballroom Etiquette - Secrets of the Fist	Ballsaal-Etikette: Kampfchoreografie	L'Étiquette éorzéenne: Chorégraphie martiale	演技教本:演舞
+22461		1	1	Ballroom Etiquette - Calamitous Endings	Ballsaal-Etikette: Megaflare	L'Étiquette éorzéenne: MégaBrasier	演技教本:メガフレア
 22462		1	1	Ballroom Etiquette - Unseemly Exertions	Ballsaal-Etikette: Außer Atem	L'Étiquette éorzéenne: Genou à terre	演技教本:膝を突く
 22463		0	999	Holy Linen	Heiliges Leinen	Étoffe de lin bénit	ホーリーリネン
 22464		0	999	Ala Mhigan Weave	Mhigisches Gewebe	Tissu mhigois	アラミゴ織
-22465		0	999	Babbling Brook Orchestrion Roll	Notenrolle von „Plätschernder Bach“	Rouleau “Babbling Brook”	オーケストリオン譜:小川のせせらぎ
-22466		0	999	Bustling Boulevard Orchestrion Roll	Notenrolle von „Belebter Boulevard“	Rouleau “Bustling Boulevard”	オーケストリオン譜:街路のざわめき
-22467		0	999	Temple Bell Orchestrion Roll	Notenrolle von „Tempelglocke“	Rouleau “Temple Bell”	オーケストリオン譜:寺院の鐘
-22468		0	999	Chapel Bell Orchestrion Roll	Notenrolle von „Kapellenglocke“	Rouleau “Chapel Bell”	オーケストリオン譜:聖堂の鐘
+22465		0	999	Babbling Brook Orchestrion Roll	Notenrolle von „Plätschernder Bach“	Rouleau “Chant du ruisseau”	オーケストリオン譜:小川のせせらぎ
+22466		0	999	Bustling Boulevard Orchestrion Roll	Notenrolle von „Belebter Boulevard“	Rouleau “Rue animée”	オーケストリオン譜:街路のざわめき
+22467		0	999	Temple Bell Orchestrion Roll	Notenrolle von „Tempelglocke“	Rouleau “Cloche de temple”	オーケストリオン譜:寺院の鐘
+22468		0	999	Chapel Bell Orchestrion Roll	Notenrolle von „Kapellenglocke“	Rouleau “Cloche de chapelle”	オーケストリオン譜:聖堂の鐘
 22469		1	1	Cyan's Theme Orchestrion Roll	Notenrolle von „Cyan's Theme“	Rouleau “Cyan's Theme”	オーケストリオン譜:カイエンのテーマ
 22470		1	1	Iroha Orchestrion Roll	Notenrolle von „Iroha“	Rouleau “Iroha”	オーケストリオン譜:Iroha
 22471		1	1	Daring Dalliances Orchestrion Roll	Notenrolle von „Daring Dalliances“	Rouleau “Daring Dalliances”	オーケストリオン譜:日溜り
@@ -21483,9 +21887,11 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 22473		0	999	Rival Wings Orchestrion Roll	Notenrolle von „Rival Wings“	Rouleau “Rival Wings”	オーケストリオン譜:ライバルウィングズ
 22474		0	999	Crimson Sunset Orchestrion Roll	Notenrolle von „Crimson Sunset“	Rouleau “Crimson Sunset”	オーケストリオン譜:紅の夜更け
 22475		0	999	Westward Tide Orchestrion Roll	Notenrolle von „Westward Tide“	Rouleau “Westward Tide”	オーケストリオン譜:宵の海
-22476		0	999	Mother's Pride Orchestrion Roll	Notenrolle von „Mother's Pride“	Rouleau “Mother's Pride”	オーケストリオン譜:母の誇り
+22476		0	999	A Mother's Pride Orchestrion Roll	Notenrolle von „Mother's Pride“	Rouleau “Mother's Pride”	オーケストリオン譜:母の誇り
 22477		0	999	He Rises Above Orchestrion Roll	Notenrolle von „He Rises Above“	Rouleau “He Rises Above”	オーケストリオン譜:地平線より昇れ
 22478		1	1	Keepers of the Lock Orchestrion Roll	Notenrolle von „Keepers of the Lock“	Rouleau “Keepers of the Lock”	オーケストリオン譜:我ら国境警備隊
+22479		0	999	Wicked Winds Whisper Orchestrion Roll	Notenrolle von „Wicked Winds Whisper“	Rouleau “Wicked Winds Whisper”	オーケストリオン譜:乱風の囁き
+22480		0	999	No Quarter Orchestrion Roll	Notenrolle von „No Quarter“	Rouleau “No Quarter”	オーケストリオン譜:ノー・クォーター
 22481		0	999	Down Where Daemons Dwell Orchestrion Roll	Notenrolle von „Down Where Daemons Dwell“	Rouleau “Down Where Daemons Dwell”	オーケストリオン譜:鬼の棲む島
 22482		0	999	Unbreakable (Duality) Orchestrion Roll	Notenrolle von „Unbreakable (Duality)“	Rouleau “Unbreakable (Duality)”	オーケストリオン譜:アンブレーカブル（Duality）
 22483		0	999	Their Deadly Mission Orchestrion Roll	Notenrolle von „Their Deadly Mission“	Rouleau “Their Deadly Mission”	オーケストリオン譜:燃えよクァール
@@ -21500,10 +21906,11 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 22492		0	999	Faded Copy of the Jade Stoa	Abgenutzte Notenrolle von „Amatsu Kaze“	Rouleau abîmé “Amatsu Kaze”	古びた譜面:白帝の竹林
 22493		0	999	True Linen	Naturbelassenes Reinleinen	Étoffe de lin hingashien	真麻布
 22494		1	1	Ballroom Etiquette - Fear and Loathing	Ballsaal-Etikette: Vor Angst zittern	L'Étiquette éorzéenne: Trembler de peur	演技教本:怯える
-22495		0	999	Cracked Hanya Mask	Gesprungene Hannya-Maske	Masque de hannya brisé	割れた般若面
+22495		0	999	Cracked Hannya Mask	Gesprungene Hannya-Maske	Masque de hannya brisé	割れた般若面
 22496		1	1	Ballroom Etiquette - Bewilderment	Ballsaal-Etikette: Huch	L'Étiquette éorzéenne: Stupéfaction	演技教本:仰天
 22497		1	1	Ballroom Etiquette - Pursuing Happiness	Ballsaal-Etikette: Feist grinsend	L'Étiquette éorzéenne: Visage rieur	演技教本:破顔
 22498		1	1	Ballroom Etiquette - Reflection	Ballsaal-Etikette: In sich gekehrt	L'Étiquette éorzéenne: Visage méditatif	演技教本:熟考
+22499		0	1	Topaz Carbuncle Slippers	Topas-Karfunkel-Pantoffeln	Chaussons Carbuncle topaze	カーバンクル・トパーズスリッパ
 22500		0	99	Salvaged Ring	Geborgener Ring	Bague d'épave sous-marine	沈没船の指輪
 22501		0	99	Salvaged Bracelet	Geborgener Armreif	Bracelet d'épave sous-marine	沈没船の腕輪
 22502		0	99	Salvaged Earring	Geborgener Ohrring	Boucle d'oreille d'épave sous-marine	沈没船の耳飾り
@@ -21512,3 +21919,621 @@ id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
 22505		0	99	Extravagant Salvaged Bracelet	Extravaganter geborgener Armreif	Bracelet luxueux d'épave sous-marine	沈没船の高級腕輪
 22506		0	99	Extravagant Salvaged Earring	Extravaganter geborgener Ohrring	Boucle d'oreille luxueuse d'épave sous-marine	沈没船の高級耳飾り
 22507		0	99	Extravagant Salvaged Necklace	Extravagantes geborgenes Halsband	Collier luxueux d'épave sous-marine	沈没船の高級首飾り
+22508		0	999	Anemos Lockbox	Anemos-Schließkassette	Coffre verrouillé d'Anemos	アネモス帯のロックボックス
+22509		0	1	Anemos Hat	Anemos-Hut	Chapeau d'Anemos	アネモスハット
+22510		0	1	Anemos Jacket	Anemos-Jacke	Jaque d'Anemos	アネモスジャケット
+22511		0	1	Anemos Gloves	Anemos-Handschuhe	Gants d'Anemos	アネモスグローブ
+22512		0	1	Anemos Chaps	Anemos-Chaps	Houseaux d'Anemos	アネモスチャップス
+22513		0	1	Anemos Boots	Anemos-Stiefel	Bottes d'Anemos	アネモスブーツ
+22514		0	1	Anemos Pot Helm	Anemos-Kaskett	Heaume d'Anemos	アネモスポットヘルム
+22515		0	1	Anemos Gambison	Anemos-Gambeson	Gambison d'Anemos	アネモスガンビスン
+22516		0	1	Anemos Expeditionary's Gloves	Anemos-Expeditionshandschuhe	Gants de pisteur d'Anemos	アネモスレンジャーグローブ
+22517		0	1	Anemos Sarouel	Anemos-Sarouel	Saroual d'Anemos	アネモスサルエル
+22518		0	1	Anemos Expeditionary's Boots	Anemos-Expeditionsstiefel	Bottes de pisteur d'Anemos	アネモスレンジャーブーツ
+22519		0	1	Anemos Suspenders	Anemos-Hemd mit Hosenträgern	Chemise à bretelles d'Anemos	アネモスサスペンダーシャツ
+22520		0	1	Dodo Message Book Stand	Dodo-Diarium-Pult	Pupitre dodo à livre de correspondance	ドードー・メッセージブックスタンド
+22521		0	1	Crystal Tower Striker	Kaktor-Katapult	Catapultour de Cristal	クリスタルタワーストライカー
+22522		0	999	MGP Bronze Card	MGP-Bronzekarte	Coupon de bronze du Gold Saucer	MGPブロンズカード
+22525		0	65000	Namazu Koban	Namazuo-Koban	Koban namazu	ナマズオ小判
+22526		0	1	Whale-class Bow	Bug der Klasse „Whale“	Proue de classe Baleine	ホエール級艦首
+22527		0	1	Whale-class Bridge	Brücke der Klasse „Whale“	Pont de classe Baleine	ホエール級艦橋
+22528		0	1	Whale-class Pressure Hull	Rumpf der Klasse „Whale“	Coque de classe Baleine	ホエール級艦体
+22529		0	1	Whale-class Stern	Heck der Klasse „Whale“	Poupe de classe Baleine	ホエール級艦尾
+22530		0	1	Solid-brick Interior Wall	Vollziegel-Innenwand	Revêtement mural en briques pleines	ソリッドブリック・インナーウォール
+22531		0	1	Unfinished Wood Flooring	Unbehandelter Holzboden	Parquet en bois non vernis	白木床
+22533		0	1	Odder Otter Cottage Walls	Kleine Obskurer-Otter-Wand	Mur de maisonnette loutre choute	ウソウソ・コテージウォール
+22534		0	1	Odder Otter House Walls	Mittelgroße Obskurer-Otter-Wand	Mur de pavillon loutre choute	ウソウソ・ハウスウォール
+22535		0	1	Odder Otter Mansion Walls	Große Obskurer-Otter-Wand	Mur de villa loutre choute	ウソウソ・レジデンスウォール
+22536		0	1	Merry Mog Bed	Mogry-Bett	Lit mog moelleux	モーグリベッド
+22537		0	1	Mellow Mog Lamp	Mogry-Lampe	Lampe mog mignonne	モーグリランプ
+22543		0	1	Sewing Baskets	Nähkörbchen	Paniers de couturier	裁縫師の籠
+22544		0	1	Season Seven Lone Wolf Trophy	Trophäe des einsamen Wolfes (7. Saison)	Trophée de loup solitaire S7	ローンウルフ・トロフィーS7
+22545		0	1	Stuffed Tsukuyomi	Stoff-Tsukuyomi	Peluche de Tsukuyomi	ツクヨミのぬいぐるみ
+22546		0	1	Falcons Banner	Falken-Banner	Bannière des Faucons	ファルコン・バナー
+22547		0	1	Ravens Banner	Raben-Banner	Bannière des Corbeaux	レイヴン・バナー
+22548		0	1	Disordered Wardrobe	Unordentlicher Kleiderschrank	Armoire mal rangée	スロッピー・ワードローブ
+22549		0	1	Laundry Basket	Wäschekorb	Panier à linge	洗濯籠
+22550		0	1	Leather Bags	Ledertasche	Sacs en cuir	レザーバッグ
+22551		0	1	Cozy Leather Shoes	Bequeme Lederschuhe	Chaussures en cuir confortables	コージーレザーシューズ
+22552		0	1	Assorted Candles	Kerzensammlung	Bougies diverses	キャンドルセット
+22553		0	1	Glade Bachelor's Chest	Junggesellen-Kommode	Petite commode sombrelinçoise	シュラウド・スモールチェスト
+22554		0	1	Portable Stepladder	Tragbare Trittleiter	Escabeau	脚立
+22555		0	1	Glade Partition Door	Wald-Raumteiler	Cloison à porte sombrelinçoise	シュラウド・パーティションドア
+22556		0	1	Oasis Partition Door	Oasen-Raumteiler	Cloison à porte thanalanaise	ザナラーン・パーティションドア
+22557		0	1	Wine Glass	Weinglas	Verre à vin	ワイングラス
+22558		0	1	Bar Counter	Bartheke	Comptoir de bar	バーカウンター
+22559		0	1	Bar Stool	Barhocker	Tabouret de bar	バーチェア
+22560		0	1	Trouser Hanger	Hosenbügel	Porte-pantalon	ボトムハンガー
+22562		0	1	Sumptuous Dimension Castle Vase	Opulente Dimensionsschloss-Vase	Vase somptueux du Château dimensionnel	次元城の美しき花瓶
+22563		0	1	Imposing Dimension Castle Vase	Imposante Dimensionsschloss-Vase	Vase imposant du Château dimensionnel	次元城の麗しき花瓶
+22564		0	1	Stuffed Namazu	Stoff-Namazuo	Namazu en peluche	ナマズオのぬいぐるみ
+22567		0	1	Basket of Steamed Buns	Gedämpfte Klößchen	Panier de brioches fourrées à la vapeur	饅頭蒸籠
+22568		0	1	Miniature Iloh	Miniatur-Iloh	Maquette d'iloh	ミニチュア・イロー
+22569		0	1	Southern Kitchen	Offene Küche	Cuisine des mers du sud	サザンキッチン
+22570		0	1	Hingan Cleaning Supplies	Hinganische Putzartikel	Ustensiles de nettoyage hingashiens	白銀掃除道具
+22572		0	1	Fool's Threshold	Tricktür	Fausse fenêtre de papier hingashienne	だまし障子
+22573		0	1	Ame-zaiku Set	Ame-zaiku	Assortiment d'ame-zaiku	ドマ飴細工
+22574		0	1	Jellyfish Lamp	Quallen-Lampe	Lanterne méduse	ジェリーフィッシュランプ
+22575		0	1	Curry Plate	Curry	Assiette de curry thavnairois	カレーライス
+22576		0	1	Mosquito Moogle	Mücken-Mogry	Poterie mog anti-moustique	モーグリ蚊取線香
+22577		0	1	Monster Toss Machine	Bomberball-Automat	Lance-bombo	モンスタートス
+22578		0	1	Cuff-a-Cur Machine	Hau-den-Gilli-Automat	Gilg-a-Moche	カフ ア カー
+22580		0	1	Picnic Set	Picknick-Set	Service à pique-nique	ピクニックセット
+22584		0	1	Namazu Effigy	Namazuo-Bildnis	Effigie géante de Namazu	ナマズオねぶた
+22585		0	1	Namazu Material Supplier Permit	Namazuo-Lieferanten-Vertrag	Licence de recrutement: vendeur namazu	雇用証書:ナマズオ族の素材屋
+22586		0	1	Namazu Junkmonger Permit	Namazuo-Krämer-Vertrag	Licence de recrutement: quincaillier namazu	雇用証書:ナマズオ族のよろず屋
+22587		0	1	Namazu Mender Permit	Namazuo-Reparateur-Vertrag	Licence de recrutement: réparateur namazu	雇用証書:ナマズオ族の修理屋
+22588		0	1	Namazu Manservant Permit	Namazuo-Diener-Vertrag	Licence de recrutement: employé namazu	雇用証書:ナマズオ族の使用人
+22589		0	999	Dahlia Bulbs	Dahlienzwiebeln	Bulbes de dahlia	ダリアの球根
+22590		0	999	Red Dahlias	Purpurrote Dahlien	Bouquet de dahlias rouges	ダリア:レッド
+22591		0	999	Blue Dahlias	Blaue Dahlien	Bouquet de dahlias bleus	ダリア:ブルー
+22592		0	999	Yellow Dahlias	Gelbe Dahlien	Bouquet de dahlias jaunes	ダリア:イエロー
+22593		0	999	Green Dahlias	Grüne Dahlien	Bouquet de dahlias verts	ダリア:グリーン
+22594		0	999	Orange Dahlias	Orange Dahlien	Bouquet de dahlias oranges	ダリア:オレンジ
+22595		0	999	Purple Dahlias	Violette Dahlien	Bouquet de dahlias violets	ダリア:パープル
+22596		0	999	White Dahlias	Weiße Dahlien	Bouquet de dahlias blancs	ダリア:ホワイト
+22597		0	999	Black Dahlias	Schwarze Dahlien	Bouquet de dahlias noirs	ダリア:ブラック
+22598		0	999	Rainbow Dahlias	Mehrfarbige Dahlien	Bouquet de dahlias multicolores	ダリア:ブレンド
+22616		0	999	Red Malachite	Purpurmalachit	Œil-de-paon rouge	紅孔雀石
+22617		0	999	Skystone	Himmelsbergstein	Pierre ciel-terre	空山石
+22618		0	999	Dawn Dust	Glitzergoldsand	Poudre de l'aurore	明け砂金
+22619		0	999	Mondite	Montagsstein	Sélénite	月曜石
+22620		0	999	Lava Rock	Lavastein	Pierre thermorésistante	耐熱石
+22621		0	999	Steppe Mica	Steppenglimmer	Mica de la steppe	草原の雲母
+22622		0	999	Steppe Rock Salt	Salzstein	Sel gemme de la steppe	草原の岩塩
+22623		0	999	Steppe Coal	Steppenkohle	Charbon de la steppe	草原の石炭
+22624		0	999	Pure White Silex	Quarzsand	Silice immaculée	純白の珪砂
+22625		0	999	Steppe Copper Ore	Steppenkupfer	Minerai de cuivre de la steppe	草原の銅鉱
+22626		0	999	Steppe Geode	Graustein	Minerai bleu gris	鈍色の鉱石
+22627		0	999	Raw Azimite	Steppenjuwel	Joyau de la steppe	草原の宝玉
+22628		0	999	Steppe Clay	Batzen Steppenlehm	Argile de la steppe	草原の粘土
+22629		0	999	Steppe Whetstone	Naturschleifstein	Pierre à aiguiser de la steppe	草原の砥石
+22630		0	999	Steppe Soapstone	Schamottstein	Éclat de pierre thermorésistante	耐熱性の石材
+22631		0	999	Steppe Spring Water	Steppenquellwasser	Eau minérale de la steppe	草原の天然水
+22632		0	999	Steppe Iron Ore	Steppeneisen	Minerai de fer de la steppe	草原の鉄鉱
+22633		0	999	Flat Stone	Plattstein	Pierre plane	扁平な石材
+22634		0	999	Steppe Cinnabar	Rotsand	Cinabre de la steppe	草原の朱砂
+22635		0	999	Steppe Jade	Steppenjade	Jade de la steppe	草原の翡翠
+22636		0	999	Crystal-clear Rock Salt	Edelsalzstein	Sel gemme de la steppe parfait	草原の上質岩塩
+22637		0	999	Ultramarine Ore	Kobaltblaustein	Minerai indigo	群青の鉱石
+22638		0	999	Steppe Slab	Steppengranit	Grosse pierre de la steppe	草原の重石
+22639		0	999	Steppe Mudstone Whetstone	Azim-Wetzstein	Pierre à aiguiser en argilite de la steppe	草原の泥岩砥石
+22640		0	999	Steppe Obsidian	Azim-Obsidian	Obsidienne de la steppe	草原の黒曜石
+22641		0	999	Vibrant Steppe Glowstone	Azim-Augit	Pierre brillante de la steppe	草原の輝石
+22642		0	999	Azim Strawberry	Azim-Erdbeere	Fraise d'Azim	アジムイチゴ
+22643		0	999	Scarlet Flax	Bündel Purpurflachs	Fibres de lin rouge	紅亜麻
+22644		0	999	Duskglow Cocoon	Dämmerseidenkokon	Cocon du crépuscule	暮れマユ
+22645		0	999	Straight Shoot	Gerader Pfeilast	Tige séchée bien droite	真っ直ぐな枯れ茎
+22646		0	999	Steppe Sedge	Büschel Steppenriedgras	Carex de la steppe	カヤツリグサ
+22647		0	999	Steppe Safflower	Steppensaflor	Fleur rouge de la steppe	草原の紅花
+22648		0	999	Verdant Branch	Immergrüner Zweig	Branche de bois à feuilles persistantes	常緑の枝
+22649		0	999	Dry Branch	Trockener Steppenzweig	Bois flétri de la steppe	草原の枯れ枝
+22650		0	999	Steppe Rattan Lumber	Steppenrattan	Rondin de rotin	ステップラタン
+22651		0	999	Steppe Vine	Steppenranke	Liane de la steppe	草原のツル
+22652		0	999	Yol Feather	Yol-Feder	Plume de Yol	ヨルの羽根
+22653		0	999	Steppe Candyfruit	Steppenfrucht	Fruit de la steppe	草原の果実
+22654		0	999	Edible Bud	Steppenblüte	Bourgeon de la steppe	草原のつぼみ
+22655		0	999	Grazing Grass	Steppengras	Herbes de fourrage de la steppe	草原の牧草
+22656		0	999	Steppe Onion	Steppenzwiebel	Oignon de la steppe	ステップオニオン
+22657		0	999	Fava Beans	Steppenbohne	Fèves de la steppe	草原の空豆
+22658		0	999	Steppe Hay	Steppenhafer	Foin de la steppe	草原の馬草
+22659		0	999	Steppe Tea Leaves	Steppentee	Feuilles de thé de la steppe	草原の茶葉
+22660		0	999	Steppe Wildgrass	Steppenwildgras	Herbe sauvage de la steppe	草原の野草
+22661		0	999	Steppe Radish	Steppengemüse	Radis de la steppe	草原の根菜
+22662		0	999	Fragrant Steppe Herb	Steppenkraut	Herbe aromatique de la steppe	草原の香草
+22663		0	999	Fibrous Melon	Azim-Zucchini	Courge de la steppe	草原の果菜
+22664		0	999	Sturdy Vine	Reißfeste Steppenranke	Sarment solide de la steppe	上質のツル
+22665		0	999	Ripe Steppe Fruit	Reife Steppenfrucht	Fruits mûrs de la steppe	草原の熟成果実
+22666		0	999	Steppe Flatweed	Steppenlöwenzahn	Pissenlit de la steppe	草原の鼓草
+22667		0	999	Fragrant Steppe Wildgrass	Duftgras	Fleurs odorantes de la steppe	香り高い野草
+22668		0	999	Sunshell	Sonnenmuschel	Soleil rouge	太陽貝
+22669		0	999	Steppe Barramundi	Azim-Barramundi	Barramundi d'Azim	アジムアカメ
+22670		0	999	Water Fan	Reliefmuschel	Bivalve éventail	オオウチワ貝
+22671		0	999	Arrowhead Snail	Pfeilspitzmuschel	Piquant de la steppe	矢巻貝
+22672		0	999	Invisible Catfish	Azim-Wels	Silure mirage	マボロシナマズ
+22673		0	999	Khaal Crab	Khaal-Krabbe	Crabe de Khaal	カールクラブ
+22674		0	999	Fish Offering	Kleiner Opferfisch	Poisson de rituel	供物の小魚
+22675		0	999	Fatty Eel	Fettaal	Huilanguille	アブラクダリ
+22676		0	999	Crimson Copperfish	Kupferling	Poisson-cuprite	赤銅魚
+22677		0	999	Zagas A'khaal	Khaal-Zagas	Zagas de Khaal	カールザガス
+22678		0	999	Gigas Catfish	Riesiger Wels	Poisson-chat géant	巨大オオナマズ
+22679		0	999	Rainbow Killifish	Regenbogen-Killifisch	Killi arc-en-ciel	ニジメダカ
+22680		0	999	Steppe Sweetfish	Ayunagi	Ayunagi	アユナギ
+22681		0	999	Greasy Strangler	Azim-Aal	Anguille visqueuse	アブラウナギ
+22682		0	999	Grass Shrimp	Azim-Krebs	Crevette de la steppe	ステップシュリンプ
+22683		0	999	Flagon Clam	Schalenmuschel	Belle palourde	杯貝
+22684		0	999	Moon Oyster	Mondauster	Huître sélène	月蝶貝
+22685		0	999	Leatherscale	Lederfisch	Poisson peau-de-bœuf	牛皮魚
+22686		0	999	Dusk Scallop	Abendrotmuschel	Palourde du couchant	夕焼貝
+22687		0	999	Spikefish	Rachenschneider	Poisson-oursin	スパイクフィッシュ
+22688		0	999	Nhaama's Claw	Nhaamas Nagel	Ongle de Nhaama	ナーマの爪
+22689		0	999	Spearhead Snail	Spießmuschel	Mollusque hoplite	槍穂貝
+22690		0	999	Granite Hardscale	Stählerne Hartschuppe	Poisson aux écailles infrangibles	上質の硬鱗魚
+22691		0	999	Plump Trout	Fette Forelle	Grosse truite	太ったトラウト
+22692		0	999	Appleseed	Apfelschnecke	Pomacea	リンゴガイ
+22693		0	999	Crawling Cog	Stachelschnecke	Coquirouage	ハグルマガイ
+22694		0	999	Happi Component Materials	Material für Happi-Elemente	Matériaux pour composant de happi	ハッピ部材の材料
+22695		0	999	Altar Component Materials	Material für Altarelemente	Matériaux pour composant d'autel	供物台部材の材料
+22696		0	999	Mikoshi Frippery Materials	Material für Mikoshi-Elemente	Matériaux pour composant de mikoshi	御輿部材の材料
+22697		0	999	Ceremonial Bow Component Materials	Material für Ritualbogenelemente	Matériaux pour composant d'arc cérémoniel	祭弓部材の材料
+22698		0	999	Effigy Component Materials	Material für Namazuo-Puppenelemente	Matériaux pour composant de géant d'osier	ナマズオ人形の部材の材料
+22699		0	999	Finery Component Materials	Material für eine Tauschware	Matériaux pour marchandises commerciales	交易品部材の材料
+22700		0	999	Ritual Component Materials	Material für einen Reinigungsfetisch	Matériaux pour instruments de purification	清めの祭具の材料
+22701		0	999	Brazier Component Materials	Material für ein Feuerschalenteil	Matériaux pour composant de braséro	篝火台部材の材料
+22702		0	999	Uchiwa Component Materials	Material für ein Fächerteil	Matériaux pour élément d'éventail	うちわ部材の材料
+22703		0	999	Trinket Component Materials	Material für eine Kleinigkeit	Matériaux pour présent modeste	粗品部材の材料
+22704		0	999	Catfish Lure Component Materials	Material für einen Wels-Köder	Matériaux pour accessoire de pêche	ナマズ釣り具の材料
+22705		0	999	Azim Steppe Souvenir Component Materials	Material für eine Handelsware	Matériaux pour produit de style nomade	遊牧民風の商材の材料
+22706		0	999	Hingan Ritual Paraphernalia Materials	Material für einen Ritualgegenstand	Matériaux pour objet cérémoniel	先祖の接待用品の材料
+22707		0	999	Dzo Shear Component Materials	Material für ein Scherenteil	Matériaux pour élément d'entretien de ciseaux de toilettage	毛刈りハサミ部材の材料
+22708		0	999	Buuz Cooking Paraphernalia Materials	Material für eine Buuds-Kochutensilie	Matériaux pour ustensile de cuisine	ボーズ調理用品の材料
+22709		0	999	Mol Tea Ceremony Paraphernalia Materials	Material für einen Tee-Bedarfsartikel	Matériaux pour élément de cérémonie du thé	茶会必需品の材料
+22710		0	999	Stable Supply Materials	Material  für ein Pferdezuchtutensil	Matériaux pour accessoire d'élevage équin	馬番必需品の材料
+22711		0	999	Drum Part Materials	Material für einen Trommelwerkstoff	Matériaux pour composant de taiko	太鼓部材の材料
+22712		0	999	Confetti-making Tool Materials	Material für ein Konfettiwerkzeug	Matériaux pour outil de papeterie	紙吹雪生産道具の材料
+22713		0	999	Substitute Offering Materials	Material für eine Opfergabe	Matériaux pour offrande piégée	供物用品の材料
+22714		0	999	Steeping Accessory Materials	Material für ein Kochwerkzeug	Matériaux pour composant de cuisine namazu	ナマズオ焼き用品の材料
+22715		0	999	Pristine Fruit Figurine Materials	Material für ein festliches Wurfgeschoss	Matériaux pour répliques diverses	投擲用特産品の材料
+22716		0	999	Land Diving Gear Materials	Material für ein Naghol-Zubehörteil	Matériaux pour composant de système d'attache	ナゴール用品の材料
+22717		0	999	Culinary Knife Component Materials	Material für ein Messerteil	Matériaux pour coutellerie	愛用の包丁部材の材料
+22718		0	999	Generous Gift Materials	Material für ein Dankeschön-Geschenk	Matériaux pour cadeau	感謝の贈答品の材料
+22719		0	999	Korrigan Doll Materials	Material für eine Korrigane-Puppe	Matériaux pour poupée korrigan	魅惑の魔物人形の材料
+22720		0	999	Happi Components	Happi-Element	Composant de happi	ハッピ部材
+22721		0	999	Altar Components	Altarelement	Composant d'autel	供物台部材
+22722		0	999	Mikoshi Frippery	Mikoshi-Element	Composant de mikoshi	御輿部材
+22723		0	999	Ceremonial Bow Components	Ritualbogenelement	Composant d'arc cérémoniel	祭弓部材
+22724		0	999	Effigy Components	Namazuo-Puppenelement	Composant de géant d'osier	ナマズオ人形部材
+22725		0	999	Finery Components	Tauschware	Marchandises commerciales	交易品部材
+22726		0	999	Ritual Implement Components	Reinigungsfetisch	Instruments de purification	清めの祭具
+22727		0	999	Brazier Components	Feuerschalenteil	Composant de braséro	篝火台部材
+22728		0	999	Uchiwa Components	Fächerteil	Élément d'éventail	うちわ部材
+22729		0	999	Trinket Components	Kleinigkeit	Présent modeste	粗品部材
+22730		0	999	Catfish Lure Components	Wels-Köder	Accessoire de pêche au poisson-chat	ナマズ釣り具
+22731		0	999	Azim Steppe Souvenir Components	Handelsware	Produit d'inspiration nomade	遊牧民風の商材
+22732		0	999	Hingan Ritual Paraphernalia	Ritualgegenstand zur Ahnenverehrung	Objet cérémoniel	先祖の接待用品
+22733		0	999	Dzo Shear Components	Scherenteil	Élément d'entretien de ciseaux de toilettage	毛刈りハサミ部材
+22734		0	999	Buuz Cooking Paraphernalia	Buuds-Kochutensilie	Ustensile de cuisine pour buuz	ボーズ調理用品
+22735		0	999	Mol Tea Ceremony Paraphernalia	Tee-Bedarfsartikel	Élément de cérémonie du thé	茶会必需品
+22736		0	999	Stable Supplies	Utensil für die Pferdezucht	Accessoire d'élevage équin	馬番必需品
+22737		0	999	Drum Parts	Trommelwerkstoff	Composant de taiko	太鼓部材
+22738		0	999	Confetti-making Tools	Konfettiwerkzeug	Outil de papeterie	紙吹雪生産道具
+22739		0	999	Substitute Offering	Opfergabe	Offrande piégée	供物用品
+22740		0	999	Steeping Accessory	Kochwerkzeug	Composant de cuisine namazu	ナマズオ焼き用品
+22741		0	999	Pristine Fruit Figurine	Festliches Wurfgeschoss	Répliques de produits régionaux	投擲用特産品
+22742		0	999	Land Diving Gear	Zubehörteil für ein Naghol-Sprungseil	Composant de système d'attache	ナゴール用品
+22743		0	999	Culinary Knife Component	Messerteil	Composant de couteau de cuisine	愛用の包丁部材
+22744		0	999	Generous Gift	Dankeschön-Geschenk	Cadeau de remerciement	感謝の贈答品
+22745		0	999	Korrigan Doll	Bezaubernde Korrigane-Puppe	Poupée envoûtante korrigan	魅惑の魔物人形
+22748		1	1	Bonewicca Protector's Helm	Knochenwicca-Helm des Beschützers	Heaume de protecteur oswicca	ボーンプロテクター・ヘルム
+22749		1	1	Bonewicca Protector's Coat	Knochenwicca-Mantel des Beschützers	Manteau de protecteur oswicca	ボーンプロテクター・コート
+22750		1	1	Bonewicca Protector's Gauntlets	Knochenwicca-Panzerhandschuhe des Beschützers	Gantelets de protecteur oswicca	ボーンプロテクター・ガントレット
+22751		1	1	Bonewicca Protector's Trousers	Knochenwicca-Hose des Beschützers	Pantalon de protecteur oswicca	ボーンプロテクター・トラウザー
+22752		1	1	Bonewicca Protector's Sabatons	Knochenwicca-Bärlatschen des Beschützers	Sabatons de protecteur oswicca	ボーンプロテクター・サバトン
+22753		1	1	Bonewicca Protector's Belt	Knochenwicca-Gürtel des Beschützers	Ceinture de protecteur oswicca	ボーンプロテクター・ベルト
+22754		1	1	Bonewicca Skinner's Visor	Knochenwicca-Visier des Häuters	Visière d'écorcheur oswicca	ボーンスキナー・バイザー
+22755		1	1	Bonewicca Skinner's Mail	Knochenwicca-Kettenrüstung des Häuters	Cotte de mailles d'écorcheur oswicca	ボーンスキナー・メイル
+22756		1	1	Bonewicca Skinner's Gloves	Knochenwicca-Handschuhe des Häuters	Gants d'écorcheur oswicca	ボーンスキナー・グローブ
+22757		1	1	Bonewicca Skinner's Trousers	Knochenwicca-Hose des Häuters	Pantalon d'écorcheur oswicca	ボーンスキナー・トラウザー
+22758		1	1	Bonewicca Skinner's Sabatons	Knochenwicca-Bärlatschen des Häuters	Sabatons d'écorcheur oswicca	ボーンスキナー・サバトン
+22759		1	1	Bonewicca Skinner's Belt	Knochenwicca-Gürtel des Häuters	Ceinture d'écorcheur oswicca	ボーンスキナー・ベルト
+22760		1	1	Bonewicca Wildling's Helm	Knochenwicca-Helm des Wildlings	Heaume de sauvage oswicca	ボーンワイルドリング・ヘルム
+22761		1	1	Bonewicca Wildling's Jacket	Knochenwicca-Jacke des Wildlings	Jaque de sauvage oswicca	ボーンワイルドリング・ジャケット
+22762		1	1	Bonewicca Wildling's Gauntlets	Knochenwicca-Panzerhandschuhe des Wildlings	Gantelets de sauvage oswicca	ボーンワイルドリング・ガントレット
+22763		1	1	Bonewicca Wildling's Sarouel	Knochenwicca-Sarouel des Wildlings	Saroual de sauvage oswicca	ボーンワイルドリング・サルエル
+22764		1	1	Bonewicca Wildling's Greaves	Knochenwicca-Beinschienen des Wildlings	Jambards de sauvage oswicca	ボーンワイルドリング・グリーヴ
+22765		1	1	Bonewicca Wildling's Belt	Knochenwicca-Gürtel des Wildlings	Ceinture de sauvage oswicca	ボーンワイルドリング・ベルト
+22766		1	1	Bonewicca Tracker's Helm	Knochenwicca-Helm des Fährtenlesers	Heaume de traqueur oswicca	ボーントラッカー・ヘルム
+22767		1	1	Bonewicca Tracker's Coat	Knochenwicca-Mantel des Fährtenlesers	Manteau de traqueur oswicca	ボーントラッカー・コート
+22768		1	1	Bonewicca Tracker's Gauntlets	Knochenwicca-Panzerhandschuhe des Fährtenlesers	Gantelets de traqueur oswicca	ボーントラッカー・ガントレット
+22769		1	1	Bonewicca Tracker's Trousers	Knochenwicca-Hose des Fährtenlesers	Pantalon de traqueur oswicca	ボーントラッカー・トラウザー
+22770		1	1	Bonewicca Tracker's Sabatons	Knochenwicca-Bärlatschen des Fährtenlesers	Sabatons de traqueur oswicca	ボーントラッカー・サバトン
+22771		1	1	Bonewicca Tracker's Belt	Knochenwicca-Gürtel des Fährtenlesers	Ceinture de traqueur oswicca	ボーントラッカー・ベルト
+22772		1	1	Bonewicca Shadow's Visor	Knochenwicca-Visier des Beschatters	Visière d'ombre oswicca	ボーンシャドウ・バイザー
+22773		1	1	Bonewicca Shadow's Chestpiece	Knochenwicca-Brustpanzer des Beschatters	Protège-thorax d'ombre oswicca	ボーンシャドウ・チェストピース
+22774		1	1	Bonewicca Shadow's Gauntlets	Knochenwicca-Handschuhe des Beschatters	Gantelets d'ombre oswicca	ボーンシャドウ・ガントレット
+22775		1	1	Bonewicca Shadow's Trousers	Knochenwicca-Hose des Beschatters	Pantalon d'ombre oswicca	ボーンシャドウ・トラウザー
+22776		1	1	Bonewicca Shadow's Sabatons	Knochenwicca-Bärlatschen des Beschatters	Sabatons d'ombre oswicca	ボーンシャドウ・サバトン
+22777		1	1	Bonewicca Shadow's Belt	Knochenwicca-Gürtel des Beschatters	Ceinture d'ombre oswicca	ボーンシャドウ・ベルト
+22778		1	1	Bonewicca Soother's Mask	Knochenwicca-Maske des Trösters	Masque d'apaiseur oswicca	ボーンスーザー・マスク
+22779		1	1	Bonewicca Soother's Chestpiece	Knochenwicca-Brustpanzer des Trösters	Protège-thorax d'apaiseur oswicca	ボーンスーザー・チェストピース
+22780		1	1	Bonewicca Soother's Gauntlets	Knochenwicca-Handschuhe des Trösters	Gantelets d'apaiseur oswicca	ボーンスーザー・ガントレット
+22781		1	1	Bonewicca Soother's Trousers	Knochenwicca-Hose des Trösters	Pantalon d'apaiseur oswicca	ボーンスーザー・トラウザー
+22782		1	1	Bonewicca Soother's Sabatons	Knochenwicca-Bärlatschen des Trösters	Sabatons d'apaiseur oswicca	ボーンスーザー・サバトン
+22783		1	1	Bonewicca Soother's Belt	Knochenwicca-Gürtel des Trösters	Ceinture d'apaiseur oswicca	ボーンスーザー・ベルト
+22784		1	1	Bonewicca Whisperer's Mask	Knochenwicca-Maske des Flüsterers	Masque de murmureur oswicca	ボーンウィスパラー・マスク
+22785		1	1	Bonewicca Whisperer's Jacket	Knochenwicca-Jacke des Flüsterers	Jaque de murmureur oswicca	ボーンウィスパラー・ジャケット
+22786		1	1	Bonewicca Whisperer's Gauntlets	Knochenwicca-Panzerhandschuhe des Flüsterers	Gantelets de murmureur oswicca	ボーンウィスパラー・ガントレット
+22787		1	1	Bonewicca Whisperer's Sarouel	Knochenwicca-Sarouel des Flüsterers	Saroual de murmureur oswicca	ボーンウィスパラー・サルエル
+22788		1	1	Bonewicca Whisperer's Greaves	Knochenwicca-Beinschienen des Flüsterers	Jambards de murmureur oswicca	ボーンウィスパラー・グリーヴ
+22789		1	1	Bonewicca Whisperer's Belt	Knochenwicca-Gürtel des Flüsterers	Ceinture de murmureur oswicca	ボーンウィスパラー・ベルト
+22790		1	1	Bonewicca Earring of Fending	Knochenwicca-Ohrring der Verteidigung	Boucle d'oreille de protecteur oswicca	ボーンディフェンダー・イヤリング
+22791		1	1	Bonewicca Earring of Slaying	Knochenwicca-Ohrring des Schlachtens	Boucle d'oreille d'attaquant oswicca	ボーンアタッカー・イヤリング
+22792		1	1	Bonewicca Earring of Aiming	Knochenwicca-Ohrring des Zielens	Boucle d'oreille de pisteur oswicca	ボーンレンジャー・イヤリング
+22793		1	1	Bonewicca Earring of Healing	Knochenwicca-Ohrring der Heilung	Boucle d'oreille de soigneur oswicca	ボーンヒーラー・イヤリング
+22794		1	1	Bonewicca Earring of Casting	Knochenwicca-Ohrring der Magie	Boucle d'oreille d'incantateur oswicca	ボーンキャスター・イヤリング
+22795		1	1	Bonewicca Necklace of Fending	Knochenwicca-Halsband der Verteidigung	Collier de protecteur oswicca	ボーンディフェンダー・ネックレス
+22796		1	1	Bonewicca Necklace of Slaying	Knochenwicca-Halsband des Schlachtens	Collier d'attaquant oswicca	ボーンアタッカー・ネックレス
+22797		1	1	Bonewicca Necklace of Aiming	Knochenwicca-Halsband des Zielens	Collier de pisteur oswicca	ボーンレンジャー・ネックレス
+22798		1	1	Bonewicca Necklace of Healing	Knochenwicca-Halsband der Heilung	Collier de soigneur oswicca	ボーンヒーラー・ネックレス
+22799		1	1	Bonewicca Necklace of Casting	Knochenwicca-Halsband der Magie	Collier d'incantateur oswicca	ボーンキャスター・ネックレス
+22800		1	1	Bonewicca Bangle of Fending	Knochenwicca-Amulett der Verteidigung	Amulette de protecteur oswicca	ボーンディフェンダー・アミュレット
+22801		1	1	Bonewicca Bangle of Slaying	Knochenwicca-Amulett des Schlachtens	Amulette d'attaquant oswicca	ボーンアタッカー・アミュレット
+22802		1	1	Bonewicca Bangle of Aiming	Knochenwicca-Amulett des Zielens	Amulette de pisteur oswicca	ボーンレンジャー・アミュレット
+22803		1	1	Bonewicca Bangle of Healing	Knochenwicca-Amulett der Heilung	Amulette de soigneur oswicca	ボーンヒーラー・アミュレット
+22804		1	1	Bonewicca Bangle of Casting	Knochenwicca-Amulett der Magie	Amulette d'incantateur oswicca	ボーンキャスター・アミュレット
+22805		1	1	Bonewicca Ring of Fending	Knochenwicca-Ring der Verteidigung	Anneau de protecteur oswicca	ボーンディフェンダー・リング
+22806		1	1	Bonewicca Ring of Slaying	Knochenwicca-Ring des Schlachtens	Anneau d'attaquant oswicca	ボーンアタッカー・リング
+22807		1	1	Bonewicca Ring of Aiming	Knochenwicca-Ring des Zielens	Anneau de pisteur oswicca	ボーンレンジャー・リング
+22808		1	1	Bonewicca Ring of Healing	Knochenwicca-Ring der Heilung	Anneau de soigneur oswicca	ボーンヒーラー・リング
+22809		1	1	Bonewicca Ring of Casting	Knochenwicca-Ring der Magie	Anneau d'incantateur oswicca	ボーンキャスター・リング
+22810		1	1	Ivalician Ark Knight's Helm	Ivalisischer Erzritter-Helm	Heaume d'archichevalier d'Ivalice	イヴァリースアークナイト・ヘルム
+22811		1	1	Ivalician Ark Knight's Surcoat	Ivalisischer Erzritter-Waffenrock	Surcot d'archichevalier d'Ivalice	イヴァリースアークナイト・サーコート
+22812		1	1	Ivalician Ark Knight's Gauntlets	Ivalisische Erzritter-Panzerhandschuhe	Gantelets d'archichevalier d'Ivalice	イヴァリースアークナイト・ガントレット
+22813		1	1	Ivalician Ark Knight's Bottoms	Ivalisische Erzritter-Hose	Bas-de-corps d'archichevalier d'Ivalice	イヴァリースアークナイト・ボトム
+22814		1	1	Ivalician Ark Knight's Greaves	Ivalisische Erzritter-Beinschienen	Jambards d'archichevalier d'Ivalice	イヴァリースアークナイト・グリーヴ
+22815		1	1	Ivalician Ark Knight's Belt	Ivalisischer Erzritter-Gürtel	Ceinture d'archichevalier d'Ivalice	イヴァリースアークナイト・ベルト
+22816		1	1	Ivalician Uhlan's Bandana	Ivalisisches Ulan-Bandana	Bandana d'uhlan d'Ivalice	イヴァリースウーラン・バンダナ
+22817		1	1	Ivalician Uhlan's Jacket	Ivalisische Ulan-Jacke	Jaque d'uhlan d'Ivalice	イヴァリースウーラン・ジャケット
+22818		1	1	Ivalician Uhlan's Fingerless Gloves	Ivalisische Ulan-Fingerlinge	Gants sans doigts d'uhlan d'Ivalice	イヴァリースウーラン・フィンガレスグローブ
+22819		1	1	Ivalician Uhlan's Trousers	Ivalisische Ulan-Hose	Pantalon d'uhlan d'Ivalice	イヴァリースウーラン・トラウザー
+22820		1	1	Ivalician Uhlan's Greaves	Ivalisische Ulan-Beinschienen	Jambards d'uhlan d'Ivalice	イヴァリースウーラン・グリーヴ
+22821		1	1	Ivalician Uhlan's Belt	Ivalisischer Ulan-Gürtel	Ceinture d'uhlan d'Ivalice	イヴァリースウーラン・ベルト
+22822		1	1	Ivalician Shikari's Bandana	Ivalisisches Shikari-Bandana	Bandana de shikari d'Ivalice	イヴァリースシカリ・バンダナ
+22823		1	1	Ivalician Shikari's Jacket	Ivalisische Shikari-Jacke	Jaque de shikari d'Ivalice	イヴァリースシカリ・ジャケット
+22824		1	1	Ivalician Shikari's Fingerless Gloves	Ivalisische Shikari-Fingerlinge	Gants sans doigts de shikari d'Ivalice	イヴァリースシカリ・フィンガレスグローブ
+22825		1	1	Ivalician Shikari's Trousers	Ivalisische Shikari-Hose	Pantalon de shikari d'Ivalice	イヴァリースシカリ・トラウザー
+22826		1	1	Ivalician Shikari's Greaves	Ivalisische Shikari-Beinschienen	Jambards de shikari d'Ivalice	イヴァリースシカリ・グリーヴ
+22827		1	1	Ivalician Shikari's Belt	Ivalisischer Shikari-Gürtel	Ceinture de shikari d'Ivalice	イヴァリースシカリ・ベルト
+22828		1	1	Ivalician Archer's Headband	Ivalisisches Bogenschützen-Stirnband	Bandeau d'archer d'Ivalice	イヴァリースアーチャー・ヘッドバンド
+22829		1	1	Ivalician Archer's Jacket	Ivalisische Bogenschützen-Jacke	Jaque d'archer d'Ivalice	イヴァリースアーチャー・ジャケット
+22830		1	1	Ivalician Archer's Gloves	Ivalisische Bogenschützen-Handschuhe	Gants d'archer d'Ivalice	イヴァリースアーチャー・グローブ
+22831		1	1	Ivalician Archer's Bottoms	Ivalisische Bogenschützen-Hose	Bas-de-corps d'archer d'Ivalice	イヴァリースアーチャー・ボトム
+22832		1	1	Ivalician Archer's Boots	Ivalisische Bogenschützen-Stiefel	Bottes d'archer d'Ivalice	イヴァリースアーチャー・ブーツ
+22833		1	1	Ivalician Archer's Belt	Ivalisischer Bogenschützen-Gürtel	Ceinture d'archer d'Ivalice	イヴァリースアーチャー・ベルト
+22834		1	1	Ivalician Thief's Headband	Ivalisisches Diebes-Stirnband	Bandeau de voleur d'Ivalice	イヴァリースシーフ・ヘッドバンド
+22835		1	1	Ivalician Thief's Jacket	Ivalisische Diebes-Jacke	Jaque de voleur d'Ivalice	イヴァリースシーフ・ジャケット
+22836		1	1	Ivalician Thief's Gloves	Ivalisische Diebes-Handschuhe	Gants de voleur d'Ivalice	イヴァリースシーフ・グローブ
+22837		1	1	Ivalician Thief's Bottoms	Ivalisische Diebes-Hose	Bas-de-corps de voleur d'Ivalice	イヴァリースシーフ・ボトム
+22838		1	1	Ivalician Thief's Boots	Ivalisische Diebes-Stiefel	Bottes de voleur d'Ivalice	イヴァリースシーフ・ブーツ
+22839		1	1	Ivalician Thief's Belt	Ivalisischer Diebes-Gürtel	Ceinture de voleur d'Ivalice	イヴァリースシーフ・ベルト
+22840		1	1	Ivalician Chemist's Monocle	Ivalisisches Chemiker-Monokel	Monocle d'apothicaire d'Ivalice	イヴァリースケミスト・モノクル
+22841		1	1	Ivalician Chemist's Robe	Ivalisische Chemiker-Robe	Robe d'apothicaire d'Ivalice	イヴァリースケミスト・ローブ
+22842		1	1	Ivalician Chemist's Gloves	Ivalisische Chemiker-Handschuhe	Gants d'apothicaire d'Ivalice	イヴァリースケミスト・グローブ
+22843		1	1	Ivalician Chemist's Bottoms	Ivalisische Chemiker-Hose	Bas-de-corps d'apothicaire d'Ivalice	イヴァリースケミスト・ボトム
+22844		1	1	Ivalician Chemist's Shoes	Ivalisische Chemiker-Schuhe	Chaussures d'apothicaire d'Ivalice	イヴァリースケミスト・シューズ
+22845		1	1	Ivalician Chemist's Belt	Ivalisischer Chemiker-Gürtel	Ceinture d'apothicaire d'Ivalice	イヴァリースケミスト・ベルト
+22846		1	1	Ivalician Arithmetician's Monocle	Ivalisisches Arithmetiker-Monokel	Monocle d'arithméticien d'Ivalice	イヴァリースアリスメティシャン・モノクル
+22847		1	1	Ivalician Arithmetician's Robe	Ivalisische Arithmetiker-Robe	Robe d'arithméticien d'Ivalice	イヴァリースアリスメティシャン・ローブ
+22848		1	1	Ivalician Arithmetician's Gloves	Ivalisische Arithmetiker-Handschuhe	Gants d'arithméticien d'Ivalice	イヴァリースアリスメティシャン・グローブ
+22849		1	1	Ivalician Arithmetician's Bottoms	Ivalisische Arithmetiker-Hose	Bas-de-corps d'arithméticien d'Ivalice	イヴァリースアリスメティシャン・ボトム
+22850		1	1	Ivalician Arithmetician's Shoes	Ivalisische Arithmetiker-Schuhe	Chaussures d'arithméticien d'Ivalice	イヴァリースアリスメティシャン・シューズ
+22851		1	1	Ivalician Arithmetician's Belt	Ivalisischer Arithmetiker-Gürtel	Ceinture d'arithméticien d'Ivalice	イヴァリースアリスメティシャン・ベルト
+22852		1	1	Tsukuyomi's Longsword	Tsukuyomi-Langschwert	Épée droite de Tsukuyomi	月読命直剣
+22853		1	1	Tsukuyomi's Crescents	Tsukuyomi-Mondsicheln	Croissants de lune de Tsukuyomi	月読命三日月
+22854		1	1	Tsukuyomi's Greataxe	Tsukuyomi-Kriegsaxt	Grande hache de Tsukuyomi	月読命大斧
+22855		1	1	Tsukuyomi's Lance	Tsukuyomi-Lanze	Lance de Tsukuyomi	月読命長槍
+22856		1	1	Tsukuyomi's Greatbow	Tsukuyomi-Langbogen	Grand arc de Tsukuyomi	月読命大弓
+22857		1	1	Tsukuyomi's Kunai	Tsukuyomi-Kunai	Kunai de Tsukuyomi	月読命苦無
+22858		1	1	Tsukuyomi's Odachi	Tsukuyomi-Odachi	Odachi de Tsukuyomi	月読命大太刀
+22859		1	1	Tsukuyomi's Revolver	Tsukuyomi-Revolver	Mousqueton de Tsukuyomi	月読命短銃
+22860		1	1	Tsukuyomi's Cane	Tsukuyomi-Stock	Khakkhara de Tsukuyomi	月読命錫杖
+22861		1	1	Tsukuyomi's Rod	Tsukuyomi-Stab	Bâton de Tsukuyomi	月読命呪杖
+22862		1	1	Tsukuyomi's Grimoire	Tsukuyomi-Grimoire	Sûtra de Tsukuyomi	月読命経典
+22863		1	1	Tsukuyomi's Codex	Tsukuyomi-Kodex	Écrit de Tsukuyomi	月読命文書
+22864		1	1	Tsukuyomi's Ephemeris	Tsukuyomi-Astrometer	Éphéméridosphère de Tsukuyomi	月読命干支
+22865		1	1	Tsukuyomi's Chokuto	Tsukuyomi-Chokuto	Chokuto de Tsukuyomi	月読命直刀
+22866		1	1	Tsukuyomi's Rapier	Tsukuyomi-Rapier	Rapière de Tsukuyomi	月読命細剣
+22867		1	1	Tsukuyomi's Shield	Tsukuyomi-Schild	Bouclier de Tsukuyomi	月読命之盾
+22884		0	1	Nightsteel Saw	Nachtstahl-Säge	Scie en noctacier	ナイトスチールソー
+22885		0	1	Nightsteel Cross-pein Hammer	Nachtstahl-Kreuzschlaghammer	Marteau à panne croisée en noctacier	ナイトスチール・クロスペインハンマー
+22886		0	1	Nightsteel Raising Hammer	Nachtstahl-Schlichthammer	Marteau de batteur en noctacier	ナイトスチール・レイジングハンマー
+22887		0	1	Nightsteel Lapidary Hammer	Nachtstahl-Juwelierhammer	Marteau de lapidaire en noctacier	ナイトスチール・ラピダリーハンマー
+22888		0	1	Nightsteel Round Knife	Nachtstahl-Rundmesser	Couteau arrondi en noctacier	ナイトスチール・ラウンドナイフ
+22889		0	1	Silvergrace Needle	Silbergunst-Nadel	Aiguille en graçargent	グレースニードル
+22890		0	1	Nightsteel Alembic	Nachtstahl-Destillierkolben	Alambic en noctacier	ナイトスチールアレンビック
+22891		0	1	Nightsteel Frypan	Nachtstahl-Bratpfanne	Poêle à frire en noctacier	ナイトスチールフライパン
+22892		0	1	Nightsteel Pickaxe	Nachtstahl-Spitzhacke	Pioche en noctacier	ナイトスチールピック
+22893		0	1	Nightsteel Hatchet	Nachtstahl-Handbeil	Hachette en noctacier	ナイトスチールハチェット
+22894		0	1	Black Willow Fishing Rod	Schwarzweiden-Angelrute	Canne à pêche en saule noir	ブラックウィロー・フィッシングロッド
+22895		0	1	Nightsteel Claw Hammer	Nachtstahl-Klauenhammer	Marteau arrache-clou en noctacier	ナイトスチール・クローハンマー
+22896		0	1	Nightsteel File	Nachtstahl-Feile	Lime en noctacier	ナイトスチールファイル
+22897		0	1	Pair Of Nightsteel Pliers	Nachtstahl-Zange	Tenailles en noctacier	ナイトスチールプライヤー
+22898		0	1	Silvergrace Grinding Wheel	Silbergunst-Schleifrad	Meule en graçargent	グレースグラインディングホイール
+22899		0	1	Nightsteel Awl	Nachtstahl-Ahle	Alêne en noctacier	ナイトスチールアウル
+22900		0	1	Black Willow Spinning Wheel	Schwarzweiden-Spinnrad	Rouet en saule noir	ブラックウィロー・スピニングホイール
+22901		0	1	Nightsteel Mortar	Nachtstahl-Mörser	Mortier en noctacier	ナイトスチールモーター
+22902		0	1	Nightsteel Culinary Knife	Nachtstahl-Küchenmesser	Couteau de cuisine en noctacier	ナイトスチール・クリナリーナイフ
+22903		0	1	Nightsteel Sledgehammer	Nachtstahl-Vorschlaghammer	Maillet en noctacier	ナイトスチールモール
+22904		0	1	Nightsteel Scythe	Nachtstahl-Sense	Faux en noctacier	ナイトスチールサイズ
+22905		0	1	Onishi Kasa	Onishi-Kasa	Kasa Onishi	鬼師帽
+22906		0	1	Onishi Dogi	Onishi-Dogi	Dôgi Onishi	鬼師胴着
+22907		0	1	Onishi Tekko	Onishi-Tekko	Tekkô Onishi	鬼師手甲
+22908		0	1	Onishi Momohiki	Onishi-Momohiki	Momohiki Onishi	鬼師股引
+22909		0	1	Onishi Zori	Onishi-Zori	Zôri Onishi	鬼師草履
+22910		0	1	Yamashi Kasa	Yamashi-Kasa	Kasa Yamashi	山師笠
+22911		0	1	Yamashi Dogi	Yamashi-Dogi	Dôgi Yamashi	山師胴着
+22912		0	1	Yamashi Tekko	Yamashi-Tekko	Tekkô Yamashi	山師手甲
+22913		0	1	Yamashi Momohiki	Yamashi-Momohiki	Momohiki Yamashi	山師股引
+22914		0	1	Yamashi Zori	Yamashi-Zori	Zôri Yamashi	山師草履
+22915		0	1	Onishi Obi	Onishi-Obi	Obi Onishi	鬼師帯
+22916		0	1	Silvergrace Earrings of Crafting	Silbergunst-Ohrringe des Handwerks	Boucles d'oreilles des créations en graçargent	グレース・クラフターイヤリング
+22917		0	1	Black Willow Necklace of Crafting	Schwarzweiden-Halsband des Handwerks	Collier des créations en saule noir	ブラックウィロー・クラフターネックレス
+22918		0	1	Black Willow Armillae of Crafting	Schwarzweiden-Armillae des Handwerks	Armilles des créations en saule noir	ブラックウィロー・クラフターアルミラ
+22919		0	1	Black Willow Ring of Crafting	Schwarzweiden-Ring des Handwerks	Bague des créations en saule noir	ブラックウィロー・クラフターリング
+22920		0	1	Yamashi Obi	Yamashi-Obi	Obi Yamashi	山師帯
+22921		0	1	Silvergrace Earrings of Gathering	Silbergunst-Ohrringe des Eifers	Boucles d'oreilles des ressources en graçargent	グレース・ギャザラーイヤリング
+22922		0	1	Slothskin Necklace of Gathering	Faultierleder-Halsband des Eifers	Collier des ressources en cuir de paresseux	メガテリウム・ギャザラーネックレス
+22923		0	1	Slothskin Armillae of Gathering	Faultierleder-Armillae des Eifers	Poignets des ressources en cuir de paresseux	メガテリウム・ギャザラーリストバンド
+22924		0	1	Slothskin Ring of Gathering	Faultierleder-Ring des Eifers	Bague des ressources en cuir de paresseux	メガテリウム・ギャザラーリング
+23001		0	1	Quaintrelle's Ruffled Dress	Quaintrelle-Rüschenkleid	Robe à froufrous d'hédoniste	クウェインチュレル・ラッフルドレス
+23002		0	1	Quaintrelle's Ruffled Skirt	Quaintrelle-Rüschenrock	Jupe à froufrous d'hédoniste	クウェインチュレル・ラッフルスカート
+23013		0	1	Doman Liege's Dogi	Dogi des domanischen Lehnsherren	Dôgi de seigneur domien	飛燕之胴着
+23014		0	1	Doman Liege's Kote	Kote des domanischen Lehnsherren	Kote de seigneur domien	飛燕之篭手
+23015		0	1	Doman Liege's Kyakui	Kyakui des domanischen Lehnsherren	Kyakui de seigneur domien	飛燕之脚衣
+23016		0	1	Doman Liege's Kyahan	Kyahan des domanischen Lehnsherren	Kyahan de seigneur domien	飛燕之脚絆
+23017		1	1	Endless Summer Glasses	Sonnenbrille des Ewigen Sommers	Lunettes de soleil de l'éternel été	エンドレスサマーグラス
+23018		1	1	Endless Summer Top	Hemd des Ewigen Sommers	Haut de l'éternel été	エンドレスサマートップ
+23019		1	1	Endless Summer Bottom	Badehose des Ewigen Sommers	Bas de l'éternel été	エンドレスサマーボトム
+23020		1	1	Lunar Kamuy Fife	Lunarischer-Kamuy-Pfeife	Sifflet kamuy de la nuit	カムイの魔笛【夜】
+23022		1	1	Mikoshi Flute	Mikoshi-Pfeife	Flute mikoshi	オオナマズ御輿笛
+23025		1	1	Magitek Conveyor Identification Key	Magitek-Transporter-Kennschlüssel	Clef d'activation de transporteur magitek	魔導キャリアー認証鍵
+23026		1	1	Wind-up Tsukuyomi	Tsukuyomi-Puppe	Poupée Tsukuyomi	マメット・ツクヨミ
+23030		0	1	Wind-up Sadu	Sadu-Puppe	Sadu miniature	マメット・サドゥ
+23031		1	1	Construct 8	Automat Nr. 8	Bâtisseur 8	労働八号
+23032		0	1	Monkey King	Affenkönig	Petit Qitian Dasheng	セイテンショウセイ
+23034		1	1	Clockwork Lantern	Uhrwerk-Laterne	Lanterne mécanique	クロックワークランタン
+23035		1	1	Attendee #777	Festival-Namazuo	Namazu nain festif	祭ナマズオ
+23036		0	1	Wind-up Zhloe	Zhloe-Puppe	Zhloe miniature	マメット・シロ
+23037		0	1	Lunar Barding	Tsukuyomi-Rossharnisch	Barde de Tsukuyomi	ツクヨミ・バード
+23043		0	999	Lunar Totem	Tsukuyomi-Totem	Totem sélénien	夜神のトーテム像
+23047		0	999	Qitian Dasheng Card	Qitian-Dasheng-Karte	Carte Qitian Dasheng	カード:セイテンタイセイ
+23051		0	999	Tsukuyomi Card	Tsukuyomi-Karte	Carte Tsukuyomi	カード:ツクヨミ
+23052		0	999	Yiazmat Card	Yiasmat-Karte	Carte Yiazmat	カード:鬼龍ヤズマット
+23053		1	1	Gosetsu Card	Gosetsu-Karte	Carte Gosetsu	カード:ゴウセツ
+23054		0	999	Shrieker	Schreihals	Hurleur	シュリーカー
+23055		0	999	White Goldfish	Weißer Prismenfisch	Poisson-prisme blanc	白彩魚
+23056		0	999	Firelight Goldfish	Feuerroter Prismenfisch	Poisson-prisme orange	橙彩魚
+23057		0	999	Hookstealer	Hakenklauer	Voleur d'hameçon	フックスティーラー
+23058		0	999	Sapphire Fan	Saphirfächer	Éventail de saphir	サファイアファン
+23059		0	999	The Archbishop	Erzbischof	Archevêque	アークビショップフィッシュ
+23060		0	999	Bondsplitter	Trennungsadvokat	Divorceur	ボンドスプリッター
+23061		0	999	The Undecided	Zögerling	Girouette	ナガレクダリ
+23062		0	999	Diamond-eye	Diamantauge	Œil-de-diamant	ダイヤモンドアイ
+23063		0	999	Rising Dragon	Aufsteigender Drache	Dragon du firmament	ノボリリュウ
+23064		0	999	The Gambler	Spielerfisch	Flambeur	バクチウチ
+23065		0	999	The Winter Queen	Winterkönigin	reine d'hiver	春不知
+23066		0	999	Rakshasa	Schneller Tod	Rakshasa	ソクシツキ
+23067		0	999	Bokuden	Bokuden	Bokuden	ボクデン
+23068		0	999	Hagoromo Koi	Federkarpfen	Koï au hagoromo	羽衣鯉
+23069		0	999	The Word of God	Gotteswort	Iconoclaste	シンタクヤブリ
+23070		0	999	Yat Khan	Yat Khagan	Khan de Yat	ヤトカガン
+23071		0	999	Curefish	Heilerfisch	Guérisandre	エスナカブリ
+23072		0	999	Lake Sphairai	See-Sphairai	Poisson Sphairai	スファライフィッシュ
+23073		0	999	Warmscale Pleco	Warmschuppen-Harnischwels	Pléco chaudécailles	ヒートプレコ
+23074		0	999	Shirogane Clam	Shirogane-Muschel	Huître argentée	白銀貝
+23075		0	999	Illuminati Mask	Indigomaske	Masque indigo	イルミナティマスク
+23097		0	1	Grand Chair	Prachtvoller Stuhl	Fauteuil grandiose	グランドチェア
+23098		0	1	Red Dahlia Corsage	Purpurrote Dahlien-Haarspange	Barrette dahlia rouge	ダリアオーナメント:レッド
+23099		0	1	Blue Dahlia Corsage	Blaue Dahlien-Haarspange	Barrette dahlia bleu	ダリアオーナメント:ブルー
+23100		0	1	Yellow Dahlia Corsage	Gelbe Dahlien-Haarspange	Barrette dahlia jaune	ダリアオーナメント:イエロー
+23101		0	1	Green Dahlia Corsage	Grüne Dahlien-Haarspange	Barrette dahlia vert	ダリアオーナメント:グリーン
+23102		0	1	Orange Dahlia Corsage	Orange Dahlien-Haarspange	Barrette dahlia orange	ダリアオーナメント:オレンジ
+23103		0	1	Purple Dahlia Corsage	Violette Dahlien-Haarspange	Barrette dahlia violet	ダリアオーナメント:パープル
+23104		0	1	White Dahlia Corsage	Weiße Dahlien-Haarspange	Barrette dahlia blanc	ダリアオーナメント:ホワイト
+23105		0	1	Black Dahlia Corsage	Schwarze Dahlien-Haarspange	Barrette dahlia noir	ダリアオーナメント:ブラック
+23106		0	1	Rainbow Dahlia Corsage	Mehrfarbige Dahlien-Haarspange	Barrette dahlias multicolores	ダリアオーナメント:ブレンド
+23107		0	1	Ornate Onishi Kasa	Kunstvoller Onishi-Kasa	Kasa Onishi amélioré	鬼師帽【改】
+23108		0	1	Ornate Onishi Dogi	Kunstvolle Onishi-Dogi	Dôgi Onishi amélioré	鬼師胴着【改】
+23109		0	1	Ornate Onishi Tekko	Kunstvolle Onishi-Tekko	Tekkô Onishi améliorés	鬼師手甲【改】
+23110		0	1	Ornate Onishi Momohiki	Kunstvolle Onishi-Momohiki	Momohiki Onishi amélioré	鬼師股引【改】
+23111		0	1	Ornate Onishi Zori	Kunstvolle Onishi-Zori	Zôri Onishi améliorés	鬼師草履【改】
+23112		0	1	Ornate Yamashi Kasa	Kunstvoller Yamashi-Kasa	Kasa Yamashi amélioré	山師笠【改】
+23113		0	1	Ornate Yamashi Dogi	Kunstvolle Yamashi-Dogi	Dôgi Yamashi amélioré	山師胴着【改】
+23114		0	1	Ornate Yamashi Tekko	Kunstvolle Yamashi-Tekko	Tekkô Yamashi améliorés	山師手甲【改】
+23115		0	1	Ornate Yamashi Momohiki	Kunstvolle Yamashi-Momohiki	Momohiki Yamashi amélioré	山師股引【改】
+23116		0	1	Ornate Yamashi Zori	Kunstvolle Yamashi-Zori	Zôri Yamashi améliorés	山師草履【改】
+23117		1	1	Season Seven Pack Wolf Voucher A	Preiscoupon A des Rudelwolfes (7. Saison)	Certificat de champion du festin S7	覇者の証S7
+23118		1	1	Season Seven Pack Wolf Voucher B	Preiscoupon B des Rudelwolfes (7. Saison)	Certificat de compétiteur du festin S7	猛者の証S7
+23119		1	1	Season Seven Pack Wolf Voucher C	Preiscoupon C des Rudelwolfes (7. Saison)	Certificat de finaliste du festin S7	強者の証S7
+23124		1	1	Safeguard System Identification Key	Sicherheitssystem-Kennschlüssel	Clef d'activation de module d'escorte sphérique	護送システム認証鍵
+23143		0	999	Gyr Abanian Remedies	Phiolenset abanischer Medizin	Remèdes gyrabaniens	ギラバニア医薬品
+23144		0	999	Anti-shark Harpoon	Haifischharpune	Harpon anti-requin	サメ対策用品
+23145		0	999	Coerthan Cold-weather Gear	Coerthischer Wintermantel	Vêtements chauds du Coerthas	クルザス防寒品
+23146		0	999	Sui-no-Sato Special	Kostbarkeit aus Sui no Sato	Spécialité de Sui-no-Sato	スイ特産品
+23147		0	999	Cloud Pearl	Wolkenmeerperle	Rareté de la Mer de nuages	雲海の珍宝
+23148		0	999	Pinch of Active Ingredients	Gemahlener Wundstein	Poudre minérale thérapeutique	石薬素材
+23149		0	999	Harpoon Head	Korallenschaft	Pièce de harpon	銛素材
+23150		0	999	Phial of Thermal Fluid	Phiole Isolier-Tinktur	Liquide isolant	保温性素材
+23151		0	999	Shisui Jewel	Korallenamethyst	Joyau en améthyste	紫水結晶
+23152		0	999	Cloudkin Feather	Wolkenmeerfeder	Penne de la Mer de nuages	雲海の羽根
+23153		0	999	Gyr Abanian Remedy Components	Komponente abanischer Medizin	Composants pour remèdes gyrabaniens	ギラバニア医薬品部材
+23154		0	999	Harpoon Components	Komponente einer Haifischharpune	Composants pour harpon anti-requin	サメ対策用品部材
+23155		0	999	Cold-weather Gear Components	Komponente coerthischer Winterkleidung	Composants pour vêtements chauds du Coerthas	クルザス防寒品部材
+23156		0	999	Sui-no-Sato Special Components	Komponente einer Kostbarkeit aus Sui no Sato	Composants pour spécialité de Sui-no-Sato	スイ特産品部材
+23157		0	999	Cloud Pearl Components	Komponente einer Wolkenmeerperle	Composants pour rareté de la Mer de nuages	雲海の珍宝部材
+23158		0	999	Raw Medicinal Materials	Material für eine Komponente abanischer Medizin	Matériaux pour composants de remèdes gyrabaniens	ギラバニア医薬品部材の材料
+23159		0	999	Raw Harpoon Materials	Material für Komponente einer Haifischharpune	Matériaux pour composants de harpon anti-requin	サメ対策用品部材の材料
+23160		0	999	Raw Cold-weather Gear Materials	Material für eine Komponente einer coerthischen Winterkleidung	Matériaux pour composants de vêtements chauds du Coerthas	クルザス防寒品部材の材料
+23161		0	999	Raw Sui-no-Sato Special Materials	Material für eine Komponente einer Kostbarkeit aus Sui no Sato	Matériaux pour composants de spécialité de Sui-no-Sato	スイ特産品部材の材料
+23162		0	999	Raw Cloud Pearl Materials	Material für eine Komponente einer Wolkenmeerperle	Matériaux pour composants de rareté de la Mer de nuages	雲海の珍宝部材の材料
+23165		0	999	Aetherpool Grip	Padjal-Waffengriff	Poignée éthéréenne	魔器柄
+23167		0	999	Super-Potion	Übertrank	Supra potion	スーパーポーション
+23168		0	999	Super-Ether	Über-Äther	Supra éther	スーパーエーテル
+23169		0	999	Dubious Dirt	Wundersames Pulver	Poudre étrange	謎めいた粉末
+23170		0	999	Odd Herb	Wundersames Kraut	Herbe sauvage étrange	謎めいた野草
+23171		0	999	Fishy Fish	Wundersamer Fisch	Poisson étrange	謎めいた魚
+23172		0	999	Elixir Mixing Paraphernalia Materials	Material für ein Destillierapparat-Ersatzteil	Matériel d'apothicaire	素敵な調合用品の材料
+23173		0	999	Elixir Mixing Paraphernalia	Destillierapparat-Ersatzteil	Élément nécessaire à une mixtion	素敵な調合用品
+23174		0	999	Gougan Coin	Gog-Münze	Pièce de Goug	ゴーグ古銭
+23176		0	999	Doyen's Clan Mark Log	Doyens Clan-Jägertagebuch	Journal de membre vétéran du clan	古豪クラン員の手記
+23178		0	999	Stormsap	Götterzorn	Fulgurosève	紫雷水
+23179		0	999	Hawk's Eye	Falkenauge	Œil-de-faucon	鷹目石
+23180		0	999	Hardened Veteran Tree Sap	Gehärteter alter Baumsaft	Sève durcie de vieil arbre	老木樹液塊
+23181		0	999	Kingcraft Demimateria	Königshandwerk-Demimateria	Demi-matéria de l'artisan	匠人のデミマテリア
+23182		0	999	Duskglow Aethersand	Dämmer-Seelensand	Sable éthéréen du crépuscule	黄昏の霊砂
+23183		0	999	Hawk's Eye Sand	Falkenaugen-Sand	Sable d'œil-de-faucon	鷹目砂
+23184		0	999	Veteran Tree Sap	Alter Baumsaft	Sève de vieil arbre	老木樹液
+23185		0	999	Konpeito	Konpeito	Konpeitô	金平糖
+23186		0	999	Banh Xeo	Banh Xeo	Banh xeo	バインセオ
+23187		0	999	Matcha	Matcha-Tee	Matcha	抹茶
+23188		0	999	Ema Datshi	Ema Datshi	Ema datshi	エマダツィ
+23189		1	1	Millking's Claw Hammer	Schreinerkönigs-Klauenhammer	Marteau arrache-clou du roi de l'établi	ミルキング・クローハンマー
+23190		1	1	Forgeking's File	Waffenschmiedekönigs-Feile	Lime du roi de la forge	フォージキングファイル
+23191		1	1	Hammerking's Pliers	Rüstungsschmiedekönigs-Zange	Tenailles du roi de la fonderie	ハンマーキングプライヤー
+23192		1	1	Gemking's Grinding Wheel	Kunstschmiedekönigs-Schleifrad	Meule du roi des gemmes	ジェムキング・グラインディングホイール
+23193		1	1	Hideking's Awl	Ledererkönigs-Ahle	Alêne du roi de la peausserie	ハイドキングアウル
+23194		1	1	Boltking's Spinning Wheel	Schneiderkönigs-Spinnrad	Rouet du roi des étoffes	ボルトキング・スピニングホイール
+23195		1	1	Cauldronking's Mortar	Laborkönigs-Mörser	Mortier du roi de l'apothicairerie	コルドロンキングモーター
+23196		1	1	Galleyking's Culinary Knife	Feinschmeckerkönigs-Küchenmesser	Couteau de cuisine du roi des fourneaux	ガリーキング・クリナリーナイフ
+23197		1	1	Mineking's Sledgehammer	Bergbaukönigs-Vorschlaghammer	Maillet du roi des carrières	マインキングモール
+23198		1	1	Fieldking's Scythe	Botanikerkönigs-Sense	Faux du roi de l'agronomie	フィールドキングサイズ
+23199		0	1	Handking's Tool Belt	Handwerkerkönigs-Werkzeuggürtel	Ceinture à outils	キングハンド・ツールベルト
+23200		0	1	Handking's Earring	Handwerkerkönigs-Ohrring	Boucle d'oreille du roi de la main	キングハンドイヤリング
+23201		0	1	Handking's Necklace	Handwerkerkönigs-Halsband	Collier du roi de la main	キングハンドネックレス
+23202		0	1	Handking's Armillae	Handwerkerkönigs-Armillae	Armilles du roi de la main	キングハンドアルミラ
+23203		0	1	Handking's Ring	Handwerkerkönigs-Ring	Bague du roi de la main	キングハンドリング
+23204		0	1	Landking's Survival Belt	Sammlerkönigs-Überlebensgürtel	Ceinture de survie du roi de la terre	キングランド・サバイバルベルト
+23205		0	1	Landking's Earring	Sammlerkönigs-Ohrring	Boucle d'oreille du roi de la terre	キングランドイヤリング
+23206		0	1	Landking's Necklace	Sammlerkönigs-Halsberge	Collier du roi de la terre	キングランドネックレス
+23207		0	1	Landking's Armillae	Sammlerkönigs-Armbänder	Armilles du roi de la terre	キングランドアルミラ
+23208		0	1	Landking's Ring	Sammlerkönigs-Ring	Bague du roi de la terre	キングランドリング
+23209		0	999	Celestial Kimono Remnant	Himmlischer Kimonostoff	Lambeau du kimono de Tsukuyomi	夜神ツクヨミの反物
+23210		0	999	Resistance Token	Armeemarke	Avoir de l'armée de libération	解放軍の手形
+23220		0	999	Yanxian Soil	Yanxia-Erde	Terreau de Yanxia	ヤンサ沃土
+23221		0	999	Yanxian Verbena	Yanxia-Eisenkraut	Verveine de Yanxia	ヤンサバーベナ
+23222		0	999	Marine Wax Ester	Meeres-Wachsester	Céride aquatique	海産油脂
+23226		1	1	Endless Summer Sandals	Sandalen des Ewigen Sommers	Sandales de l'éternel été	エンドレスサマーサンダル
+23230		0	1	Journeyman Salvager Permit	Gebrauchtwarenhändler-Vertrag	Licence de recrutement: magasinier personnel	雇用証書:古物商
+23231		0	1	Augmented Nightsteel Sword	Modifiziertes Nachtstahl-Schwert	Épée en noctacier améliorée	ナイトスチールソードRE
+23232		0	1	Augmented Nightsteel Claws	Modifizierte Nachtstahl-Klauen	Griffes en noctacier améliorées	ナイトスチールクローRE
+23233		0	1	Augmented Nightsteel Battleaxe	Modifizierte Nachtstahl-Kriegsaxt	Hache de combat en noctacier améliorée	ナイトスチールバトルアクスRE
+23234		0	1	Augmented Black Willow Spear	Modifizierter Schwarzweiden-Speer	Hast en saule noir amélioré	ブラックウィロースピアRE
+23235		0	1	Augmented Black Willow Greatbow	Modifizierter Schwarzweiden-Langbogen	Grand arc en saule noir amélioré	黒柳大弓【改】
+23236		0	1	Augmented Nightsteel Daggers	Modifizierte Nachtstahl-Dolche	Dagues en noctacier améliorées	夜鉄短刀【改】
+23237		0	1	Augmented Nightsteel Greatsword	Modifiziertes Nachtstahl-Großschwert	Grande épée en noctacier améliorée	ナイトスチール・グレートソードRE
+23238		0	1	Augmented Nightsteel Blunderbuss	Modifizierte Nachtstahl-Espingole	Tromblon en noctacier amélioré	ナイトスチール・ブランダーバスRE
+23239		0	1	Augmented Black Willow Cane	Modifizierter Schwarzweiden-Stock	Canne en saule noir améliorée	ブラックウィローケーンRE
+23240		0	1	Augmented Silvergrace Rod	Modifizierter Silbergunst-Stab	Sceptre en graçargent amélioré	グレースロッドRE
+23241		0	1	Augmented Silvergrace Grimoire	Modifiziertes Silbergunst-Grimoire	Grimoire en graçargent amélioré	グレースグリモアRE
+23242		0	1	Augmented Silvergrace Codex	Modifizierter Silbergunst-Kodex	Codex en graçargent amélioré	グレースコーデックスRE
+23243		0	1	Augmented Silvergrace Planisphere	Modifizierte Silbergunst-Planisphäre	Planisphère en graçargent amélioré	グレースプラニスフィアRE
+23244		0	1	Augmented Nightsteel Katana	Modifiziertes Nachtstahl-Katana	Katana en noctacier amélioré	夜鉄刀【改】
+23245		0	1	Augmented Silvergrace Rapier	Modifiziertes Silbergunst-Rapier	Rapière en graçargent améliorée	グレースレイピアRE
+23246		0	1	Augmented Nightsteel Shield	Modifizierter Nachtstahl-Schild	Bouclier en noctacier amélioré	ナイトスチールシールドRE
+23247		0	1	Augmented Nightsteel Helm of Fending	Modifizierter Nachtstahl-Helm der Verteidigung	Casque de protecteur en noctacier amélioré	ナイトスチール・ディフェンダーヘルムRE
+23248		0	1	Augmented Nightsteel Armor of Fending	Modifizierte Nachtstahl-Rüstung der Verteidigung	Armure de protecteur en noctacier améliorée	ナイトスチール・ディフェンダーアーマーRE
+23249		0	1	Augmented Nightsteel Gauntlets of Fending	Modifizierte Nachtstahl-Panzerhandschuhe der Verteidigung	Gantelets de protecteur en noctacier améliorés	ナイトスチール・ディフェンダーガントレットRE
+23250		0	1	Augmented True Linen Skirt of Fending	Modifizierter Reinleinen-Rock der Verteidigung	Jupe de protecteur en lin hingashien améliorée	トゥルーリネン・ディフェンダースカートRE
+23251		0	1	Augmented Nightsteel Sabatons of Fending	Modifizierte Nachtstahl-Bärlatschen der Verteidigung	Sabatons de protecteur en noctacier améliorés	ナイトスチール・ディフェンダーサバトンRE
+23252		0	1	Augmented Slothskin Belt of Fending	Modifizierter Faultierleder-Gürtel der Verteidigung	Ceinture de protecteur en cuir de paresseux améliorée	メガテリウム・ディフェンダーベルトRE
+23253		0	1	Augmented Nightsteel Helm of Maiming	Modifizierter Nachtstahl-Helm des Verstümmelns	Casque d'abatteur en noctacier amélioré	ナイトスチール・スレイヤーヘルムRE
+23254		0	1	Augmented Nightsteel Mail of Maiming	Modifizierte Nachtstahl-Rüstung des Verstümmelns	Cotte de mailles d'abatteur en noctacier améliorée	ナイトスチール・スレイヤーメイルRE
+23255		0	1	Augmented Nightsteel Gauntlets of Maiming	Modifizierte Nachtstahl-Panzerhandschuhe des Verstümmelns	Gantelets d'abatteur en noctacier améliorés	ナイトスチール・スレイヤーガントレットRE
+23256		0	1	Augmented True Linen Breeches of Maiming	Modifizierte Reinleinen-Reiterhose des Verstümmelns	Braies d'abatteur en lin hingashien améliorées	トゥルーリネン・スレイヤーブリーチRE
+23257		0	1	Augmented Nightsteel Greaves of Maiming	Modifizierte Nachtstahl-Beinschienen des Verstümmelns	Jambards d'abatteur en noctacier améliorés	ナイトスチール・スレイヤーグリーヴRE
+23258		0	1	Augmented Slothskin Belt of Maiming	Modifizierter Faultierleder-Gürtel des Verstümmelns	Ceinture d'abatteur en cuir de paresseux améliorée	メガテリウム・スレイヤーベルトRE
+23259		0	1	Augmented Silvergrace Halfmask of Striking	Modifizierte Silbergunst-Halbmaske des Schlagens	Demi-masque d'agresseur en graçargent amélioré	グレース・ストライカーハーフマスクRE
+23260		0	1	Augmented True Linen Coat of Striking	Modifizierter Reinleinen-Mantel des Schlagens	Manteau d'agresseur en lin hingashien amélioré	トゥルーリネン・ストライカーコートRE
+23261		0	1	Augmented True Linen Halfgloves of Striking	Modifizierte Reinleinen-Kurzfingerhandschuhe des Schlagens	Mitaines d'agresseur en lin hingashien améliorées	トゥルーリネン・ストライカーハーフグローブRE
+23262		0	1	Augmented True Linen Trousers of Striking	Modifizierte Reinleinen-Hose des Schlagens	Pantalon d'agresseur en lin hingashien amélioré	トゥルーリネン・ストライカートラウザーRE
+23263		0	1	Augmented Slothskin Boots of Striking	Modifizierte Faultierleder-Stiefel des Schlagens	Bottes d'agresseur en cuir de paresseux améliorées	メガテリウム・ストライカーブーツRE
+23264		0	1	Augmented Slothskin Belt of Striking	Modifizierter Faultierleder-Gürtel des Schlagens	Ceinture d'agresseur en cuir de paresseux améliorée	メガテリウム・ストライカーベルトRE
+23265		0	1	Augmented True Linen Cap of Aiming	Modifizierte Reinleinen-Kappe des Zielens	Chapeau de pisteur en lin hingashien amélioré	トゥルーリネン・レンジャーキャップRE
+23266		0	1	Augmented True Linen Jacket of Aiming	Modifizierte Reinleinen-Jacke des Zielens	Jaque de pisteur en lin hingashien améliorée	トゥルーリネン・レンジャージャケットRE
+23267		0	1	Augmented Slothskin Gloves of Aiming	Modifizierte Faultierleder-Handschuhe des Zielens	Gants de pisteur en cuir de paresseux améliorés	メガテリウム・レンジャーグローブRE
+23268		0	1	Augmented True Linen Breeches of Aiming	Modifizierte Reinleinen-Reiterhose des Zielens	Braies de pisteur en lin hingashien améliorées	トゥルーリネン・レンジャーブリーチRE
+23269		0	1	Augmented Slothskin Boots of Aiming	Modifizierte Faultierleder-Stiefel des Zielens	Bottes de pisteur en cuir de paresseux améliorées	メガテリウム・レンジャーブーツRE
+23270		0	1	Augmented Slothskin Belt of Aiming	Modifizierter Faultierleder-Gürtel des Zielens	Ceinture de pisteur en cuir de paresseux améliorée	メガテリウム・レンジャーベルトRE
+23271		0	1	Augmented True Linen Cap of Scouting	Modifizierte Reinleinen-Kappe des Spähens	Chapeau d'éclaireur en lin hingashien amélioré	トゥルーリネン・スカウトキャップRE
+23272		0	1	Augmented True Linen Jacket of Scouting	Modifizierte Reinleinen-Jacke des Spähens	Jaque d'éclaireur en lin hingashien améliorée	トゥルーリネン・スカウトジャケットRE
+23273		0	1	Augmented Slothskin Gloves of Scouting	Modifizierte Faultierleder-Handschuhe des Spähens	Gants d'éclaireur en cuir de paresseux améliorés	メガテリウム・スカウトグローブRE
+23274		0	1	Augmented True Linen Breeches of Scouting	Modifizierte Reinleinen-Reiterhose des Spähens	Braies d'éclaireur en lin hingashien améliorées	トゥルーリネン・スカウトブリーチRE
+23275		0	1	Augmented Slothskin Thighboots of Scouting	Modifizierte Faultierleder-Stiefel des Spähens	Bottes d'éclaireur en cuir de paresseux améliorées	メガテリウム・スカウトサイブーツRE
+23276		0	1	Augmented Slothskin Belt of Scouting	Modifizierter Faultierleder-Gürtel des Spähens	Ceinture d'éclaireur en cuir de paresseux amélioré	メガテリウム・スカウトベルトRE
+23277		0	1	Augmented True Linen Hat of Healing	Modifizierter Reinleinen-Hut der Heilung	Chapeau de soigneur en lin hingashien amélioré	トゥルーリネン・ヒーラーハットRE
+23278		0	1	Augmented True Linen Robe of Healing	Modifizierte Reinleinen-Robe der Heilung	Robe de soigneur en lin hingashien améliorée	トゥルーリネン・ヒーラーローブRE
+23279		0	1	Augmented True Linen Gloves of Healing	Modifizierte Reinleinen-Handschuhe der Heilung	Gants de soigneur en lin hingashien améliorés	トゥルーリネン・ヒーラーグローブRE
+23280		0	1	Augmented True Linen Breeches of Healing	Modifizierte Reinleinen-Reiterhose der Heilung	Braies de soigneur en lin hingashien améliorées	トゥルーリネン・ヒーラーブリーチRE
+23281		0	1	Augmented Slothskin Boots of Healing	Modifizierte Faultierleder-Stiefel der Heilung	Bottes de soigneur en cuir de paresseux améliorées	メガテリウム・ヒーラーブーツRE
+23282		0	1	Augmented Slothskin Belt of Healing	Modifizierter Faultierleder-Gürtel der Heilung	Ceinture de soigneur en cuir de paresseux amélioré	メガテリウム・ヒーラーベルトRE
+23283		0	1	Augmented True Linen Hat of Casting	Modifizierter Reinleinen-Hut der Magie	Chapeau d'incantateur en lin hingashien amélioré	トゥルーリネン・キャスターハットRE
+23284		0	1	Augmented True Linen Robe of Casting	Modifizierte Reinleinen-Robe der Magie	Robe d'incantateur en lin hingashien améliorée	トゥルーリネン・キャスターローブRE
+23285		0	1	Augmented True Linen Gloves of Casting	Modifizierte Reinleinen-Handschuhe der Magie	Gants d'incantateur en lin hingashien améliorés	トゥルーリネン・キャスターグローブRE
+23286		0	1	Augmented True Linen Breeches of Casting	Modifizierte Reinleinen-Reiterhose der Magie	Braies d'incantateur en lin hingashien améliorées	トゥルーリネン・キャスターブリーチRE
+23287		0	1	Augmented Slothskin Boots of Casting	Modifizierte Faultierleder-Stiefel der Magie	Bottes d'incantateur en cuir de paresseux améliorées	メガテリウム・キャスターブーツRE
+23288		0	1	Augmented Slothskin Belt of Casting	Modifizierter Faultierleder-Gürtel der Magie	Ceinture d'incantateur en cuir de paresseux amélioré	メガテリウム・キャスターベルトRE
+23289		0	1	Augmented Silvergrace Earring of Fending	Modifizierter Silbergunst-Ohrring der Verteidigung	Boucle d'oreille de protecteur en graçargent améliorée	グレースディフェンダーイヤリングRE
+23290		0	1	Augmented Silvergrace Earring of Slaying	Modifizierter Silbergunst-Ohrring des Schlachtens	Boucle d'oreille d'attaquant en graçargent améliorée	グレースアタッカーイヤリングRE
+23291		0	1	Augmented Silvergrace Earring of Aiming	Modifizierter Silbergunst-Ohrring des Zielens	Boucle d'oreille de pisteur en graçargent améliorée	グレースレンジャーイヤリングRE
+23292		0	1	Augmented Silvergrace Earring of Casting	Modifizierter Silbergunst-Ohrring der Heilung	Boucle d'oreille de soigneur en graçargent améliorée	グレースヒーラーイヤリングRE
+23293		0	1	Augmented Silvergrace Earring of Healing	Modifizierter Silbergunst-Ohrring der Magie	Boucle d'oreille d'incantateur en graçargent améliorée	グレースキャスターイヤリングRE
+23294		0	1	Augmented Black Willow Necklace of Fending	Modifiziertes Schwarzweiden-Halsband der Verteidigung	Collier de protecteur en saule noir amélioré	ブラックウィロー・ディフェンダーネックレスRE
+23295		0	1	Augmented Black Willow Necklace of Slaying	Modifiziertes Schwarzweiden-Halsband des Schlachtens	Collier d'attaquant en saule noir amélioré	ブラックウィロー・アタッカーネックレスRE
+23296		0	1	Augmented Black Willow Necklace of Aiming	Modifiziertes Schwarzweiden-Halsband des Zielens	Collier de pisteur en saule noir amélioré	ブラックウィロー・レンジャーネックレスRE
+23297		0	1	Augmented Black Willow Necklace of Casting	Modifiziertes Schwarzweiden-Halsband der Heilung	Collier de soigneur en saule noir amélioré	ブラックウィロー・ヒーラーネックレスRE
+23298		0	1	Augmented Black Willow Necklace of Healing	Modifiziertes Schwarzweiden-Halsband der Magie	Collier d'incantateur en saule noir amélioré	ブラックウィロー・キャスターネックレスRE
+23299		0	1	Augmented Black Willow Armillae of Fending	Modifizierte Schwarzweiden-Armreife der Verteidigung	Armilles de protecteur en saule noir améliorées	ブラックウィロー・ディフェンダーアルミラRE
+23300		0	1	Augmented Black Willow Armillae of Slaying	Modifizierte Schwarzweiden-Armreife des Schlachtens	Armilles d'attaquant en saule noir améliorées	ブラックウィロー・アタッカーアルミラRE
+23301		0	1	Augmented Black Willow Armillae of Aiming	Modifizierte Schwarzweiden-Armreife des Zielens	Armilles de pisteur en saule noir améliorées	ブラックウィロー・レンジャーアルミラRE
+23302		0	1	Augmented Black Willow Armillae of Casting	Modifizierte Schwarzweiden-Armreife der Heilung	Armilles de soigneur en saule noir améliorées	ブラックウィロー・ヒーラーアルミラRE
+23303		0	1	Augmented Black Willow Armillae of Healing	Modifizierte Schwarzweiden-Armreife der Magie	Armilles d'incantateur en saule noir améliorées	ブラックウィロー・キャスターアルミラRE
+23304		0	1	Augmented Silvergrace Ring of Fending	Modifizierter Silbergunst-Ring der Verteidigung	Bague de protecteur en graçargent améliorée	グレースディフェンダーリングRE
+23305		0	1	Augmented Silvergrace Ring of Slaying	Modifizierter Silbergunst-Ring des Schlachtens	Bague d'attaquant en graçargent améliorée	グレースアタッカーリングRE
+23306		0	1	Augmented Silvergrace Ring of Aiming	Modifizierter Silbergunst-Ring des Zielens	Bague de pisteur en graçargent améliorée	グレースレンジャーリングRE
+23307		0	1	Augmented Silvergrace Ring of Casting	Modifizierter Silbergunst-Ring der Heilung	Bague de soigneur en graçargent améliorée	グレースヒーラーリングRE
+23308		0	1	Augmented Silvergrace Ring of Healing	Modifizierter Silbergunst-Ring der Magie	Bague d'incantateur en graçargent améliorée	グレースキャスターリングRE
+23315		0	999	Ambient Wind Chime Orchestrion Roll	Notenrolle von „Windglöckchen“	Rouleau “Tintement de carillon à vent”	オーケストリオン譜:そよぐ風鈴
+23316		0	999	Ambient Abyss Orchestrion Roll	Notenrolle von „Tiefenrausch“	Rouleau “Ambiance sous-marine”	オーケストリオン譜:海中の音
+23317		0	999	Victory or Death Orchestrion Roll	Notenrolle von „Victory or Death“	Rouleau “Victory or Death”	オーケストリオン譜:勝利か死か
+23321		0	999	The Ancient City Orchestrion Roll	Notenrolle von „The Ancient City“	Rouleau “The Ancient City”	オーケストリオン譜:古の都
+23322		0	999	Gates of the Moon Orchestrion Roll	Notenrolle von „Gates of the Moon“	Rouleau “Gates of the Moon”	オーケストリオン譜:月亮門
+23323		0	999	Earth, Wind, and Water Orchestrion Roll	Notenrolle von „Earth, Wind, and Water“	Rouleau “Earth, Wind, and Water”	オーケストリオン譜:地風水
+23324		0	999	Black and White Orchestrion Roll	Notenrolle von „Black and White“	Rouleau “Black and White”	オーケストリオン譜:黒闇と白雪
+23325		1	1	Seven Hundred Seventy-Seven Whiskers Orchestrion Roll	Notenrolle von „Seven Hundred Seventy-Seven Whiskers“	Rouleau “Seven Hundred Seventy-Seven Whiskers”	オーケストリオン譜:天晴大鯰音頭
+23326		1	1	World Map Orchestrion Roll	Notenrolle von „World Map“	Rouleau “World Map”	オーケストリオン譜:ワールドマップ
+23327		1	1	A Chapel Orchestrion Roll	Notenrolle von „A Chapel“	Rouleau “A Chapel”	オーケストリオン譜:A Chapel
+23328		0	999	The Mystery of Giruvegan Orchestrion Roll	Notenrolle von „The Mystery of Giruvegan“	Rouleau “The Mystery of Giruvegan”	オーケストリオン譜:ギルヴェガンの謎
+23329		0	999	Apoplexy Orchestrion Roll	Notenrolle von „Apoplexy“	Rouleau “Apoplexy”	オーケストリオン譜:Apoplexy
+23330		0	999	Flash of Steel Orchestrion Roll	Notenrolle von „Flash of Steel“	Rouleau “Flash of Steel”	オーケストリオン譜:剣の一閃
+23331		0	999	Nightbloom Orchestrion Roll	Notenrolle von „Nightbloom“	Rouleau “Nightbloom”	オーケストリオン譜:月下美人
+23332		0	999	Wayward Daughter Orchestrion Roll	Notenrolle von „Wayward Daughter“	Rouleau “Wayward Daughter”	オーケストリオン譜:月下彼岸花
+23333		1	1	Rise of the White Raven (Orchestral Version) Orchestrion Roll	Notenrolle von „Rise of the White Raven (Orchestral Version)“	Rouleau “Rise of the White Raven (Orchestral Version)”	オーケストリオン譜:白銀の凶鳥、飛翔せり（Orchestral）
+23334		1	1	Revenge Twofold (Orchestral Version) Orchestrion Roll	Notenrolle von „Revenge Twofold (Orchestral Version)“	Rouleau “Revenge Twofold (Orchestral Version)”	オーケストリオン譜:逆襲の咆哮（Orchestral）
+23335		1	1	Oblivion (Orchestral Version) Orchestrion Roll	Notenrolle von „Oblivion (Orchestral Version)“	Rouleau “Oblivion (Orchestral Version)”	オーケストリオン譜:忘却の彼方（Orchestral）
+23336		0	999	Faded Copy of Under the Moonlight	Abgenutzte Notenrolle von „Im fahlen Mondschein“	Rouleau abîmé “Under the Moonlight”	古びた譜面:月下の華
+23337		0	999	Faded Copy of Ambient Abyss	Abgenutzte Notenrolle von „Tiefenrausch“	Rouleau abîmé “Ambiance sous-marine”	古びた譜面:海中の音
+23339		0	1	Second Edition Moonfire Faire	Exklusiver Kunstdruck von „Der Feuermond-Reigen“	“Feux de nuit mortels” spéciale	紅蓮祭の絵画EX
+23340		0	1	Authentic Evercold Shaved Ice	Exklusives Wassereis	Grande glace pilée spéciale	ラージシェイブドアイスEX
+23341		0	1	Authentic Rising Balloon	Exklusiver Ballon der Wiedergeburt	Ballon de la Commémoration spécial	ライジングバルーンEX
+23360		1	1	Namazu Bell	Namazuo-Glöckchen	Grelot Namazu	ナマズオの鈴
+23364		1	1	Ballroom Etiquette - The Yol Dance	Ballsaal-Etikette: Yol-Tanz	L'Étiquette éorzéenne: Danse des yols	演技教本:ヨルダンス
+23367		1	1	Ballroom Etiquette - Stimulating Soliloquies	Ballsaal-Etikette: Taktvolle Belehrung	L'Étiquette éorzéenne: Élucider	演技教本:説明
+23370		1	1	Modern Aesthetics - Fashionably Feathered	Magazin „Moderne Ästhetik - Federkleid“	Méthode de coiffure “Brushing souple”	ヘアカタログ:フェザーヘア
+23371		0	999	Oroniri Cloth	Oronir-Tuch	Étoffe oronir	オロニル族の生地
+23372		0	999	Dotharli Cloth	Dotharl-Tuch	Étoffe dotharl	ドタール族の生地
+23373		0	1	Quaintrelle's Hat	Quaintrelle-Hut	Chapeau d'hédoniste	クウェインチュレル・ハット
+23374		0	1	Quaintrelle's Dress Shoes	Quaintrelle-Lackschuhe	Chaussures d'hédoniste	クウェインチュレル・ドレスシューズ
+23375		0	999	Cloth Cointe Quaint	Quaintrelle-Tuch	Tissu d'hédoniste	クウェインチュレルクロス
+23376		0	999	Leather Cointe Quaint	Quaintrelle-Leder	Cuir d'hédoniste	クウェインチュレルレザー
+23380		1	1	Endless Summer Coffer	Kleidungsset des Ewigen Sommers	Coffre d'équipement de l'éternel été	エンドレスサマーチェスト
+23382		0	999	Thavnairian Rain	Thavnair-Kondensat	Lymphe quintessenciée de Thavnair	サベネアの強霊薬
