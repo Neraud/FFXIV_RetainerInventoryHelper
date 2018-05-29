@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 
-import urllib.request, json 
+import urllib.request, json
 
-with urllib.request.urlopen("http://api.xivdb.com/data/armoire") as url:
+req = urllib.request.Request("http://api.xivdb.com/data/armoire", headers={'User-Agent': 'Mozilla/5.0'})
+with urllib.request.urlopen(req) as url:
     items = json.loads(url.read().decode())
     
     print("id", sep = "\t")
