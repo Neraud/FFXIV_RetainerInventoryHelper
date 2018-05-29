@@ -1,7 +1,18 @@
 var ventureResultSheet = ss.getSheetByName('Ventures');
 var ventureByXivdbId = new Object();
+var ventureSettings = extractSettingsVentures();
 
-var ventureMin = extractSettingVentureMin();
+function isAnalyseVentureEnabled() {
+	return (
+		(ventureSettings["HUNT"]["maxLevel"] > 0 && ventureSettings["HUNT"]["minQuantity"] > 0)
+		||
+		(ventureSettings["MIN"]["maxLevel"] > 0 && ventureSettings["MIN"]["minQuantity"] > 0)
+		||
+		(ventureSettings["BTN"]["maxLevel"] > 0 && ventureSettings["BTN"]["minQuantity"] > 0)
+		||
+		(ventureSettings["FSH"]["maxLevel"] > 0 && ventureSettings["FSH"]["minQuantity"] > 0)
+	)
+}
 
 function initVentures() {
 	var ventureSheet = ss.getSheetByName('Venture List');
@@ -31,16 +42,18 @@ function writeMissingVenture(ventureItem) {
 	Logger.log("Venture detected");
 	Logger.log(ventureItem);
 	*/
+	
 	var itemInfo = ventureItem["itemInfo"];
 	var ventureInfo = ventureItem["ventureInfo"];
 	var qty = ventureItem["qty"];
-	var missingQty = ventureMin - qty
-	var missingVentures = Math.ceil(missingQty / ventureInfo["qty"])
+	var ventureMin = ventureSettings[ventureInfo["retainerJob"]]["minQuantity"];
+	var missingQty = ventureMin - qty;
+	var missingVentures = Math.ceil(missingQty / ventureInfo["qty"]);
 	ventureResultSheet.appendRow([itemInfo["name"], ventureInfo["retainerJob"], ventureInfo["retainerLevel"], qty, missingQty, missingVentures]);
 }
 
 function analyseVenture() {
-	if(ventureMin > 0) {
+	if(isAnalyseVentureEnabled()) {
 		ss.toast("Starting venture analysis");
 		var inventoriesSheet = ss.getSheetByName('Raw inventories')
 		var inventoriesData = inventoriesSheet.getDataRange().getValues();

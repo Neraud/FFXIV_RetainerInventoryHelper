@@ -36,7 +36,7 @@ with urllib.request.urlopen("https://raw.githubusercontent.com/viion/ffxiv-datam
             if classJobCategoryId == 17: classJobCategory = "MIN"
             elif classJobCategoryId == 18: classJobCategory = "BTN"
             elif classJobCategoryId == 19: classJobCategory = "FSH"
-            elif classJobCategoryId == 34: classJobCategory = "DoWM"
+            elif classJobCategoryId == 34: classJobCategory = "HUNT"
             else: classJobCategory = "UKN"
             
             retainerLevel = row[3]
