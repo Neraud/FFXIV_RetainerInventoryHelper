@@ -15,6 +15,7 @@ function initArmoire() {
 }
 
 function resetArmoireResults() {
+	resetFilters(armoireResultSheet);
 	armoireResultSheet.clear();
 	armoireResultSheet.appendRow(["Item", "Retainer"]);
 }

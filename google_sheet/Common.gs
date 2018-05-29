@@ -2,6 +2,23 @@ var ss = SpreadsheetApp.getActiveSpreadsheet();
 var settingsSheet = ss.getSheetByName('Settings');
 var itemInfoByLodestoneId = new Object();
 
+function resetFilters(sheet) {
+	var ssId = ss.getId();
+	var sheetId = sheet.getSheetId();
+		
+	var requests = [{
+		"clearBasicFilter": {
+			"sheetId": sheetId
+		}
+	}, 
+	{
+		"setBasicFilter": {
+			"filter": {"range": { "sheetId": sheetId }}
+		}
+	}];
+	Sheets.Spreadsheets.batchUpdate({'requests': requests}, ssId);
+}
+
 function extractSettingLanguage() {
 	return settingsSheet.getRange(1, 2).getValue();
 }

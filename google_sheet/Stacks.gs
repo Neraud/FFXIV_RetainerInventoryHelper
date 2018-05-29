@@ -1,6 +1,7 @@
 var stackResultSheet = ss.getSheetByName('Stacks & spread');
 
 function resetDupeStacksResults() {
+	resetFilters(stackResultSheet);
 	stackResultSheet.clear();
 	stackResultSheet.appendRow(["Item", "Type", "Stacks", "Saved slots"]);
 }
@@ -23,7 +24,7 @@ function writeDupe(item, itemInfo, expectedStackCount) {
 	Logger.log("Dupe detected, you can save " + slotSaved + " slot(s)");
 	Logger.log(item);
 	Logger.log(itemInfo);
-	*/  
+	*/
 	stackResultSheet.appendRow([itemInfo["name"], "Dupe", itemStacksToString(itemStacks), slotSaved]);
 }
 

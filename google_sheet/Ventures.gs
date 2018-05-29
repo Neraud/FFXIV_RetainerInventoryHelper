@@ -20,6 +20,7 @@ function initVentures() {
 }
 
 function resetVentureResults() {
+	resetFilters(ventureResultSheet);
 	ventureResultSheet.clear();
 	ventureResultSheet.appendRow(["Item", "Retainer Job", "Retainer Level", "Qty", "Missing qty", "Missing Ventures"]);
 }
