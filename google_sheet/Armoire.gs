@@ -1,5 +1,5 @@
 var armoireResultSheet = ss.getSheetByName('Armoire');
-var armoireByXivdbId = new Object();
+var armoireByXivapiId = new Object();
 
 function initArmoire() {
 	var armoireSheet = ss.getSheetByName('Armoire List');
@@ -8,9 +8,9 @@ function initArmoire() {
 	// Skip header
 	for (var i = 1; i < armoireData.length; i++) {
 		// id
-		var xivdbId = armoireData[i][0];
+		var xivapiId = armoireData[i][0];
 	
-		armoireByXivdbId[xivdbId] = true;
+		armoireByXivapiId[xivapiId] = true;
 	}
 }
 
@@ -37,11 +37,11 @@ function analyseArmoire() {
 	
 	for (var i = 0; i < inventoriesData.length; i++) {
 		var retainerName = inventoriesData[i][0];
-		var lodestoneId = inventoriesData[i][1];
+		var itemName = inventoriesData[i][1];
 		
-		var itemInfo = getItemInfoByLodestoneId(lodestoneId);
+		var itemInfo = getItemInfoByName(itemName);
 		if(itemInfo != undefined) {
-			var itemArmoire = armoireByXivdbId[itemInfo["xivdbId"]];
+			var itemArmoire = armoireByXivapiId[itemInfo["xivapiId"]];
 			if(itemArmoire) {
 				writeArmoire(retainerName, itemInfo);
 			}

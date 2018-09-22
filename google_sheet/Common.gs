@@ -1,6 +1,6 @@
 var ss = SpreadsheetApp.getActiveSpreadsheet();
 var settingsSheet = ss.getSheetByName('Settings');
-var itemInfoByLodestoneId = new Object();
+var itemInfoByName = new Object();
 
 function resetFilters(sheet) {
 	var ssId = ss.getId();
@@ -50,30 +50,29 @@ function initItemInfo() {
 	
 	// Skip header
 	for (var i = 1; i < itemsData.length; i++) {
-		// id	lodestone_id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
-		var xivdbId = itemsData[i][0];
-		var lodestoneId = itemsData[i][1];
-		var unique = (itemsData[i][2] != 0);
-		var stackSize = itemsData[i][3];
+		// id	is_unique	stack_size	name_en	name_de	name_fr	name_ja
+		var xivapiId = itemsData[i][0];
+		var unique = (itemsData[i][1] != 0);
+		var stackSize = itemsData[i][2];
 		
 		var langague = extractSettingLanguage();
 		var nameIndex;
-		if(langague == "de") nameIndex = 5;
-		else if(langague == "fr") nameIndex = 6;
-		else if(langague == "ja") nameIndex = 7;
-		else nameIndex = 4;
+		if(langague == "de") nameIndex = 4;
+		else if(langague == "fr") nameIndex = 5;
+		else if(langague == "ja") nameIndex = 6;
+		else nameIndex = 3;
 		
 		var name = itemsData[i][nameIndex];
 		
-		itemInfoByLodestoneId[lodestoneId] = {"xivdbId": xivdbId, "unique": unique, "stackSize": stackSize, "name": name};
+		itemInfoByName[name] = {"xivapiId": xivapiId, "unique": unique, "stackSize": stackSize, "name": name};
 	}
 }
 
-function getItemInfoByLodestoneId(lodestoneId) {
-	var info = itemInfoByLodestoneId[lodestoneId];
+function getItemInfoByName(name) {
+	var info = itemInfoByName[name];
 	
 	if(info == undefined) {
-		Logger.log("Missing xivdb info for " + lodestoneId);
+		Logger.log("Missing xivapi info for " + name);
 	}
 	
 	return info;

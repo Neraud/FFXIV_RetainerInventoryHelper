@@ -47,19 +47,19 @@ function analyseStacks() {
 	initItemInfo();
 	
 	var items = new Object();
-	// key : unique itemId, build using lodestoneId-hq
+	// key : unique itemId, built using 'itemName - hq'
 	// value : array of stacks
 	
 	for (var i = 0; i < inventoriesData.length; i++) {
 		var retainerName = inventoriesData[i][0];
-		var lodestoneId = inventoriesData[i][1];
+		var itemName = inventoriesData[i][1];
 		var hq = inventoriesData[i][2];
 		var qty = inventoriesData[i][3];
 		
-		var itemId = lodestoneId + "-" + hq;
+		var itemId = itemName + " - " + hq;
 		
 		if(items[itemId] == undefined) {
-			items[itemId] = { "lodestoneId": lodestoneId, "hq": hq, "stacks": []};
+			items[itemId] = { "itemName": itemName, "hq": hq, "stacks": []};
 		}
 		items[itemId]["stacks"].push({"retainerName": retainerName, "qty": qty});
 	}
@@ -70,9 +70,9 @@ function analyseStacks() {
 		var stackCount = itemStacks.length;
 		
 		if(stackCount > 1) {
-			var lodestoneId = item["lodestoneId"];
+			var itemName = item["itemName"];
 			// We know we have multiple stacks, we need item info
-			var itemInfo = getItemInfoByLodestoneId(lodestoneId);
+			var itemInfo = getItemInfoByName(itemName);
 			
 			if(itemInfo != undefined) {
 				if(!itemInfo['unique']) {

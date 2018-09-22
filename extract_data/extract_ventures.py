@@ -1,54 +1,44 @@
 #!/usr/bin/env python3
 
-import urllib.request, csv, io
+import urllib.request, json
 import codecs
 
 quantity = {}
 ventures = {}
 
-with urllib.request.urlopen("https://raw.githubusercontent.com/viion/ffxiv-datamining/master/csv/RetainerTaskNormal.csv") as url:
-    csvContent = url.read().decode()
-    csvLines = csvContent.splitlines()[4:]
-    
-    reader = csv.reader(csvLines, delimiter=',')
-        
-    # #,Item,Quantity[0],Quantity[1],Quantity[2],,
-    for row in reader:
-        taskId = row[0]
-        itemId = row[1]
-        qty = row[4]
-        quantity[taskId] = { 'itemId': itemId, 'qty': qty }
+req = urllib.request.Request("https://xivapi.com/RetainerTaskNormal?columns=ID,ItemTargetID,Quantity2&max_items=1000", headers={'User-Agent': 'Mozilla/5.0'})
+with urllib.request.urlopen(req) as url:
+    response = json.loads(url.read().decode())
+    for result in response["Results"]:
+        if result['ItemTargetID'] != None and result['Quantity2'] != None and int(result['Quantity2']) > 0:
+            quantity[result['ID']] = { 'itemId': result['ItemTargetID'], 'qty': result['Quantity2'] }
 
-with urllib.request.urlopen("https://raw.githubusercontent.com/viion/ffxiv-datamining/master/csv/RetainerTask.csv") as url:
-    csvContent = url.read().decode()
-    csvLines = csvContent.splitlines()[4:]
-    
-    reader = csv.reader(csvLines, delimiter=',')
-        
-    # #,IsRandom,ClassJobCategory,RetainerLevel,,RetainerTaskParameter,VentureCost,MaxTime{min},Experience,RequiredItemLevel,,,RequiredGathering,,Task
-    for row in reader:
-        ventureId = row[0]
-        isRandom = row[1]
-        taskId = row[14]     
-        if isRandom == 'False' and int(taskId) > 0:    
-            classJobCategoryId = int(row[2])
+
+req = urllib.request.Request("https://xivapi.com/RetainerTask?columns=ID,IsRandom,Task,ClassJobCategoryTargetID,RetainerLevel&max_items=1000", headers={'User-Agent': 'Mozilla/5.0'})
+with urllib.request.urlopen(req) as url:
+    response = json.loads(url.read().decode())
+    for result in response["Results"]:
+        ventureId = result['ID']
+        isRandom = result['IsRandom']
+        taskId = result['Task']    
+        if isRandom != None and int(isRandom) == 0 and taskId != None and int(taskId) > 0:
+            if result['ClassJobCategoryTargetID']:  
+                classJobCategoryId = int(result['ClassJobCategoryTargetID'])
             
-            if classJobCategoryId == 17: classJobCategory = "MIN"
-            elif classJobCategoryId == 18: classJobCategory = "BTN"
-            elif classJobCategoryId == 19: classJobCategory = "FSH"
-            elif classJobCategoryId == 34: classJobCategory = "HUNT"
-            else: classJobCategory = "UKN"
-            
-            retainerLevel = row[3]
+                if classJobCategoryId == 17: classJobCategory = "MIN"
+                elif classJobCategoryId == 18: classJobCategory = "BTN"
+                elif classJobCategoryId == 19: classJobCategory = "FSH"
+                elif classJobCategoryId == 34: classJobCategory = "HUNT"
+                else: classJobCategory = "UKN"
+            else:
+                classJobCategory = "UKN"
+                
+            retainerLevel = result['RetainerLevel']
             
             if taskId in quantity:
                 itemId = quantity[taskId]['itemId']
                 qty = quantity[taskId]['qty']
-            else:
-                itemId = -1
-                qty = -1
-            
-            ventures[taskId] = { 'taskId': taskId, 'ventureId': ventureId, 'classJobCategory': classJobCategory, 'retainerLevel': retainerLevel, 'itemId': itemId, 'qty': qty }
+                ventures[taskId] = { 'taskId': taskId, 'ventureId': ventureId, 'classJobCategory': classJobCategory, 'retainerLevel': retainerLevel, 'itemId': itemId, 'qty': qty }
 
 print("taskId", "retainerJob", "retainerLevel", "itemId", "qty", sep = "\t")
 for taskId, venture in ventures.items():

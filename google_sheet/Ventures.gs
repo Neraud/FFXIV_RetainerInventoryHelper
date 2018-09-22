@@ -1,5 +1,5 @@
 var ventureResultSheet = ss.getSheetByName('Ventures');
-var ventureByXivdbId = new Object();
+var ventureByXivapiId = new Object();
 var ventureBlacklist = new Object();
 var ventureSettings = extractSettingsVentures();
 
@@ -22,12 +22,12 @@ function initVentures() {
 	// Skip header
 	for (var i = 1; i < ventureData.length; i++) {
 		// taskId	retainerJob	retainerLevel	itemId	qty
-		var xivdbId = ventureData[i][3];
+		var xivapiId = ventureData[i][3];
 		var retainerJob = ventureData[i][1];
 		var retainerLevel = ventureData[i][2];
 		var qty = ventureData[i][4];
 		
-		ventureByXivdbId[xivdbId] = { "retainerJob": retainerJob, "retainerLevel": retainerLevel, "qty": qty};
+		ventureByXivapiId[xivapiId] = { "retainerJob": retainerJob, "retainerLevel": retainerLevel, "qty": qty};
 	}
 }
 
@@ -76,24 +76,24 @@ function analyseVenture() {
 		var ventureItems = new Object();
 		
 		for (var i = 0; i < inventoriesData.length; i++) {
-			var lodestoneId = inventoriesData[i][1];
+			var itemName = inventoriesData[i][1];
 			//var hq = inventoriesData[i][2];
 			var qty = inventoriesData[i][3];
 			
-			var itemInfo = getItemInfoByLodestoneId(lodestoneId);
+			var itemInfo = getItemInfoByName(itemName);
 			if(itemInfo != undefined) {
-				var ventureInfo = ventureByXivdbId[itemInfo["xivdbId"]];
+				var ventureInfo = ventureByXivapiId[itemInfo["xivapiId"]];
 				if(ventureInfo) {
 					// It is indeed a venture, check quantity
-					if(ventureItems[lodestoneId] == undefined) ventureItems[lodestoneId] = { "itemInfo": itemInfo, "ventureInfo": ventureInfo, "qty": 0};
+					if(ventureItems[itemName] == undefined) ventureItems[itemName] = { "itemInfo": itemInfo, "ventureInfo": ventureInfo, "qty": 0};
 					
-					ventureItems[lodestoneId]["qty"] += qty;
+					ventureItems[itemName]["qty"] += qty;
 				}
 			}
 		}
 		
-		for(lodestoneId in ventureItems) {
-			var ventureItem = ventureItems[lodestoneId];
+		for(itemName in ventureItems) {
+			var ventureItem = ventureItems[itemName];
 			var ventureInfo = ventureItem["ventureInfo"];
 			var itemInfo = ventureItem["itemInfo"];
 			if(!ventureBlacklist[itemInfo["name"]]) {

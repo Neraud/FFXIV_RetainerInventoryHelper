@@ -73,6 +73,7 @@ function refreshOneRetainerData(retainerName, content) {
 		retainerInventories.push({
 			"retainerName": retainerName,
 			"itemId": itemId,
+			"itemName": itemName,
 			"hq": hq,
 			"itemQty": itemQty
 		});
@@ -96,7 +97,7 @@ function allRetainersUpdated() {
 		}
 		itemStackCount++;
 		
-		retainerInventoriesString = retainerInventoriesString + item["retainerName"] + "\t" + item["itemId"] + "\t" + item["hq"] + "\t" + item["itemQty"] + "\n";
+		retainerInventoriesString = retainerInventoriesString + item["retainerName"] + "\t" + item["itemName"] + "\t" + item["hq"] + "\t" + item["itemQty"] + "\n";
 	});
 	
 	var statMessage = retainerCount + " retainers have been scan for a total of " + itemStackCount;

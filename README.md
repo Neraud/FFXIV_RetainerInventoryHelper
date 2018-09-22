@@ -95,6 +95,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 Thank you to : 
-* [viion](https://github.com/viion), developer of XIVDB.com, where the Item Armoire and Venture data comes from 
+* [viion](https://github.com/viion), developer of XIVAPI.com, where the Item Armoire and Venture data comes from 
 * [Nivomi](https://www.reddit.com/user/Nivomi) who gave me the idea with his [own tool](https://terribleideas.org/retainermaintainer/) (cf his [reddit post](https://www.reddit.com/r/ffxiv/comments/7unmde/introducing_retainer_maintainer_alpha_a_tool_to/))
 
