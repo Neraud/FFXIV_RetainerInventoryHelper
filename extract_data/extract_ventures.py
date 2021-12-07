@@ -20,8 +20,10 @@ with urllib.request.urlopen(req) as url:
     for result in response["Results"]:
         ventureId = result['ID']
         isRandom = result['IsRandom']
-        taskId = result['Task']    
-        if isRandom != None and int(isRandom) == 0 and taskId != None and int(taskId) > 0:
+        task = result['Task']
+        
+        if isRandom != None and int(isRandom) == 0 and task != None:
+            taskId = task['ID']
             if result['ClassJobCategoryTargetID']:  
                 classJobCategoryId = int(result['ClassJobCategoryTargetID'])
             

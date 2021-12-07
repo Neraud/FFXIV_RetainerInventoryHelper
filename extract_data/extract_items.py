@@ -19,5 +19,5 @@ def extractForPage(page):
 print("id", "is_unique", "stack_size", "name_en", "name_de", "name_fr", "name_ja", sep = "\t")
 
 page = extractForPage(1)
-while page != 1:
+while page and page != 1:
     page = extractForPage(page)
