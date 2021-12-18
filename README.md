@@ -63,7 +63,7 @@ Accept it, and your scanner is good to go !
 ### Preparing the Google SpreadSheet
 
 As you want to add your own data in there, you need to use your own copy of the SpreadSheet.
-Please open the [original one](https://drive.google.com/open?id=1jxjx9Cea4a9G-Vb9l4BhonjbWX-rGVKzOwS04e1da_U), and use File > Make a copy.
+Please open the [original one](https://docs.google.com/spreadsheets/d/1kiyA1TdEUvjWzhltMhDIJLUKEbQrOVIFx51Z88mHJBM), and use File > Make a copy.
 
 When the copy is done, you can use it.
 
